@@ -1,0 +1,324 @@
+{
+  "schema": 2,
+  "robot": "rocket",
+  "visual_id": "chronos_mk2",
+  "variant": "mk2",
+  "png_modular": true,
+  "fps": 10,
+  "source": {
+    "file": "chronobot mk2.png",
+    "sha256": "0d67c0df50eaa256c7aa0ce0b9139c04e742d9f1fbe757fa9b91c61061f78f1d",
+    "builder": "tools/players/build_mk2_rigs.py v35"
+  },
+  "parts": {
+    "head": {
+      "atlas": "head.png",
+      "frame_size": [
+        204,
+        206
+      ],
+      "columns": 7,
+      "count": 7,
+      "pivot": [
+        131.5,
+        195.0
+      ],
+      "clips": {
+        "idle": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "neutral": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "happy": [
+          2
+        ],
+        "scared": [
+          3
+        ],
+        "angry": [
+          4
+        ],
+        "determined": [
+          0,
+          0,
+          6,
+          6,
+          0,
+          0,
+          5,
+          5
+        ],
+        "dizzy": [
+          5,
+          6
+        ],
+        "dead": [
+          1
+        ],
+        "pain": [
+          4
+        ]
+      },
+      "source_origin": [
+        365,
+        5
+      ]
+    },
+    "torso": {
+      "atlas": "torso.png",
+      "frame_size": [
+        206,
+        246
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        112.5,
+        99.5
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        403,
+        379
+      ]
+    },
+    "arm_l": {
+      "atlas": "arm_l.png",
+      "frame_size": [
+        164,
+        253
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        134.0,
+        53.5
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        204,
+        382
+      ]
+    },
+    "arm_r": {
+      "atlas": "arm_r.png",
+      "frame_size": [
+        146,
+        232
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        33.0,
+        41.0
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        690,
+        407
+      ]
+    },
+    "leg_l": {
+      "atlas": "leg_l.png",
+      "frame_size": [
+        204,
+        290
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        156.5,
+        33.0
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        187,
+        699
+      ]
+    },
+    "leg_r": {
+      "atlas": "leg_r.png",
+      "frame_size": [
+        206,
+        292
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        48.0,
+        35.5
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        616,
+        694
+      ]
+    }
+  },
+  "decorations": [],
+  "nozzle_anchors": {
+    "leg_l": [
+      170,
+      228
+    ],
+    "leg_r": [
+      30,
+      236
+    ]
+  }
+}

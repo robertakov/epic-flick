@@ -1,0 +1,144 @@
+{
+  "png_modular": true,
+  "source_scale": 0.255,
+  "torso_scale": [
+    1,
+    1
+  ],
+  "head_scale": [
+    1,
+    1
+  ],
+  "torso_offset": [
+    0,
+    -30.797619047619055
+  ],
+  "parts": {
+    "head": {
+      "pivot": [
+        131.5,
+        195.0
+      ],
+      "unit_scale": 0.51,
+      "z": 2
+    },
+    "torso": {
+      "pivot": [
+        112.5,
+        99.5
+      ],
+      "unit_scale": 0.51,
+      "z": 0
+    },
+    "arm_l": {
+      "pivot": [
+        134.0,
+        53.5
+      ],
+      "unit_scale": 0.51,
+      "z": 1,
+      "end": [
+        48.0,
+        203.0
+      ],
+      "spring_rows": [
+        75.5,
+        120.0
+      ],
+      "inertia_gain": 0.2,
+      "png_modular": true
+    },
+    "arm_r": {
+      "pivot": [
+        33.0,
+        41.0
+      ],
+      "unit_scale": 0.51,
+      "z": 1,
+      "end": [
+        105.0,
+        193.5
+      ],
+      "spring_rows": [
+        63.0,
+        107.5
+      ],
+      "inertia_gain": 0.2,
+      "png_modular": true
+    },
+    "leg_l": {
+      "pivot": [
+        156.5,
+        33.0
+      ],
+      "unit_scale": 0.51,
+      "z": -1,
+      "end": [
+        96.5,
+        277.0
+      ],
+      "spring_rows": [
+        38.0,
+        138.0
+      ],
+      "inertia_gain": 0.2,
+      "png_modular": true,
+      "rigid_middle_rows": [
+        70.5,
+        103.0
+      ]
+    },
+    "leg_r": {
+      "pivot": [
+        48.0,
+        35.5
+      ],
+      "unit_scale": 0.51,
+      "z": -1,
+      "end": [
+        103.5,
+        279.5
+      ],
+      "spring_rows": [
+        40.5,
+        140.5
+      ],
+      "inertia_gain": 0.2,
+      "png_modular": true,
+      "rigid_middle_rows": [
+        73.0,
+        105.5
+      ]
+    }
+  },
+  "anchors": {
+    "neck": [
+      112.5,
+      8.0
+    ],
+    "shoulder_l": [
+      34.5,
+      55.0
+    ],
+    "shoulder_r": [
+      176.5,
+      55.0
+    ],
+    "hip_l": [
+      48.5,
+      193.0
+    ],
+    "hip_r": [
+      154.5,
+      193.0
+    ]
+  },
+  "tail": {
+    "offset": [
+      -115.5,
+      142.0
+    ],
+    "file": "tail.png",
+    "z": -3
+  }
+}

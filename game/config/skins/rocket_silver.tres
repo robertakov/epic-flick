@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="SkinDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/config/skin_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "rocket_silver"
+robot_id = "rocket"
+display_name = "Серебряный хронометр"
+source = "campaign"
+scheme = "silver"
+saturation = 0.25
+brightness = 1.05
+tint = Color(0.75, 0.8, 0.95, 1)
+tint_amount = 0.35

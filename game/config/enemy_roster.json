@@ -1,0 +1,834 @@
+{
+  "version": 1,
+  "identities": {
+    "devil": {
+      "name": "Чёрт",
+      "archetypes": [
+        "tin",
+        "heavy"
+      ]
+    },
+    "vampire": {
+      "name": "Вампир",
+      "archetypes": [
+        "tin",
+        "hopper"
+      ]
+    },
+    "cowboy": {
+      "name": "Ковбой",
+      "archetypes": [
+        "tin",
+        "heavy",
+        "samurai"
+      ]
+    },
+    "tiger": {
+      "name": "Тигр",
+      "archetypes": [
+        "tin",
+        "hopper",
+        "heavy"
+      ]
+    },
+    "shark": {
+      "name": "Акула",
+      "archetypes": [
+        "hopper",
+        "rocket"
+      ]
+    }
+  },
+  "rounds": {
+    "r1": [
+      {
+        "id": "vampire",
+        "archetype": "tin",
+        "pressure": false
+      }
+    ],
+    "r2": [
+      {
+        "id": "cowboy",
+        "archetype": "tin",
+        "pressure": false
+      }
+    ],
+    "r3": [
+      {
+        "id": "devil",
+        "archetype": "tin",
+        "pressure": false
+      }
+    ],
+    "r4": [
+      {
+        "id": "tiger",
+        "archetype": "tin",
+        "pressure": false
+      },
+      {
+        "id": "vampire",
+        "archetype": "tin",
+        "pressure": false
+      }
+    ],
+    "r5": [
+      {
+        "id": "cowboy",
+        "archetype": "tin",
+        "pressure": true
+      }
+    ],
+    "r6": [
+      {
+        "id": "devil",
+        "archetype": "tin",
+        "pressure": false
+      }
+    ],
+    "r7": [
+      {
+        "id": "shark",
+        "archetype": "hopper",
+        "pressure": false
+      }
+    ],
+    "r8": [
+      {
+        "id": "tiger",
+        "archetype": "tin",
+        "pressure": false
+      },
+      {
+        "id": "vampire",
+        "archetype": "hopper",
+        "pressure": false
+      }
+    ],
+    "r9": [
+      {
+        "id": "shark",
+        "archetype": "hopper",
+        "pressure": false
+      }
+    ],
+    "r11": [
+      {
+        "id": "cowboy",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r12": [
+      {
+        "id": "tiger",
+        "archetype": "hopper",
+        "pressure": true
+      }
+    ],
+    "r13": [
+      {
+        "id": "devil",
+        "archetype": "tin",
+        "pressure": false
+      },
+      {
+        "id": "vampire",
+        "archetype": "tin",
+        "pressure": false
+      }
+    ],
+    "r14": [
+      {
+        "id": "cowboy",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r15": [
+      {
+        "id": "shark",
+        "archetype": "hopper",
+        "pressure": false
+      }
+    ],
+    "r16": [
+      {
+        "id": "tiger",
+        "archetype": "hopper",
+        "pressure": false
+      }
+    ],
+    "r17": [
+      {
+        "id": "devil",
+        "archetype": "tin",
+        "pressure": true
+      },
+      {
+        "id": "cowboy",
+        "archetype": "tin",
+        "pressure": false
+      }
+    ],
+    "r18": [
+      {
+        "id": "devil",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r19": [
+      {
+        "id": "shark",
+        "archetype": "hopper",
+        "pressure": false
+      }
+    ],
+    "r21": [
+      {
+        "id": "shark",
+        "archetype": "rocket",
+        "pressure": false
+      }
+    ],
+    "r22": [
+      {
+        "id": "tiger",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r23": [
+      {
+        "id": "vampire",
+        "archetype": "hopper",
+        "pressure": false
+      },
+      {
+        "id": "tiger",
+        "archetype": "hopper",
+        "pressure": false
+      }
+    ],
+    "r24": [
+      {
+        "id": "shark",
+        "archetype": "rocket",
+        "pressure": true
+      }
+    ],
+    "r25": [
+      {
+        "id": "devil",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r26": [
+      {
+        "id": "cowboy",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r27": [
+      {
+        "id": "shark",
+        "archetype": "rocket",
+        "pressure": false
+      },
+      {
+        "id": "shark",
+        "archetype": "rocket",
+        "pressure": false
+      }
+    ],
+    "r28": [
+      {
+        "id": "cowboy",
+        "archetype": "samurai",
+        "pressure": false
+      }
+    ],
+    "r29": [
+      {
+        "id": "tiger",
+        "archetype": "heavy",
+        "pressure": true
+      }
+    ],
+    "r31": [
+      {
+        "id": "shark",
+        "archetype": "rocket",
+        "pressure": false
+      }
+    ],
+    "r32": [
+      {
+        "id": "cowboy",
+        "archetype": "samurai",
+        "pressure": false
+      }
+    ],
+    "r33": [
+      {
+        "id": "vampire",
+        "archetype": "hopper",
+        "pressure": false
+      },
+      {
+        "id": "devil",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r34": [
+      {
+        "id": "tiger",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r35": [
+      {
+        "id": "shark",
+        "archetype": "rocket",
+        "pressure": false
+      }
+    ],
+    "r36": [
+      {
+        "id": "cowboy",
+        "archetype": "samurai",
+        "pressure": true
+      }
+    ],
+    "r37": [
+      {
+        "id": "vampire",
+        "archetype": "hopper",
+        "pressure": false
+      },
+      {
+        "id": "devil",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r38": [
+      {
+        "id": "tiger",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r39": [
+      {
+        "id": "shark",
+        "archetype": "rocket",
+        "pressure": false
+      }
+    ],
+    "r41": [
+      {
+        "id": "tiger",
+        "archetype": "hopper",
+        "pressure": false
+      }
+    ],
+    "r42": [
+      {
+        "id": "devil",
+        "archetype": "tin",
+        "pressure": true
+      }
+    ],
+    "r43": [
+      {
+        "id": "vampire",
+        "archetype": "tin",
+        "pressure": false
+      },
+      {
+        "id": "cowboy",
+        "archetype": "samurai",
+        "pressure": false
+      }
+    ],
+    "r44": [
+      {
+        "id": "devil",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r45": [
+      {
+        "id": "cowboy",
+        "archetype": "samurai",
+        "pressure": false
+      }
+    ],
+    "r46": [
+      {
+        "id": "devil",
+        "archetype": "tin",
+        "pressure": false
+      },
+      {
+        "id": "tiger",
+        "archetype": "hopper",
+        "pressure": false
+      }
+    ],
+    "r47": [
+      {
+        "id": "tiger",
+        "archetype": "hopper",
+        "pressure": true
+      }
+    ],
+    "r48": [
+      {
+        "id": "shark",
+        "archetype": "rocket",
+        "pressure": false
+      }
+    ],
+    "r49": [
+      {
+        "id": "shark",
+        "archetype": "hopper",
+        "pressure": false
+      },
+      {
+        "id": "cowboy",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r51": [
+      {
+        "id": "tiger",
+        "archetype": "hopper",
+        "pressure": false
+      }
+    ],
+    "r52": [
+      {
+        "id": "tiger",
+        "archetype": "heavy",
+        "pressure": false
+      },
+      {
+        "id": "vampire",
+        "archetype": "tin",
+        "pressure": false
+      }
+    ],
+    "r53": [
+      {
+        "id": "cowboy",
+        "archetype": "heavy",
+        "pressure": true
+      }
+    ],
+    "r54": [
+      {
+        "id": "devil",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r55": [
+      {
+        "id": "cowboy",
+        "archetype": "samurai",
+        "pressure": false
+      },
+      {
+        "id": "cowboy",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r56": [
+      {
+        "id": "devil",
+        "archetype": "tin",
+        "pressure": false
+      }
+    ],
+    "r57": [
+      {
+        "id": "cowboy",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r58": [
+      {
+        "id": "tiger",
+        "archetype": "heavy",
+        "pressure": true
+      }
+    ],
+    "r59": [
+      {
+        "id": "shark",
+        "archetype": "hopper",
+        "pressure": false
+      },
+      {
+        "id": "tiger",
+        "archetype": "hopper",
+        "pressure": false
+      }
+    ],
+    "r61": [
+      {
+        "id": "tiger",
+        "archetype": "hopper",
+        "pressure": false
+      }
+    ],
+    "r62": [
+      {
+        "id": "tiger",
+        "archetype": "heavy",
+        "pressure": false
+      },
+      {
+        "id": "cowboy",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r63": [
+      {
+        "id": "vampire",
+        "archetype": "tin",
+        "pressure": false
+      }
+    ],
+    "r64": [
+      {
+        "id": "devil",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r65": [
+      {
+        "id": "shark",
+        "archetype": "hopper",
+        "pressure": true
+      }
+    ],
+    "r66": [
+      {
+        "id": "devil",
+        "archetype": "tin",
+        "pressure": false
+      },
+      {
+        "id": "tiger",
+        "archetype": "hopper",
+        "pressure": false
+      }
+    ],
+    "r67": [
+      {
+        "id": "cowboy",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r68": [
+      {
+        "id": "shark",
+        "archetype": "rocket",
+        "pressure": false
+      },
+      {
+        "id": "shark",
+        "archetype": "hopper",
+        "pressure": false
+      }
+    ],
+    "r69": [
+      {
+        "id": "vampire",
+        "archetype": "tin",
+        "pressure": true
+      }
+    ],
+    "r71": [
+      {
+        "id": "tiger",
+        "archetype": "hopper",
+        "pressure": false
+      }
+    ],
+    "r72": [
+      {
+        "id": "tiger",
+        "archetype": "heavy",
+        "pressure": false
+      },
+      {
+        "id": "vampire",
+        "archetype": "tin",
+        "pressure": false
+      }
+    ],
+    "r73": [
+      {
+        "id": "vampire",
+        "archetype": "tin",
+        "pressure": false
+      }
+    ],
+    "r74": [
+      {
+        "id": "devil",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r75": [
+      {
+        "id": "cowboy",
+        "archetype": "samurai",
+        "pressure": false
+      },
+      {
+        "id": "cowboy",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r76": [
+      {
+        "id": "vampire",
+        "archetype": "hopper",
+        "pressure": true
+      }
+    ],
+    "r77": [
+      {
+        "id": "cowboy",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r78": [
+      {
+        "id": "shark",
+        "archetype": "rocket",
+        "pressure": false
+      },
+      {
+        "id": "vampire",
+        "archetype": "tin",
+        "pressure": false
+      }
+    ],
+    "r79": [
+      {
+        "id": "shark",
+        "archetype": "hopper",
+        "pressure": false
+      }
+    ],
+    "r81": [
+      {
+        "id": "tiger",
+        "archetype": "hopper",
+        "pressure": false
+      }
+    ],
+    "r82": [
+      {
+        "id": "devil",
+        "archetype": "tin",
+        "pressure": true
+      }
+    ],
+    "r83": [
+      {
+        "id": "vampire",
+        "archetype": "tin",
+        "pressure": false
+      },
+      {
+        "id": "cowboy",
+        "archetype": "samurai",
+        "pressure": false
+      }
+    ],
+    "r84": [
+      {
+        "id": "devil",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r85": [
+      {
+        "id": "cowboy",
+        "archetype": "samurai",
+        "pressure": false
+      }
+    ],
+    "r86": [
+      {
+        "id": "devil",
+        "archetype": "tin",
+        "pressure": false
+      },
+      {
+        "id": "tiger",
+        "archetype": "hopper",
+        "pressure": false
+      }
+    ],
+    "r87": [
+      {
+        "id": "tiger",
+        "archetype": "hopper",
+        "pressure": true
+      }
+    ],
+    "r88": [
+      {
+        "id": "shark",
+        "archetype": "rocket",
+        "pressure": false
+      }
+    ],
+    "r89": [
+      {
+        "id": "shark",
+        "archetype": "hopper",
+        "pressure": false
+      },
+      {
+        "id": "cowboy",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r91": [
+      {
+        "id": "tiger",
+        "archetype": "hopper",
+        "pressure": false
+      }
+    ],
+    "r92": [
+      {
+        "id": "tiger",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r93": [
+      {
+        "id": "vampire",
+        "archetype": "tin",
+        "pressure": false
+      },
+      {
+        "id": "tiger",
+        "archetype": "hopper",
+        "pressure": false
+      }
+    ],
+    "r94": [
+      {
+        "id": "shark",
+        "archetype": "rocket",
+        "pressure": true
+      }
+    ],
+    "r95": [
+      {
+        "id": "cowboy",
+        "archetype": "samurai",
+        "pressure": false
+      }
+    ],
+    "r96": [
+      {
+        "id": "devil",
+        "archetype": "tin",
+        "pressure": false
+      },
+      {
+        "id": "cowboy",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r97": [
+      {
+        "id": "cowboy",
+        "archetype": "heavy",
+        "pressure": false
+      }
+    ],
+    "r98": [
+      {
+        "id": "tiger",
+        "archetype": "heavy",
+        "pressure": true
+      }
+    ],
+    "r99": [
+      {
+        "id": "shark",
+        "archetype": "hopper",
+        "pressure": false
+      },
+      {
+        "id": "tiger",
+        "archetype": "hopper",
+        "pressure": false
+      }
+    ]
+  },
+  "pressure_normal_ordinals": [
+    5,
+    11,
+    16,
+    22,
+    27,
+    33,
+    38,
+    43,
+    48,
+    53,
+    59,
+    63,
+    69,
+    74,
+    79,
+    85,
+    89
+  ],
+  "pressure_decisions": {
+    "angle_error_deg": 0.45,
+    "timing_error": 0.45,
+    "blunder_chance": 0.2,
+    "naive_slope_mix": 0.45,
+    "reaction_delay": 0.6,
+    "replan_interval": 0.75,
+    "plan_tolerance": 0.75,
+    "form_spread": 0.45,
+    "long_run_skill_drop": 0.55
+  }
+}

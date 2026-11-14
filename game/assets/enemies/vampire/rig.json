@@ -1,0 +1,148 @@
+{
+  "id": "vampire",
+  "anchors": {
+    "neck": [
+      128,
+      74
+    ],
+    "shoulder_l": [
+      39,
+      119
+    ],
+    "shoulder_r": [
+      218,
+      117
+    ],
+    "hip_l": [
+      94,
+      200
+    ],
+    "hip_r": [
+      161,
+      200
+    ]
+  },
+  "parts": {
+    "torso": {
+      "pivot": [
+        128,
+        135
+      ],
+      "unit_scale": 0.43,
+      "z": 0
+    },
+    "head": {
+      "pivot": [
+        128,
+        152
+      ],
+      "unit_scale": 0.45,
+      "z": 2
+    },
+    "arm_l": {
+      "pivot": [
+        178,
+        47
+      ],
+      "end": [
+        64,
+        181
+      ],
+      "spring_rows": [
+        77,
+        151
+      ],
+      "unit_scale": 0.39,
+      "z": 1,
+      "inertia_gain": 0.28
+    },
+    "arm_r": {
+      "pivot": [
+        25,
+        44
+      ],
+      "end": [
+        132,
+        180
+      ],
+      "spring_rows": [
+        77,
+        151
+      ],
+      "unit_scale": 0.39,
+      "z": 1,
+      "inertia_gain": 0.28
+    },
+    "leg_l": {
+      "pivot": [
+        165.0,
+        22
+      ],
+      "end": [
+        138,
+        246
+      ],
+      "spring_rows": [
+        52,
+        114
+      ],
+      "unit_scale": 0.41,
+      "z": 0,
+      "inertia_gain": 0.28,
+      "ring_region": [
+        115,
+        86,
+        61,
+        16
+      ],
+      "ring_count": 8,
+      "coil_scale": 1.0,
+      "spring_centers": [
+        [
+          154.0,
+          52
+        ],
+        [
+          131.5,
+          114
+        ]
+      ]
+    },
+    "leg_r": {
+      "pivot": [
+        62.0,
+        22
+      ],
+      "end": [
+        89,
+        246
+      ],
+      "spring_rows": [
+        52,
+        114
+      ],
+      "unit_scale": 0.41,
+      "z": 0,
+      "inertia_gain": 0.28,
+      "ring_region": [
+        50,
+        86,
+        59,
+        16
+      ],
+      "ring_count": 8,
+      "coil_scale": 1.0,
+      "spring_centers": [
+        [
+          71.0,
+          52
+        ],
+        [
+          90.5,
+          114
+        ]
+      ]
+    }
+  },
+  "source_only_static_body": true
+}

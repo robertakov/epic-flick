@@ -1,0 +1,47 @@
+# Godot generated imports and editor state
+.godot/
+
+# Android exports and signing material
+/builds/
+*.apk
+*.aab
+*.idsig
+*.keystore
+*.jks
+
+# Local captures, temporary work dirs, logs and caches
+/game/*.png
+/game/*.png.import
+!/game/icon.png
+!/game/icon.png.import
+/work/
+*.log
+*.tmp
+__pycache__/
+
+# Exploratory/temporary dev test logs
+
+# Original reference movies & master source assets (preserved on disk, not tracked in Git)
+/*.mp4
+/art/
+/Assets/
+/art_backup/
+/reports/
+/store_assets/google_play/
+/AI_HANDOFF.md
+/RELEASE_GOOGLE_PLAY.md
+/game/android/build/assetPackInstallTime/src/main/assets/
+/game/android/build/assetPackInstallTime/build/
+/game/android/build/src/instrumented/assets/
+
+
+# Godot Android build template: Gradle outputs / caches (template sources are tracked)
+/game/android/build/build/
+/game/android/build/.gradle/
+/game/android/build/libs/debug/
+/game/android/build/libs/release/
+/game/android/build/assets/
+/game/android/build/local.properties
+/game/android/build/assetPackInstallTime/src/main/assets/
+/game/android/build/assetPackInstallTime/build/
+/game/android/build/src/instrumented/assets/

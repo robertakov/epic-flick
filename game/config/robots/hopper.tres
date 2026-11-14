@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="RobotDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/config/robot_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "hopper"
+visual_id = "kenguru"
+display_name = "Кенгуробот"
+description = "Прыгучий робот-кенгуру с мощными длинными лапами-пружинами и отличным контролем в воздухе."
+price = 600
+max_health = 100.0
+mass_multiplier = 0.85
+spring_strength = 1.2
+bounce = 1.12
+energy_boost_multiplier = 1.0
+charge_rate = 1.0
+air_control = 1.05
+size = 0.97
+rebound_power = 1.3
+momentum_forward_cap = 1700.0
+momentum_max = 160.0
+momentum_gain = 40.0
+mk2_visual_id = "kenguru_mk2"
+mk2_price = 1200
+mk2_boss_node = "r10"
+mk2_stat_multipliers = {"rebound_power": 1.1, "air_control": 1.15, "energy_boost_multiplier": 1.15}
+mk2_stat_offsets = {"max_health": 18.0}
+hue_shift = 0.3
+saturation = 1.05

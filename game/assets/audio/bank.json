@@ -1,0 +1,5289 @@
+{
+  "profiles": {
+    "tin": {
+      "launch": "tin/launch",
+      "spring": "tin/spring",
+      "body": "tin/body",
+      "head": "tin/head",
+      "limb": "tin/limb",
+      "voice": "tin/voice",
+      "head_launch": "tin/head_launch",
+      "rolling": "tin/rolling"
+    },
+    "hopper": {
+      "launch": "hopper/launch",
+      "spring": "hopper/spring",
+      "body": "hopper/body",
+      "head": "hopper/head",
+      "limb": "hopper/limb",
+      "voice": "hopper/voice",
+      "head_launch": "hopper/head_launch",
+      "rolling": "hopper/rolling"
+    },
+    "heavy": {
+      "launch": "heavy/launch",
+      "spring": "heavy/spring",
+      "body": "heavy/body",
+      "head": "heavy/head",
+      "limb": "heavy/limb",
+      "voice": "heavy/voice",
+      "head_launch": "heavy/head_launch",
+      "rolling": "heavy/rolling"
+    },
+    "rocket": {
+      "launch": "rocket/launch",
+      "spring": "rocket/spring",
+      "body": "rocket/body",
+      "head": "rocket/head",
+      "limb": "rocket/limb",
+      "voice": "rocket/voice",
+      "head_launch": "rocket/head_launch",
+      "rolling": "rocket/rolling"
+    },
+    "samurai": {
+      "launch": "samurai/launch",
+      "spring": "samurai/spring",
+      "body": "samurai/body",
+      "head": "samurai/head",
+      "limb": "samurai/limb",
+      "voice": "samurai/voice",
+      "head_launch": "samurai/head_launch",
+      "rolling": "samurai/rolling"
+    }
+  },
+  "banks": {
+    "tin/launch": [
+      {
+        "path": "res://assets/audio/tin/launch_01.wav",
+        "energy": 0.1446,
+        "duration": 0.88,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/tin/launch_02.wav",
+        "energy": 0.1403,
+        "duration": 0.87,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/tin/launch_03.wav",
+        "energy": 0.1479,
+        "duration": 0.891,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/tin/launch_04.wav",
+        "energy": 0.1377,
+        "duration": 0.836,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/tin/launch_05.wav",
+        "energy": 0.1393,
+        "duration": 0.835,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/tin/launch_06.wav",
+        "energy": 0.1487,
+        "duration": 0.739,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "tin/spring": [
+      {
+        "path": "res://assets/audio/tin/spring_01.wav",
+        "energy": 0.1243,
+        "duration": 0.28,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/tin/spring_02.wav",
+        "energy": 0.1243,
+        "duration": 0.283,
+        "loop": false,
+        "tier": 0.1429
+      },
+      {
+        "path": "res://assets/audio/tin/spring_03.wav",
+        "energy": 0.1242,
+        "duration": 0.28,
+        "loop": false,
+        "tier": 0.2857
+      },
+      {
+        "path": "res://assets/audio/tin/spring_04.wav",
+        "energy": 0.1216,
+        "duration": 0.28,
+        "loop": false,
+        "tier": 0.4286
+      },
+      {
+        "path": "res://assets/audio/tin/spring_05.wav",
+        "energy": 0.1212,
+        "duration": 0.281,
+        "loop": false,
+        "tier": 0.5714
+      },
+      {
+        "path": "res://assets/audio/tin/spring_06.wav",
+        "energy": 0.1208,
+        "duration": 0.28,
+        "loop": false,
+        "tier": 0.7143
+      },
+      {
+        "path": "res://assets/audio/tin/spring_07.wav",
+        "energy": 0.126,
+        "duration": 0.282,
+        "loop": false,
+        "tier": 0.8571
+      },
+      {
+        "path": "res://assets/audio/tin/spring_08.wav",
+        "energy": 0.1208,
+        "duration": 0.28,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "tin/body": [
+      {
+        "path": "res://assets/audio/tin/body_01.wav",
+        "energy": 0.144,
+        "duration": 0.35,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/tin/body_02.wav",
+        "energy": 0.149,
+        "duration": 0.432,
+        "loop": false,
+        "tier": 0.1429
+      },
+      {
+        "path": "res://assets/audio/tin/body_03.wav",
+        "energy": 0.1515,
+        "duration": 0.4,
+        "loop": false,
+        "tier": 0.2857
+      },
+      {
+        "path": "res://assets/audio/tin/body_04.wav",
+        "energy": 0.1426,
+        "duration": 0.443,
+        "loop": false,
+        "tier": 0.4286
+      },
+      {
+        "path": "res://assets/audio/tin/body_05.wav",
+        "energy": 0.1442,
+        "duration": 0.449,
+        "loop": false,
+        "tier": 0.5714
+      },
+      {
+        "path": "res://assets/audio/tin/body_06.wav",
+        "energy": 0.1508,
+        "duration": 0.382,
+        "loop": false,
+        "tier": 0.7143
+      },
+      {
+        "path": "res://assets/audio/tin/body_07.wav",
+        "energy": 0.1474,
+        "duration": 0.406,
+        "loop": false,
+        "tier": 0.8571
+      },
+      {
+        "path": "res://assets/audio/tin/body_08.wav",
+        "energy": 0.1499,
+        "duration": 0.448,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "tin/head": [
+      {
+        "path": "res://assets/audio/tin/head_01.wav",
+        "energy": 0.1407,
+        "duration": 0.399,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/tin/head_02.wav",
+        "energy": 0.1405,
+        "duration": 0.4,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/tin/head_03.wav",
+        "energy": 0.1405,
+        "duration": 0.399,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/tin/head_04.wav",
+        "energy": 0.1353,
+        "duration": 0.4,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/tin/head_05.wav",
+        "energy": 0.1404,
+        "duration": 0.399,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/tin/head_06.wav",
+        "energy": 0.1429,
+        "duration": 0.399,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "tin/limb": [
+      {
+        "path": "res://assets/audio/tin/limb_01.wav",
+        "energy": 0.1577,
+        "duration": 0.615,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/tin/limb_02.wav",
+        "energy": 0.162,
+        "duration": 0.609,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/tin/limb_03.wav",
+        "energy": 0.1591,
+        "duration": 0.632,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/tin/limb_04.wav",
+        "energy": 0.1581,
+        "duration": 0.649,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/tin/limb_05.wav",
+        "energy": 0.1571,
+        "duration": 0.645,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/tin/limb_06.wav",
+        "energy": 0.1554,
+        "duration": 0.643,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "tin/voice": [
+      {
+        "path": "res://assets/audio/tin/voice_01.wav",
+        "energy": 0.1662,
+        "duration": 0.512,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/tin/voice_02.wav",
+        "energy": 0.1631,
+        "duration": 0.395,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/tin/voice_03.wav",
+        "energy": 0.1615,
+        "duration": 0.435,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/tin/voice_04.wav",
+        "energy": 0.1593,
+        "duration": 0.444,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/tin/voice_05.wav",
+        "energy": 0.1604,
+        "duration": 0.506,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/tin/voice_06.wav",
+        "energy": 0.1626,
+        "duration": 0.577,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "tin/head_launch": [
+      {
+        "path": "res://assets/audio/tin/head_launch_01.wav",
+        "energy": 0.1796,
+        "duration": 1.079,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/tin/head_launch_02.wav",
+        "energy": 0.1793,
+        "duration": 1.07,
+        "loop": false,
+        "tier": 0.25
+      },
+      {
+        "path": "res://assets/audio/tin/head_launch_03.wav",
+        "energy": 0.1834,
+        "duration": 1.043,
+        "loop": false,
+        "tier": 0.5
+      },
+      {
+        "path": "res://assets/audio/tin/head_launch_04.wav",
+        "energy": 0.1601,
+        "duration": 1.051,
+        "loop": false,
+        "tier": 0.75
+      },
+      {
+        "path": "res://assets/audio/tin/head_launch_05.wav",
+        "energy": 0.1692,
+        "duration": 1.04,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "tin/rolling": [
+      {
+        "path": "res://assets/audio/tin/rolling_01.wav",
+        "energy": 0.0533,
+        "duration": 2.85,
+        "loop": true,
+        "tier": 0.0
+      }
+    ],
+    "hopper/launch": [
+      {
+        "path": "res://assets/audio/hopper/launch_01.wav",
+        "energy": 0.1728,
+        "duration": 0.9,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/hopper/launch_02.wav",
+        "energy": 0.1769,
+        "duration": 0.9,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/hopper/launch_03.wav",
+        "energy": 0.1925,
+        "duration": 0.9,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/hopper/launch_04.wav",
+        "energy": 0.1934,
+        "duration": 0.9,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/hopper/launch_05.wav",
+        "energy": 0.1951,
+        "duration": 0.87,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/hopper/launch_06.wav",
+        "energy": 0.1897,
+        "duration": 0.9,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "hopper/spring": [
+      {
+        "path": "res://assets/audio/hopper/spring_01.wav",
+        "energy": 0.1506,
+        "duration": 0.557,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/hopper/spring_02.wav",
+        "energy": 0.1513,
+        "duration": 0.571,
+        "loop": false,
+        "tier": 0.1429
+      },
+      {
+        "path": "res://assets/audio/hopper/spring_03.wav",
+        "energy": 0.1508,
+        "duration": 0.543,
+        "loop": false,
+        "tier": 0.2857
+      },
+      {
+        "path": "res://assets/audio/hopper/spring_04.wav",
+        "energy": 0.1504,
+        "duration": 0.5,
+        "loop": false,
+        "tier": 0.4286
+      },
+      {
+        "path": "res://assets/audio/hopper/spring_05.wav",
+        "energy": 0.1503,
+        "duration": 0.514,
+        "loop": false,
+        "tier": 0.5714
+      },
+      {
+        "path": "res://assets/audio/hopper/spring_06.wav",
+        "energy": 0.151,
+        "duration": 0.586,
+        "loop": false,
+        "tier": 0.7143
+      },
+      {
+        "path": "res://assets/audio/hopper/spring_07.wav",
+        "energy": 0.1504,
+        "duration": 0.529,
+        "loop": false,
+        "tier": 0.8571
+      },
+      {
+        "path": "res://assets/audio/hopper/spring_08.wav",
+        "energy": 0.1719,
+        "duration": 0.6,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "hopper/body": [
+      {
+        "path": "res://assets/audio/hopper/body_01.wav",
+        "energy": 0.1919,
+        "duration": 0.354,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/hopper/body_02.wav",
+        "energy": 0.1906,
+        "duration": 0.371,
+        "loop": false,
+        "tier": 0.1429
+      },
+      {
+        "path": "res://assets/audio/hopper/body_03.wav",
+        "energy": 0.1897,
+        "duration": 0.345,
+        "loop": false,
+        "tier": 0.2857
+      },
+      {
+        "path": "res://assets/audio/hopper/body_04.wav",
+        "energy": 0.1905,
+        "duration": 0.269,
+        "loop": false,
+        "tier": 0.4286
+      },
+      {
+        "path": "res://assets/audio/hopper/body_05.wav",
+        "energy": 0.188,
+        "duration": 0.294,
+        "loop": false,
+        "tier": 0.5714
+      },
+      {
+        "path": "res://assets/audio/hopper/body_06.wav",
+        "energy": 0.1896,
+        "duration": 0.32,
+        "loop": false,
+        "tier": 0.7143
+      },
+      {
+        "path": "res://assets/audio/hopper/body_07.wav",
+        "energy": 0.1813,
+        "duration": 0.227,
+        "loop": false,
+        "tier": 0.8571
+      },
+      {
+        "path": "res://assets/audio/hopper/body_08.wav",
+        "energy": 0.1902,
+        "duration": 0.332,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "hopper/head": [
+      {
+        "path": "res://assets/audio/hopper/head_01.wav",
+        "energy": 0.1792,
+        "duration": 0.3,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/hopper/head_02.wav",
+        "energy": 0.1768,
+        "duration": 0.3,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/hopper/head_03.wav",
+        "energy": 0.1747,
+        "duration": 0.3,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/hopper/head_04.wav",
+        "energy": 0.1769,
+        "duration": 0.301,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/hopper/head_05.wav",
+        "energy": 0.185,
+        "duration": 0.43,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/hopper/head_06.wav",
+        "energy": 0.1737,
+        "duration": 0.314,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "hopper/limb": [
+      {
+        "path": "res://assets/audio/hopper/limb_01.wav",
+        "energy": 0.2182,
+        "duration": 0.65,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/hopper/limb_02.wav",
+        "energy": 0.2181,
+        "duration": 0.65,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/hopper/limb_03.wav",
+        "energy": 0.2188,
+        "duration": 0.65,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/hopper/limb_04.wav",
+        "energy": 0.2181,
+        "duration": 0.65,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/hopper/limb_05.wav",
+        "energy": 0.2166,
+        "duration": 0.65,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/hopper/limb_06.wav",
+        "energy": 0.2179,
+        "duration": 0.65,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "hopper/voice": [
+      {
+        "path": "res://assets/audio/hopper/voice_01.wav",
+        "energy": 0.162,
+        "duration": 0.227,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/hopper/voice_02.wav",
+        "energy": 0.1597,
+        "duration": 0.257,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/hopper/voice_03.wav",
+        "energy": 0.1622,
+        "duration": 0.262,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/hopper/voice_04.wav",
+        "energy": 0.1599,
+        "duration": 0.282,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/hopper/voice_05.wav",
+        "energy": 0.1628,
+        "duration": 0.28,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/hopper/voice_06.wav",
+        "energy": 0.1616,
+        "duration": 0.294,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "hopper/head_launch": [
+      {
+        "path": "res://assets/audio/hopper/head_launch_01.wav",
+        "energy": 0.2189,
+        "duration": 1.146,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/hopper/head_launch_02.wav",
+        "energy": 0.2155,
+        "duration": 1.13,
+        "loop": false,
+        "tier": 0.25
+      },
+      {
+        "path": "res://assets/audio/hopper/head_launch_03.wav",
+        "energy": 0.2154,
+        "duration": 1.154,
+        "loop": false,
+        "tier": 0.5
+      },
+      {
+        "path": "res://assets/audio/hopper/head_launch_04.wav",
+        "energy": 0.2038,
+        "duration": 1.125,
+        "loop": false,
+        "tier": 0.75
+      },
+      {
+        "path": "res://assets/audio/hopper/head_launch_05.wav",
+        "energy": 0.1988,
+        "duration": 1.145,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "hopper/rolling": [
+      {
+        "path": "res://assets/audio/hopper/rolling_01.wav",
+        "energy": 0.0801,
+        "duration": 2.85,
+        "loop": true,
+        "tier": 0.0
+      }
+    ],
+    "heavy/launch": [
+      {
+        "path": "res://assets/audio/heavy/launch_01.wav",
+        "energy": 0.2576,
+        "duration": 0.9,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/heavy/launch_02.wav",
+        "energy": 0.2583,
+        "duration": 0.9,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/heavy/launch_03.wav",
+        "energy": 0.2572,
+        "duration": 0.9,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/heavy/launch_04.wav",
+        "energy": 0.2591,
+        "duration": 0.9,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/heavy/launch_05.wav",
+        "energy": 0.2701,
+        "duration": 0.9,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/heavy/launch_06.wav",
+        "energy": 0.2472,
+        "duration": 0.9,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "heavy/spring": [
+      {
+        "path": "res://assets/audio/heavy/spring_01.wav",
+        "energy": 0.1872,
+        "duration": 0.387,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/heavy/spring_02.wav",
+        "energy": 0.1746,
+        "duration": 0.35,
+        "loop": false,
+        "tier": 0.1429
+      },
+      {
+        "path": "res://assets/audio/heavy/spring_03.wav",
+        "energy": 0.1833,
+        "duration": 0.35,
+        "loop": false,
+        "tier": 0.2857
+      },
+      {
+        "path": "res://assets/audio/heavy/spring_04.wav",
+        "energy": 0.1718,
+        "duration": 0.35,
+        "loop": false,
+        "tier": 0.4286
+      },
+      {
+        "path": "res://assets/audio/heavy/spring_05.wav",
+        "energy": 0.174,
+        "duration": 0.364,
+        "loop": false,
+        "tier": 0.5714
+      },
+      {
+        "path": "res://assets/audio/heavy/spring_06.wav",
+        "energy": 0.1783,
+        "duration": 0.35,
+        "loop": false,
+        "tier": 0.7143
+      },
+      {
+        "path": "res://assets/audio/heavy/spring_07.wav",
+        "energy": 0.1763,
+        "duration": 0.35,
+        "loop": false,
+        "tier": 0.8571
+      },
+      {
+        "path": "res://assets/audio/heavy/spring_08.wav",
+        "energy": 0.1735,
+        "duration": 0.35,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "heavy/body": [
+      {
+        "path": "res://assets/audio/heavy/body_01.wav",
+        "energy": 0.2222,
+        "duration": 0.45,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/heavy/body_02.wav",
+        "energy": 0.2236,
+        "duration": 0.45,
+        "loop": false,
+        "tier": 0.1429
+      },
+      {
+        "path": "res://assets/audio/heavy/body_03.wav",
+        "energy": 0.2205,
+        "duration": 0.45,
+        "loop": false,
+        "tier": 0.2857
+      },
+      {
+        "path": "res://assets/audio/heavy/body_04.wav",
+        "energy": 0.2242,
+        "duration": 0.45,
+        "loop": false,
+        "tier": 0.4286
+      },
+      {
+        "path": "res://assets/audio/heavy/body_05.wav",
+        "energy": 0.2248,
+        "duration": 0.45,
+        "loop": false,
+        "tier": 0.5714
+      },
+      {
+        "path": "res://assets/audio/heavy/body_06.wav",
+        "energy": 0.2169,
+        "duration": 0.45,
+        "loop": false,
+        "tier": 0.7143
+      },
+      {
+        "path": "res://assets/audio/heavy/body_07.wav",
+        "energy": 0.2213,
+        "duration": 0.45,
+        "loop": false,
+        "tier": 0.8571
+      },
+      {
+        "path": "res://assets/audio/heavy/body_08.wav",
+        "energy": 0.2252,
+        "duration": 0.45,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "heavy/head": [
+      {
+        "path": "res://assets/audio/heavy/head_01.wav",
+        "energy": 0.1965,
+        "duration": 0.486,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/heavy/head_02.wav",
+        "energy": 0.197,
+        "duration": 0.45,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/heavy/head_03.wav",
+        "energy": 0.2058,
+        "duration": 0.45,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/heavy/head_04.wav",
+        "energy": 0.2004,
+        "duration": 0.45,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/heavy/head_05.wav",
+        "energy": 0.1958,
+        "duration": 0.456,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/heavy/head_06.wav",
+        "energy": 0.2026,
+        "duration": 0.458,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "heavy/limb": [
+      {
+        "path": "res://assets/audio/heavy/limb_01.wav",
+        "energy": 0.2633,
+        "duration": 0.55,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/heavy/limb_02.wav",
+        "energy": 0.2557,
+        "duration": 0.549,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/heavy/limb_03.wav",
+        "energy": 0.2683,
+        "duration": 0.55,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/heavy/limb_04.wav",
+        "energy": 0.2676,
+        "duration": 0.55,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/heavy/limb_05.wav",
+        "energy": 0.2508,
+        "duration": 0.55,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/heavy/limb_06.wav",
+        "energy": 0.2561,
+        "duration": 0.55,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "heavy/voice": [
+      {
+        "path": "res://assets/audio/heavy/voice_01.wav",
+        "energy": 0.1658,
+        "duration": 0.404,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/heavy/voice_02.wav",
+        "energy": 0.1664,
+        "duration": 0.414,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/heavy/voice_03.wav",
+        "energy": 0.1647,
+        "duration": 0.393,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/heavy/voice_04.wav",
+        "energy": 0.1637,
+        "duration": 0.465,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/heavy/voice_05.wav",
+        "energy": 0.1612,
+        "duration": 0.484,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/heavy/voice_06.wav",
+        "energy": 0.1633,
+        "duration": 0.486,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "heavy/head_launch": [
+      {
+        "path": "res://assets/audio/heavy/head_launch_01.wav",
+        "energy": 0.3134,
+        "duration": 1.25,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/heavy/head_launch_02.wav",
+        "energy": 0.3112,
+        "duration": 1.25,
+        "loop": false,
+        "tier": 0.25
+      },
+      {
+        "path": "res://assets/audio/heavy/head_launch_03.wav",
+        "energy": 0.315,
+        "duration": 1.25,
+        "loop": false,
+        "tier": 0.5
+      },
+      {
+        "path": "res://assets/audio/heavy/head_launch_04.wav",
+        "energy": 0.3059,
+        "duration": 1.25,
+        "loop": false,
+        "tier": 0.75
+      },
+      {
+        "path": "res://assets/audio/heavy/head_launch_05.wav",
+        "energy": 0.3144,
+        "duration": 1.25,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "heavy/rolling": [
+      {
+        "path": "res://assets/audio/heavy/rolling_01.wav",
+        "energy": 0.0985,
+        "duration": 2.85,
+        "loop": true,
+        "tier": 0.0
+      }
+    ],
+    "rocket/launch": [
+      {
+        "path": "res://assets/audio/rocket/launch_01.wav",
+        "energy": 0.1382,
+        "duration": 0.9,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/rocket/launch_02.wav",
+        "energy": 0.1394,
+        "duration": 0.9,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/rocket/launch_03.wav",
+        "energy": 0.1372,
+        "duration": 0.9,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/rocket/launch_04.wav",
+        "energy": 0.1375,
+        "duration": 0.9,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/rocket/launch_05.wav",
+        "energy": 0.1359,
+        "duration": 0.9,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/rocket/launch_06.wav",
+        "energy": 0.136,
+        "duration": 0.9,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "rocket/spring": [
+      {
+        "path": "res://assets/audio/rocket/spring_01.wav",
+        "energy": 0.1145,
+        "duration": 0.216,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/rocket/spring_02.wav",
+        "energy": 0.1117,
+        "duration": 0.226,
+        "loop": false,
+        "tier": 0.1429
+      },
+      {
+        "path": "res://assets/audio/rocket/spring_03.wav",
+        "energy": 0.1101,
+        "duration": 0.192,
+        "loop": false,
+        "tier": 0.2857
+      },
+      {
+        "path": "res://assets/audio/rocket/spring_04.wav",
+        "energy": 0.1084,
+        "duration": 0.201,
+        "loop": false,
+        "tier": 0.4286
+      },
+      {
+        "path": "res://assets/audio/rocket/spring_05.wav",
+        "energy": 0.114,
+        "duration": 0.224,
+        "loop": false,
+        "tier": 0.5714
+      },
+      {
+        "path": "res://assets/audio/rocket/spring_06.wav",
+        "energy": 0.1089,
+        "duration": 0.274,
+        "loop": false,
+        "tier": 0.7143
+      },
+      {
+        "path": "res://assets/audio/rocket/spring_07.wav",
+        "energy": 0.1096,
+        "duration": 0.213,
+        "loop": false,
+        "tier": 0.8571
+      },
+      {
+        "path": "res://assets/audio/rocket/spring_08.wav",
+        "energy": 0.108,
+        "duration": 0.322,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "rocket/body": [
+      {
+        "path": "res://assets/audio/rocket/body_01.wav",
+        "energy": 0.1438,
+        "duration": 0.35,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/rocket/body_02.wav",
+        "energy": 0.1414,
+        "duration": 0.35,
+        "loop": false,
+        "tier": 0.1429
+      },
+      {
+        "path": "res://assets/audio/rocket/body_03.wav",
+        "energy": 0.1438,
+        "duration": 0.35,
+        "loop": false,
+        "tier": 0.2857
+      },
+      {
+        "path": "res://assets/audio/rocket/body_04.wav",
+        "energy": 0.1378,
+        "duration": 0.35,
+        "loop": false,
+        "tier": 0.4286
+      },
+      {
+        "path": "res://assets/audio/rocket/body_05.wav",
+        "energy": 0.1397,
+        "duration": 0.35,
+        "loop": false,
+        "tier": 0.5714
+      },
+      {
+        "path": "res://assets/audio/rocket/body_06.wav",
+        "energy": 0.1374,
+        "duration": 0.35,
+        "loop": false,
+        "tier": 0.7143
+      },
+      {
+        "path": "res://assets/audio/rocket/body_07.wav",
+        "energy": 0.1404,
+        "duration": 0.35,
+        "loop": false,
+        "tier": 0.8571
+      },
+      {
+        "path": "res://assets/audio/rocket/body_08.wav",
+        "energy": 0.1419,
+        "duration": 0.35,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "rocket/head": [
+      {
+        "path": "res://assets/audio/rocket/head_01.wav",
+        "energy": 0.1714,
+        "duration": 0.55,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/rocket/head_02.wav",
+        "energy": 0.1747,
+        "duration": 0.55,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/rocket/head_03.wav",
+        "energy": 0.1699,
+        "duration": 0.55,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/rocket/head_04.wav",
+        "energy": 0.1755,
+        "duration": 0.55,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/rocket/head_05.wav",
+        "energy": 0.1712,
+        "duration": 0.55,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/rocket/head_06.wav",
+        "energy": 0.1696,
+        "duration": 0.55,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "rocket/limb": [
+      {
+        "path": "res://assets/audio/rocket/limb_01.wav",
+        "energy": 0.1376,
+        "duration": 0.57,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/rocket/limb_02.wav",
+        "energy": 0.141,
+        "duration": 0.541,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/rocket/limb_03.wav",
+        "energy": 0.1419,
+        "duration": 0.568,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/rocket/limb_04.wav",
+        "energy": 0.1427,
+        "duration": 0.566,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/rocket/limb_05.wav",
+        "energy": 0.1426,
+        "duration": 0.584,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/rocket/limb_06.wav",
+        "energy": 0.1424,
+        "duration": 0.599,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "rocket/voice": [
+      {
+        "path": "res://assets/audio/rocket/voice_01.wav",
+        "energy": 0.167,
+        "duration": 0.305,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/rocket/voice_02.wav",
+        "energy": 0.1586,
+        "duration": 0.365,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/rocket/voice_03.wav",
+        "energy": 0.1527,
+        "duration": 0.342,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/rocket/voice_04.wav",
+        "energy": 0.1551,
+        "duration": 0.33,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/rocket/voice_05.wav",
+        "energy": 0.1542,
+        "duration": 0.368,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/rocket/voice_06.wav",
+        "energy": 0.155,
+        "duration": 0.386,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "rocket/head_launch": [
+      {
+        "path": "res://assets/audio/rocket/head_launch_01.wav",
+        "energy": 0.1724,
+        "duration": 1.197,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/rocket/head_launch_02.wav",
+        "energy": 0.1621,
+        "duration": 1.222,
+        "loop": false,
+        "tier": 0.25
+      },
+      {
+        "path": "res://assets/audio/rocket/head_launch_03.wav",
+        "energy": 0.1798,
+        "duration": 1.199,
+        "loop": false,
+        "tier": 0.5
+      },
+      {
+        "path": "res://assets/audio/rocket/head_launch_04.wav",
+        "energy": 0.1735,
+        "duration": 1.157,
+        "loop": false,
+        "tier": 0.75
+      },
+      {
+        "path": "res://assets/audio/rocket/head_launch_05.wav",
+        "energy": 0.1547,
+        "duration": 1.199,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "rocket/rolling": [
+      {
+        "path": "res://assets/audio/rocket/rolling_01.wav",
+        "energy": 0.0556,
+        "duration": 2.85,
+        "loop": true,
+        "tier": 0.0
+      }
+    ],
+    "samurai/launch": [
+      {
+        "path": "res://assets/audio/samurai/launch_01.wav",
+        "energy": 0.1287,
+        "duration": 0.9,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/samurai/launch_02.wav",
+        "energy": 0.1288,
+        "duration": 0.9,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/samurai/launch_03.wav",
+        "energy": 0.1184,
+        "duration": 0.9,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/samurai/launch_04.wav",
+        "energy": 0.1263,
+        "duration": 0.9,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/samurai/launch_05.wav",
+        "energy": 0.1159,
+        "duration": 0.9,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/samurai/launch_06.wav",
+        "energy": 0.1237,
+        "duration": 0.837,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "samurai/spring": [
+      {
+        "path": "res://assets/audio/samurai/spring_01.wav",
+        "energy": 0.1185,
+        "duration": 0.296,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/samurai/spring_02.wav",
+        "energy": 0.1098,
+        "duration": 0.295,
+        "loop": false,
+        "tier": 0.1429
+      },
+      {
+        "path": "res://assets/audio/samurai/spring_03.wav",
+        "energy": 0.1114,
+        "duration": 0.297,
+        "loop": false,
+        "tier": 0.2857
+      },
+      {
+        "path": "res://assets/audio/samurai/spring_04.wav",
+        "energy": 0.1119,
+        "duration": 0.295,
+        "loop": false,
+        "tier": 0.4286
+      },
+      {
+        "path": "res://assets/audio/samurai/spring_05.wav",
+        "energy": 0.1132,
+        "duration": 0.297,
+        "loop": false,
+        "tier": 0.5714
+      },
+      {
+        "path": "res://assets/audio/samurai/spring_06.wav",
+        "energy": 0.1162,
+        "duration": 0.296,
+        "loop": false,
+        "tier": 0.7143
+      },
+      {
+        "path": "res://assets/audio/samurai/spring_07.wav",
+        "energy": 0.1127,
+        "duration": 0.295,
+        "loop": false,
+        "tier": 0.8571
+      },
+      {
+        "path": "res://assets/audio/samurai/spring_08.wav",
+        "energy": 0.1095,
+        "duration": 0.296,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "samurai/body": [
+      {
+        "path": "res://assets/audio/samurai/body_01.wav",
+        "energy": 0.1464,
+        "duration": 0.405,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/samurai/body_02.wav",
+        "energy": 0.1479,
+        "duration": 0.405,
+        "loop": false,
+        "tier": 0.1429
+      },
+      {
+        "path": "res://assets/audio/samurai/body_03.wav",
+        "energy": 0.1392,
+        "duration": 0.405,
+        "loop": false,
+        "tier": 0.2857
+      },
+      {
+        "path": "res://assets/audio/samurai/body_04.wav",
+        "energy": 0.137,
+        "duration": 0.405,
+        "loop": false,
+        "tier": 0.4286
+      },
+      {
+        "path": "res://assets/audio/samurai/body_05.wav",
+        "energy": 0.13,
+        "duration": 0.405,
+        "loop": false,
+        "tier": 0.5714
+      },
+      {
+        "path": "res://assets/audio/samurai/body_06.wav",
+        "energy": 0.1376,
+        "duration": 0.405,
+        "loop": false,
+        "tier": 0.7143
+      },
+      {
+        "path": "res://assets/audio/samurai/body_07.wav",
+        "energy": 0.137,
+        "duration": 0.405,
+        "loop": false,
+        "tier": 0.8571
+      },
+      {
+        "path": "res://assets/audio/samurai/body_08.wav",
+        "energy": 0.1288,
+        "duration": 0.405,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "samurai/head": [
+      {
+        "path": "res://assets/audio/samurai/head_01.wav",
+        "energy": 0.1322,
+        "duration": 0.5,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/samurai/head_02.wav",
+        "energy": 0.1323,
+        "duration": 0.5,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/samurai/head_03.wav",
+        "energy": 0.1326,
+        "duration": 0.5,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/samurai/head_04.wav",
+        "energy": 0.1326,
+        "duration": 0.5,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/samurai/head_05.wav",
+        "energy": 0.1292,
+        "duration": 0.5,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/samurai/head_06.wav",
+        "energy": 0.128,
+        "duration": 0.5,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "samurai/limb": [
+      {
+        "path": "res://assets/audio/samurai/limb_01.wav",
+        "energy": 0.1577,
+        "duration": 0.6,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/samurai/limb_02.wav",
+        "energy": 0.1529,
+        "duration": 0.6,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/samurai/limb_03.wav",
+        "energy": 0.1571,
+        "duration": 0.6,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/samurai/limb_04.wav",
+        "energy": 0.1589,
+        "duration": 0.6,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/samurai/limb_05.wav",
+        "energy": 0.1569,
+        "duration": 0.6,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/samurai/limb_06.wav",
+        "energy": 0.1522,
+        "duration": 0.6,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "samurai/voice": [
+      {
+        "path": "res://assets/audio/samurai/voice_01.wav",
+        "energy": 0.1402,
+        "duration": 0.473,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/samurai/voice_02.wav",
+        "energy": 0.1612,
+        "duration": 0.509,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/samurai/voice_03.wav",
+        "energy": 0.1522,
+        "duration": 0.587,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/samurai/voice_04.wav",
+        "energy": 0.1412,
+        "duration": 0.406,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/samurai/voice_05.wav",
+        "energy": 0.1512,
+        "duration": 0.404,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/samurai/voice_06.wav",
+        "energy": 0.141,
+        "duration": 0.462,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "samurai/head_launch": [
+      {
+        "path": "res://assets/audio/samurai/head_launch_01.wav",
+        "energy": 0.1658,
+        "duration": 1.188,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/samurai/head_launch_02.wav",
+        "energy": 0.1632,
+        "duration": 1.17,
+        "loop": false,
+        "tier": 0.25
+      },
+      {
+        "path": "res://assets/audio/samurai/head_launch_03.wav",
+        "energy": 0.1599,
+        "duration": 1.193,
+        "loop": false,
+        "tier": 0.5
+      },
+      {
+        "path": "res://assets/audio/samurai/head_launch_04.wav",
+        "energy": 0.1542,
+        "duration": 1.201,
+        "loop": false,
+        "tier": 0.75
+      },
+      {
+        "path": "res://assets/audio/samurai/head_launch_05.wav",
+        "energy": 0.1557,
+        "duration": 1.189,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "samurai/rolling": [
+      {
+        "path": "res://assets/audio/samurai/rolling_01.wav",
+        "energy": 0.0676,
+        "duration": 2.85,
+        "loop": true,
+        "tier": 0.0
+      }
+    ],
+    "common/click": [
+      {
+        "path": "res://assets/audio/ui_v38/click_01.wav",
+        "energy": 0.0358,
+        "duration": 0.07,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/ui_v38/click_02.wav",
+        "energy": 0.0356,
+        "duration": 0.07,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/ui_v38/click_03.wav",
+        "energy": 0.0355,
+        "duration": 0.07,
+        "loop": false,
+        "tier": 0.0
+      }
+    ],
+    "common/back": [
+      {
+        "path": "res://assets/audio/ui_v38/back_01.wav",
+        "energy": 0.0422,
+        "duration": 0.16,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/ui_v38/back_02.wav",
+        "energy": 0.042,
+        "duration": 0.16,
+        "loop": false,
+        "tier": 0.0
+      }
+    ],
+    "common/browse": [
+      {
+        "path": "res://assets/audio/ui_v38/browse_01.wav",
+        "energy": 0.0242,
+        "duration": 0.05,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/ui_v38/browse_02.wav",
+        "energy": 0.0242,
+        "duration": 0.05,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/ui_v38/browse_03.wav",
+        "energy": 0.024,
+        "duration": 0.05,
+        "loop": false,
+        "tier": 0.0
+      }
+    ],
+    "common/confirm": [
+      {
+        "path": "res://assets/audio/ui_v38/confirm_01.wav",
+        "energy": 0.0532,
+        "duration": 0.195,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/ui_v38/confirm_02.wav",
+        "energy": 0.0529,
+        "duration": 0.195,
+        "loop": false,
+        "tier": 0.0
+      }
+    ],
+    "common/module_install": [
+      {
+        "path": "res://assets/audio/ui_v38/module_install_01.wav",
+        "energy": 0.0531,
+        "duration": 0.13,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/ui_v38/module_install_02.wav",
+        "energy": 0.0522,
+        "duration": 0.13,
+        "loop": false,
+        "tier": 0.0
+      }
+    ],
+    "common/module_remove": [
+      {
+        "path": "res://assets/audio/ui_v38/module_remove_01.wav",
+        "energy": 0.0472,
+        "duration": 0.095,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/ui_v38/module_remove_02.wav",
+        "energy": 0.0475,
+        "duration": 0.095,
+        "loop": false,
+        "tier": 0.0
+      }
+    ],
+    "common/countdown": [
+      {
+        "path": "res://assets/audio/ui_v38/countdown_01.wav",
+        "energy": 0.0593,
+        "duration": 0.12,
+        "loop": false,
+        "tier": 0.0
+      }
+    ],
+    "common/go": [
+      {
+        "path": "res://assets/audio/ui_v38/go_01.wav",
+        "energy": 0.0826,
+        "duration": 0.3,
+        "loop": false,
+        "tier": 0.0
+      }
+    ],
+    "common/coin": [
+      {
+        "path": "res://assets/audio/ui_v38/coin_01.wav",
+        "energy": 0.0455,
+        "duration": 0.175,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/ui_v38/coin_02.wav",
+        "energy": 0.0446,
+        "duration": 0.175,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/ui_v38/coin_03.wav",
+        "energy": 0.0456,
+        "duration": 0.175,
+        "loop": false,
+        "tier": 0.0
+      }
+    ],
+    "common/purchase": [
+      {
+        "path": "res://assets/audio/ui_v38/purchase_01.wav",
+        "energy": 0.0731,
+        "duration": 0.29,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/ui_v38/purchase_02.wav",
+        "energy": 0.0717,
+        "duration": 0.29,
+        "loop": false,
+        "tier": 0.0
+      }
+    ],
+    "common/unlock": [
+      {
+        "path": "res://assets/audio/ui_v38/unlock_01.wav",
+        "energy": 0.0831,
+        "duration": 0.55,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/ui_v38/unlock_02.wav",
+        "energy": 0.0821,
+        "duration": 0.55,
+        "loop": false,
+        "tier": 0.0
+      }
+    ],
+    "common/star": [
+      {
+        "path": "res://assets/audio/ui_v38/star_01.wav",
+        "energy": 0.0638,
+        "duration": 0.3,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/ui_v38/star_02.wav",
+        "energy": 0.0625,
+        "duration": 0.3,
+        "loop": false,
+        "tier": 0.0
+      }
+    ],
+    "common/all_stars": [
+      {
+        "path": "res://assets/audio/ui_v38/all_stars_01.wav",
+        "energy": 0.0863,
+        "duration": 0.81,
+        "loop": false,
+        "tier": 0.0
+      }
+    ],
+    "common/record": [
+      {
+        "path": "res://assets/audio/ui_v38/record_01.wav",
+        "energy": 0.0995,
+        "duration": 0.61,
+        "loop": false,
+        "tier": 0.0
+      }
+    ],
+    "common/victory": [
+      {
+        "path": "res://assets/audio/ui_v38/victory_01.wav",
+        "energy": 0.0929,
+        "duration": 0.72,
+        "loop": false,
+        "tier": 0.0
+      }
+    ],
+    "common/defeat": [
+      {
+        "path": "res://assets/audio/ui_v38/defeat_01.wav",
+        "energy": 0.0673,
+        "duration": 0.61,
+        "loop": false,
+        "tier": 0.0
+      }
+    ],
+    "common/energy": [
+      {
+        "path": "res://assets/audio/common/energy_01.wav",
+        "energy": 0.0648,
+        "duration": 0.232,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/common/energy_02.wav",
+        "energy": 0.0617,
+        "duration": 0.179,
+        "loop": false,
+        "tier": 0.1667
+      },
+      {
+        "path": "res://assets/audio/common/energy_03.wav",
+        "energy": 0.0642,
+        "duration": 0.233,
+        "loop": false,
+        "tier": 0.3333
+      },
+      {
+        "path": "res://assets/audio/common/energy_04.wav",
+        "energy": 0.0616,
+        "duration": 0.167,
+        "loop": false,
+        "tier": 0.5
+      },
+      {
+        "path": "res://assets/audio/common/energy_05.wav",
+        "energy": 0.0835,
+        "duration": 0.273,
+        "loop": false,
+        "tier": 0.6667
+      },
+      {
+        "path": "res://assets/audio/common/energy_06.wav",
+        "energy": 0.0836,
+        "duration": 0.527,
+        "loop": false,
+        "tier": 0.8333
+      },
+      {
+        "path": "res://assets/audio/common/energy_07.wav",
+        "energy": 0.0824,
+        "duration": 0.506,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "common/flight": [
+      {
+        "path": "res://assets/audio/common/flight_01.wav",
+        "energy": 0.074,
+        "duration": 2.85,
+        "loop": true,
+        "tier": 0.0
+      }
+    ],
+    "common/anomaly_electric": [
+      {
+        "path": "res://assets/audio/common/anomaly_electric_01.wav",
+        "energy": 0.079,
+        "duration": 0.78,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/common/anomaly_electric_02.wav",
+        "energy": 0.0591,
+        "duration": 0.78,
+        "loop": false,
+        "tier": 0.5
+      },
+      {
+        "path": "res://assets/audio/common/anomaly_electric_03.wav",
+        "energy": 0.083,
+        "duration": 0.78,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "common/anomaly_geiger": [
+      {
+        "path": "res://assets/audio/common/anomaly_geiger_01.wav",
+        "energy": 0.0524,
+        "duration": 0.85,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/common/anomaly_geiger_02.wav",
+        "energy": 0.0493,
+        "duration": 0.85,
+        "loop": false,
+        "tier": 0.5
+      },
+      {
+        "path": "res://assets/audio/common/anomaly_geiger_03.wav",
+        "energy": 0.0465,
+        "duration": 0.85,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "samurai_v37/launch": [
+      {
+        "path": "res://assets/audio/samurai_v37/launch_01.wav",
+        "energy": 0.0661,
+        "duration": 1.495,
+        "loop": false,
+        "tier": 0.0,
+        "source_s": 6.07
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_02.wav",
+        "energy": 0.0642,
+        "duration": 1.576,
+        "loop": false,
+        "tier": 0.0345,
+        "source_s": 30.04
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_03.wav",
+        "energy": 0.0689,
+        "duration": 1.6,
+        "loop": false,
+        "tier": 0.069,
+        "source_s": 42.04
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_04.wav",
+        "energy": 0.0648,
+        "duration": 1.525,
+        "loop": false,
+        "tier": 0.1034,
+        "source_s": 18.05
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_05.wav",
+        "energy": 0.0654,
+        "duration": 1.46,
+        "loop": false,
+        "tier": 0.1379,
+        "source_s": 0.06
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_06.wav",
+        "energy": 0.0831,
+        "duration": 1.569,
+        "loop": false,
+        "tier": 0.1724,
+        "source_s": 48.04
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_07.wav",
+        "energy": 0.0807,
+        "duration": 1.54,
+        "loop": false,
+        "tier": 0.2069,
+        "source_s": 24.04
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_08.wav",
+        "energy": 0.0769,
+        "duration": 1.724,
+        "loop": false,
+        "tier": 0.2414,
+        "source_s": 168.02
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_09.wav",
+        "energy": 0.0808,
+        "duration": 1.561,
+        "loop": false,
+        "tier": 0.2759,
+        "source_s": 12.04
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_10.wav",
+        "energy": 0.0802,
+        "duration": 1.588,
+        "loop": false,
+        "tier": 0.3103,
+        "source_s": 72.03
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_11.wav",
+        "energy": 0.0766,
+        "duration": 1.673,
+        "loop": false,
+        "tier": 0.3448,
+        "source_s": 102.03
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_12.wav",
+        "energy": 0.0746,
+        "duration": 1.765,
+        "loop": false,
+        "tier": 0.3793,
+        "source_s": 162.02
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_13.wav",
+        "energy": 0.0841,
+        "duration": 1.723,
+        "loop": false,
+        "tier": 0.4138,
+        "source_s": 132.02
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_14.wav",
+        "energy": 0.077,
+        "duration": 1.677,
+        "loop": false,
+        "tier": 0.4483,
+        "source_s": 126.03
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_15.wav",
+        "energy": 0.0781,
+        "duration": 1.657,
+        "loop": false,
+        "tier": 0.4828,
+        "source_s": 120.03
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_16.wav",
+        "energy": 0.08,
+        "duration": 1.586,
+        "loop": false,
+        "tier": 0.5172,
+        "source_s": 96.03
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_17.wav",
+        "energy": 0.0775,
+        "duration": 1.681,
+        "loop": false,
+        "tier": 0.5517,
+        "source_s": 144.03
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_18.wav",
+        "energy": 0.0793,
+        "duration": 1.6,
+        "loop": false,
+        "tier": 0.5862,
+        "source_s": 84.04
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_19.wav",
+        "energy": 0.0747,
+        "duration": 1.767,
+        "loop": false,
+        "tier": 0.6207,
+        "source_s": 138.02
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_20.wav",
+        "energy": 0.0783,
+        "duration": 1.627,
+        "loop": false,
+        "tier": 0.6552,
+        "source_s": 66.03
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_21.wav",
+        "energy": 0.0797,
+        "duration": 1.595,
+        "loop": false,
+        "tier": 0.6897,
+        "source_s": 60.03
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_22.wav",
+        "energy": 0.0781,
+        "duration": 1.63,
+        "loop": false,
+        "tier": 0.7241,
+        "source_s": 114.03
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_23.wav",
+        "energy": 0.0787,
+        "duration": 1.641,
+        "loop": false,
+        "tier": 0.7586,
+        "source_s": 108.03
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_24.wav",
+        "energy": 0.0846,
+        "duration": 1.684,
+        "loop": false,
+        "tier": 0.7931,
+        "source_s": 174.02
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_25.wav",
+        "energy": 0.0778,
+        "duration": 1.709,
+        "loop": false,
+        "tier": 0.8276,
+        "source_s": 36.04
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_26.wav",
+        "energy": 0.0777,
+        "duration": 1.636,
+        "loop": false,
+        "tier": 0.8621,
+        "source_s": 90.02
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_27.wav",
+        "energy": 0.0771,
+        "duration": 1.737,
+        "loop": false,
+        "tier": 0.8966,
+        "source_s": 156.02
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_28.wav",
+        "energy": 0.0765,
+        "duration": 1.683,
+        "loop": false,
+        "tier": 0.931,
+        "source_s": 150.02
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_29.wav",
+        "energy": 0.0785,
+        "duration": 1.627,
+        "loop": false,
+        "tier": 0.9655,
+        "source_s": 78.03
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/launch_30.wav",
+        "energy": 0.0767,
+        "duration": 1.683,
+        "loop": false,
+        "tier": 1.0,
+        "source_s": 54.03
+      }
+    ],
+    "samurai_v37/spring": [
+      {
+        "path": "res://assets/audio/samurai_v37/spring_01.wav",
+        "energy": 0.0576,
+        "duration": 0.714,
+        "loop": false,
+        "tier": 0.0,
+        "source_s": 29.15
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/spring_02.wav",
+        "energy": 0.0837,
+        "duration": 0.886,
+        "loop": false,
+        "tier": 0.0588,
+        "source_s": 26.85
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/spring_03.wav",
+        "energy": 0.0819,
+        "duration": 1.0,
+        "loop": false,
+        "tier": 0.1176,
+        "source_s": 22.0
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/spring_04.wav",
+        "energy": 0.0997,
+        "duration": 0.586,
+        "loop": false,
+        "tier": 0.1765,
+        "source_s": 4.66
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/spring_05.wav",
+        "energy": 0.0876,
+        "duration": 0.733,
+        "loop": false,
+        "tier": 0.2353,
+        "source_s": 13.52
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/spring_06.wav",
+        "energy": 0.0771,
+        "duration": 0.799,
+        "loop": false,
+        "tier": 0.2941,
+        "source_s": 24.57
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/spring_07.wav",
+        "energy": 0.0902,
+        "duration": 0.883,
+        "loop": false,
+        "tier": 0.3529,
+        "source_s": 6.79
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/spring_08.wav",
+        "energy": 0.0847,
+        "duration": 0.875,
+        "loop": false,
+        "tier": 0.4118,
+        "source_s": 19.2
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/spring_09.wav",
+        "energy": 0.0649,
+        "duration": 0.649,
+        "loop": false,
+        "tier": 0.4706,
+        "source_s": 9.33
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/spring_10.wav",
+        "energy": 0.0841,
+        "duration": 0.583,
+        "loop": false,
+        "tier": 0.5294,
+        "source_s": 11.39
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/spring_11.wav",
+        "energy": 0.1004,
+        "duration": 0.854,
+        "loop": false,
+        "tier": 0.5882,
+        "source_s": 16.15
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/spring_12.wav",
+        "energy": 0.0857,
+        "duration": 0.687,
+        "loop": false,
+        "tier": 0.6471,
+        "source_s": 2.4
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/spring_13.wav",
+        "energy": 0.0775,
+        "duration": 0.96,
+        "loop": false,
+        "tier": 0.7059,
+        "source_s": 32.46
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/spring_14.wav",
+        "energy": 0.1165,
+        "duration": 0.704,
+        "loop": false,
+        "tier": 0.7647,
+        "source_s": 41.36
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/spring_15.wav",
+        "energy": 0.0849,
+        "duration": 0.756,
+        "loop": false,
+        "tier": 0.8235,
+        "source_s": 0.06
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/spring_16.wav",
+        "energy": 0.0858,
+        "duration": 0.682,
+        "loop": false,
+        "tier": 0.8824,
+        "source_s": 44.14
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/spring_17.wav",
+        "energy": 0.103,
+        "duration": 0.833,
+        "loop": false,
+        "tier": 0.9412,
+        "source_s": 35.4
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/spring_18.wav",
+        "energy": 0.0947,
+        "duration": 0.623,
+        "loop": false,
+        "tier": 1.0,
+        "source_s": 38.59
+      }
+    ],
+    "samurai_v37/body": [
+      {
+        "path": "res://assets/audio/samurai_v37/body_01.wav",
+        "energy": 0.091,
+        "duration": 0.992,
+        "loop": false,
+        "tier": 0.0,
+        "source_s": 8.34
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/body_02.wav",
+        "energy": 0.0792,
+        "duration": 1.292,
+        "loop": false,
+        "tier": 0.1429,
+        "source_s": 24.05
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/body_03.wav",
+        "energy": 0.084,
+        "duration": 0.672,
+        "loop": false,
+        "tier": 0.2857,
+        "source_s": 0.36
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/body_04.wav",
+        "energy": 0.0861,
+        "duration": 0.936,
+        "loop": false,
+        "tier": 0.4286,
+        "source_s": 4.34
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/body_05.wav",
+        "energy": 0.0795,
+        "duration": 1.224,
+        "loop": false,
+        "tier": 0.5714,
+        "source_s": 21.05
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/body_06.wav",
+        "energy": 0.092,
+        "duration": 0.931,
+        "loop": false,
+        "tier": 0.7143,
+        "source_s": 12.3
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/body_07.wav",
+        "energy": 0.0861,
+        "duration": 1.077,
+        "loop": false,
+        "tier": 0.8571,
+        "source_s": 16.28
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/body_08.wav",
+        "energy": 0.1132,
+        "duration": 1.092,
+        "loop": false,
+        "tier": 1.0,
+        "source_s": 14.1
+      }
+    ],
+    "samurai_v37/crash": [
+      {
+        "path": "res://assets/audio/samurai_v37/crash_01.wav",
+        "energy": 0.0935,
+        "duration": 2.926,
+        "loop": false,
+        "tier": 0.0,
+        "source_s": 35.87
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/crash_02.wav",
+        "energy": 0.1009,
+        "duration": 2.814,
+        "loop": false,
+        "tier": 0.5,
+        "source_s": 41.11
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/crash_03.wav",
+        "energy": 0.108,
+        "duration": 2.374,
+        "loop": false,
+        "tier": 1.0,
+        "source_s": 28.39
+      }
+    ],
+    "samurai_v37/head_impact": [
+      {
+        "path": "res://assets/audio/samurai_v37/head_impact_01.wav",
+        "energy": 0.0618,
+        "duration": 0.689,
+        "loop": false,
+        "tier": 0.0,
+        "source_s": 40.01
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/head_impact_02.wav",
+        "energy": 0.0892,
+        "duration": 0.663,
+        "loop": false,
+        "tier": 0.125,
+        "source_s": 5.98
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/head_impact_03.wav",
+        "energy": 0.081,
+        "duration": 0.746,
+        "loop": false,
+        "tier": 0.25,
+        "source_s": 0.01
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/head_impact_04.wav",
+        "energy": 0.0779,
+        "duration": 0.543,
+        "loop": false,
+        "tier": 0.375,
+        "source_s": 29.97
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/head_impact_05.wav",
+        "energy": 0.0755,
+        "duration": 0.644,
+        "loop": false,
+        "tier": 0.5,
+        "source_s": 17.96
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/head_impact_06.wav",
+        "energy": 0.0833,
+        "duration": 0.836,
+        "loop": false,
+        "tier": 0.625,
+        "source_s": 42.0
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/head_impact_07.wav",
+        "energy": 0.0819,
+        "duration": 0.799,
+        "loop": false,
+        "tier": 0.75,
+        "source_s": 24.0
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/head_impact_08.wav",
+        "energy": 0.0805,
+        "duration": 0.716,
+        "loop": false,
+        "tier": 0.875,
+        "source_s": 12.0
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/head_impact_09.wav",
+        "energy": 0.0994,
+        "duration": 2.609,
+        "loop": false,
+        "tier": 1.0,
+        "source_s": 34.5
+      }
+    ],
+    "samurai_v37/limb_lost": [
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_01.wav",
+        "energy": 0.0549,
+        "duration": 1.6,
+        "loop": false,
+        "tier": 0.0,
+        "source_s": 84.15
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_02.wav",
+        "energy": 0.0653,
+        "duration": 1.6,
+        "loop": false,
+        "tier": 0.02,
+        "source_s": 60.15
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_03.wav",
+        "energy": 0.0601,
+        "duration": 0.617,
+        "loop": false,
+        "tier": 0.04,
+        "source_s": 40.15
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_04.wav",
+        "energy": 0.0595,
+        "duration": 1.6,
+        "loop": false,
+        "tier": 0.06,
+        "source_s": 44.13
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_05.wav",
+        "energy": 0.0765,
+        "duration": 1.6,
+        "loop": false,
+        "tier": 0.08,
+        "source_s": 76.15
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_06.wav",
+        "energy": 0.0631,
+        "duration": 0.717,
+        "loop": false,
+        "tier": 0.1,
+        "source_s": 100.09
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_07.wav",
+        "energy": 0.0629,
+        "duration": 1.6,
+        "loop": false,
+        "tier": 0.12,
+        "source_s": 52.12
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_08.wav",
+        "energy": 0.0724,
+        "duration": 0.687,
+        "loop": false,
+        "tier": 0.14,
+        "source_s": 102.11
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_09.wav",
+        "energy": 0.0825,
+        "duration": 0.525,
+        "loop": false,
+        "tier": 0.16,
+        "source_s": 8.14
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_10.wav",
+        "energy": 0.0821,
+        "duration": 0.582,
+        "loop": false,
+        "tier": 0.18,
+        "source_s": 4.14
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_11.wav",
+        "energy": 0.0701,
+        "duration": 0.802,
+        "loop": false,
+        "tier": 0.2,
+        "source_s": 36.14
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_12.wav",
+        "energy": 0.0801,
+        "duration": 0.652,
+        "loop": false,
+        "tier": 0.22,
+        "source_s": 143.16
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_13.wav",
+        "energy": 0.0767,
+        "duration": 0.668,
+        "loop": false,
+        "tier": 0.24,
+        "source_s": 64.14
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_14.wav",
+        "energy": 0.0813,
+        "duration": 1.6,
+        "loop": false,
+        "tier": 0.26,
+        "source_s": 91.15
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_15.wav",
+        "energy": 0.0947,
+        "duration": 0.311,
+        "loop": false,
+        "tier": 0.28,
+        "source_s": 110.15
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_16.wav",
+        "energy": 0.0734,
+        "duration": 0.932,
+        "loop": false,
+        "tier": 0.3,
+        "source_s": 144.1
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_17.wav",
+        "energy": 0.0735,
+        "duration": 1.6,
+        "loop": false,
+        "tier": 0.32,
+        "source_s": 123.16
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_18.wav",
+        "energy": 0.0734,
+        "duration": 0.663,
+        "loop": false,
+        "tier": 0.34,
+        "source_s": 96.14
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_19.wav",
+        "energy": 0.0805,
+        "duration": 0.656,
+        "loop": false,
+        "tier": 0.36,
+        "source_s": 72.14
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_20.wav",
+        "energy": 0.0765,
+        "duration": 0.675,
+        "loop": false,
+        "tier": 0.38,
+        "source_s": 104.14
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_21.wav",
+        "energy": 0.0749,
+        "duration": 0.67,
+        "loop": false,
+        "tier": 0.4,
+        "source_s": 56.14
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_22.wav",
+        "energy": 0.08,
+        "duration": 0.547,
+        "loop": false,
+        "tier": 0.42,
+        "source_s": 20.1
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_23.wav",
+        "energy": 0.0782,
+        "duration": 0.711,
+        "loop": false,
+        "tier": 0.44,
+        "source_s": 32.14
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_24.wav",
+        "energy": 0.0714,
+        "duration": 0.543,
+        "loop": false,
+        "tier": 0.46,
+        "source_s": 28.15
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_25.wav",
+        "energy": 0.0853,
+        "duration": 0.668,
+        "loop": false,
+        "tier": 0.48,
+        "source_s": 80.13
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_26.wav",
+        "energy": 0.0868,
+        "duration": 0.297,
+        "loop": false,
+        "tier": 0.5,
+        "source_s": 146.1
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_27.wav",
+        "energy": 0.0836,
+        "duration": 0.532,
+        "loop": false,
+        "tier": 0.52,
+        "source_s": 0.16
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_28.wav",
+        "energy": 0.0786,
+        "duration": 0.601,
+        "loop": false,
+        "tier": 0.54,
+        "source_s": 16.14
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_29.wav",
+        "energy": 0.0827,
+        "duration": 0.71,
+        "loop": false,
+        "tier": 0.56,
+        "source_s": 140.16
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_30.wav",
+        "energy": 0.1037,
+        "duration": 0.324,
+        "loop": false,
+        "tier": 0.58,
+        "source_s": 142.12
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_31.wav",
+        "energy": 0.0983,
+        "duration": 0.334,
+        "loop": false,
+        "tier": 0.6,
+        "source_s": 106.12
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_32.wav",
+        "energy": 0.0843,
+        "duration": 0.67,
+        "loop": false,
+        "tier": 0.62,
+        "source_s": 120.14
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_33.wav",
+        "energy": 0.0818,
+        "duration": 0.374,
+        "loop": false,
+        "tier": 0.64,
+        "source_s": 134.1
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_34.wav",
+        "energy": 0.086,
+        "duration": 0.318,
+        "loop": false,
+        "tier": 0.66,
+        "source_s": 66.14
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_35.wav",
+        "energy": 0.0792,
+        "duration": 0.404,
+        "loop": false,
+        "tier": 0.68,
+        "source_s": 48.16
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_36.wav",
+        "energy": 0.091,
+        "duration": 0.359,
+        "loop": false,
+        "tier": 0.7,
+        "source_s": 98.12
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_37.wav",
+        "energy": 0.0865,
+        "duration": 0.577,
+        "loop": false,
+        "tier": 0.72,
+        "source_s": 12.16
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_38.wav",
+        "energy": 0.0899,
+        "duration": 0.863,
+        "loop": false,
+        "tier": 0.74,
+        "source_s": 131.94
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_39.wav",
+        "energy": 0.0933,
+        "duration": 0.313,
+        "loop": false,
+        "tier": 0.76,
+        "source_s": 50.14
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_40.wav",
+        "energy": 0.0829,
+        "duration": 0.695,
+        "loop": false,
+        "tier": 0.78,
+        "source_s": 108.12
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_41.wav",
+        "energy": 0.0885,
+        "duration": 0.499,
+        "loop": false,
+        "tier": 0.8,
+        "source_s": 24.13
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_42.wav",
+        "energy": 0.0809,
+        "duration": 0.331,
+        "loop": false,
+        "tier": 0.82,
+        "source_s": 82.12
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_43.wav",
+        "energy": 0.0999,
+        "duration": 0.324,
+        "loop": false,
+        "tier": 0.84,
+        "source_s": 74.12
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_44.wav",
+        "energy": 0.0924,
+        "duration": 0.354,
+        "loop": false,
+        "tier": 0.86,
+        "source_s": 114.11
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_45.wav",
+        "energy": 0.0888,
+        "duration": 0.732,
+        "loop": false,
+        "tier": 0.88,
+        "source_s": 112.07
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_46.wav",
+        "energy": 0.0954,
+        "duration": 0.315,
+        "loop": false,
+        "tier": 0.9,
+        "source_s": 58.14
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_47.wav",
+        "energy": 0.0936,
+        "duration": 1.6,
+        "loop": false,
+        "tier": 0.92,
+        "source_s": 114.98
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_48.wav",
+        "energy": 0.0847,
+        "duration": 0.679,
+        "loop": false,
+        "tier": 0.94,
+        "source_s": 128.13
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_49.wav",
+        "energy": 0.0844,
+        "duration": 0.666,
+        "loop": false,
+        "tier": 0.96,
+        "source_s": 68.15
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_50.wav",
+        "energy": 0.0967,
+        "duration": 1.049,
+        "loop": false,
+        "tier": 0.98,
+        "source_s": 136.02
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/limb_lost_51.wav",
+        "energy": 0.098,
+        "duration": 0.9,
+        "loop": false,
+        "tier": 1.0,
+        "source_s": 147.59
+      }
+    ],
+    "samurai_v37/head_launch": [
+      {
+        "path": "res://assets/audio/samurai_v37/head_launch_01.wav",
+        "energy": 0.095,
+        "duration": 2.649,
+        "loop": false,
+        "tier": 0.0,
+        "source_s": 0.14
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/head_launch_02.wav",
+        "energy": 0.1109,
+        "duration": 2.168,
+        "loop": false,
+        "tier": 0.1667,
+        "source_s": 9.75
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/head_launch_03.wav",
+        "energy": 0.107,
+        "duration": 2.172,
+        "loop": false,
+        "tier": 0.3333,
+        "source_s": 4.98
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/head_launch_04.wav",
+        "energy": 0.1047,
+        "duration": 4.651,
+        "loop": false,
+        "tier": 0.5,
+        "source_s": 28.88
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/head_launch_05.wav",
+        "energy": 0.1276,
+        "duration": 2.467,
+        "loop": false,
+        "tier": 0.6667,
+        "source_s": 24.1
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/head_launch_06.wav",
+        "energy": 0.1307,
+        "duration": 2.18,
+        "loop": false,
+        "tier": 0.8333,
+        "source_s": 19.35
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/head_launch_07.wav",
+        "energy": 0.1286,
+        "duration": 2.595,
+        "loop": false,
+        "tier": 1.0,
+        "source_s": 14.55
+      }
+    ],
+    "samurai_v37/shout": [
+      {
+        "path": "res://assets/audio/samurai_v37/shout_01.wav",
+        "energy": 0.0916,
+        "duration": 0.504,
+        "loop": false,
+        "tier": 0.0,
+        "source_s": 3.31
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/shout_02.wav",
+        "energy": 0.1366,
+        "duration": 0.601,
+        "loop": false,
+        "tier": 0.0833,
+        "source_s": 8.63
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/shout_03.wav",
+        "energy": 0.1122,
+        "duration": 0.657,
+        "loop": false,
+        "tier": 0.1667,
+        "source_s": 11.34
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/shout_04.wav",
+        "energy": 0.1109,
+        "duration": 0.683,
+        "loop": false,
+        "tier": 0.25,
+        "source_s": 5.96
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/shout_05.wav",
+        "energy": 0.1118,
+        "duration": 0.803,
+        "loop": false,
+        "tier": 0.3333,
+        "source_s": 32.6
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/shout_06.wav",
+        "energy": 0.1045,
+        "duration": 1.081,
+        "loop": false,
+        "tier": 0.4167,
+        "source_s": 27.3
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/shout_07.wav",
+        "energy": 0.1217,
+        "duration": 0.67,
+        "loop": false,
+        "tier": 0.5,
+        "source_s": 0.65
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/shout_08.wav",
+        "energy": 0.11,
+        "duration": 0.693,
+        "loop": false,
+        "tier": 0.5833,
+        "source_s": 29.94
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/shout_09.wav",
+        "energy": 0.1062,
+        "duration": 0.772,
+        "loop": false,
+        "tier": 0.6667,
+        "source_s": 19.32
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/shout_10.wav",
+        "energy": 0.1112,
+        "duration": 0.845,
+        "loop": false,
+        "tier": 0.75,
+        "source_s": 13.99
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/shout_11.wav",
+        "energy": 0.1044,
+        "duration": 0.689,
+        "loop": false,
+        "tier": 0.8333,
+        "source_s": 24.65
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/shout_12.wav",
+        "energy": 0.0975,
+        "duration": 0.714,
+        "loop": false,
+        "tier": 0.9167,
+        "source_s": 21.95
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/shout_13.wav",
+        "energy": 0.1116,
+        "duration": 0.739,
+        "loop": false,
+        "tier": 1.0,
+        "source_s": 16.64
+      }
+    ],
+    "samurai_v37/energy": [
+      {
+        "path": "res://assets/audio/samurai_v37/energy_01.wav",
+        "energy": 0.041,
+        "duration": 0.738,
+        "loop": false,
+        "tier": 0.0,
+        "source_s": 11.99
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/energy_02.wav",
+        "energy": 0.0529,
+        "duration": 0.668,
+        "loop": false,
+        "tier": 0.1667,
+        "source_s": 16.0
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/energy_03.wav",
+        "energy": 0.049,
+        "duration": 0.692,
+        "loop": false,
+        "tier": 0.3333,
+        "source_s": 7.96
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/energy_04.wav",
+        "energy": 0.0573,
+        "duration": 0.831,
+        "loop": false,
+        "tier": 0.5,
+        "source_s": 19.99
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/energy_05.wav",
+        "energy": 0.0524,
+        "duration": 0.681,
+        "loop": false,
+        "tier": 0.6667,
+        "source_s": 0.09
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/energy_06.wav",
+        "energy": 0.047,
+        "duration": 1.382,
+        "loop": false,
+        "tier": 0.8333,
+        "source_s": 23.58
+      },
+      {
+        "path": "res://assets/audio/samurai_v37/energy_07.wav",
+        "energy": 0.0475,
+        "duration": 1.33,
+        "loop": false,
+        "tier": 1.0,
+        "source_s": 27.57
+      }
+    ],
+    "samurai_v37/head_flight": [
+      {
+        "path": "res://assets/audio/samurai_v37/head_flight_01.wav",
+        "energy": 0.0576,
+        "duration": 7.75,
+        "loop": true,
+        "tier": 0.0,
+        "source_s": 20.0
+      }
+    ],
+    "samurai_v37/head_rolling": [
+      {
+        "path": "res://assets/audio/samurai_v37/head_rolling_01.wav",
+        "energy": 0.0438,
+        "duration": 7.75,
+        "loop": true,
+        "tier": 0.0,
+        "source_s": 48.0
+      }
+    ],
+    "common/charge_hum": [
+      {
+        "path": "res://assets/audio/ui_v38/charge_hum_01.wav",
+        "energy": 0.0493,
+        "duration": 2.0,
+        "loop": true,
+        "tier": 0.0
+      }
+    ],
+    "v39/tin_step": [
+      {
+        "path": "res://assets/audio/v39/tin_step_01.wav",
+        "energy": 0.0415,
+        "duration": 0.419,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/tin_step_02.wav",
+        "energy": 0.0414,
+        "duration": 0.398,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/v39/tin_step_03.wav",
+        "energy": 0.0425,
+        "duration": 0.434,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/v39/tin_step_04.wav",
+        "energy": 0.0424,
+        "duration": 0.412,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/v39/tin_step_05.wav",
+        "energy": 0.0425,
+        "duration": 0.437,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/v39/tin_step_06.wav",
+        "energy": 0.0425,
+        "duration": 0.436,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/tin_land": [
+      {
+        "path": "res://assets/audio/v39/tin_land_01.wav",
+        "energy": 0.1013,
+        "duration": 0.72,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/tin_land_02.wav",
+        "energy": 0.1036,
+        "duration": 0.718,
+        "loop": false,
+        "tier": 0.1429
+      },
+      {
+        "path": "res://assets/audio/v39/tin_land_03.wav",
+        "energy": 0.1014,
+        "duration": 0.737,
+        "loop": false,
+        "tier": 0.2857
+      },
+      {
+        "path": "res://assets/audio/v39/tin_land_04.wav",
+        "energy": 0.0974,
+        "duration": 0.683,
+        "loop": false,
+        "tier": 0.4286
+      },
+      {
+        "path": "res://assets/audio/v39/tin_land_05.wav",
+        "energy": 0.0941,
+        "duration": 0.69,
+        "loop": false,
+        "tier": 0.5714
+      },
+      {
+        "path": "res://assets/audio/v39/tin_land_06.wav",
+        "energy": 0.1044,
+        "duration": 0.722,
+        "loop": false,
+        "tier": 0.7143
+      },
+      {
+        "path": "res://assets/audio/v39/tin_land_07.wav",
+        "energy": 0.1035,
+        "duration": 0.74,
+        "loop": false,
+        "tier": 0.8571
+      },
+      {
+        "path": "res://assets/audio/v39/tin_land_08.wav",
+        "energy": 0.1082,
+        "duration": 0.693,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/tin_body": [
+      {
+        "path": "res://assets/audio/v39/tin_body_01.wav",
+        "energy": 0.1074,
+        "duration": 0.661,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/tin_body_02.wav",
+        "energy": 0.1094,
+        "duration": 0.631,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/v39/tin_body_03.wav",
+        "energy": 0.0987,
+        "duration": 0.695,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/v39/tin_body_04.wav",
+        "energy": 0.0999,
+        "duration": 0.661,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/v39/tin_body_05.wav",
+        "energy": 0.1067,
+        "duration": 0.485,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/v39/tin_body_06.wav",
+        "energy": 0.1055,
+        "duration": 0.482,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/tin_crash": [
+      {
+        "path": "res://assets/audio/v39/tin_crash_01.wav",
+        "energy": 0.0968,
+        "duration": 0.776,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/tin_crash_02.wav",
+        "energy": 0.113,
+        "duration": 0.755,
+        "loop": false,
+        "tier": 0.3333
+      },
+      {
+        "path": "res://assets/audio/v39/tin_crash_03.wav",
+        "energy": 0.1126,
+        "duration": 0.755,
+        "loop": false,
+        "tier": 0.6667
+      },
+      {
+        "path": "res://assets/audio/v39/tin_crash_04.wav",
+        "energy": 0.0945,
+        "duration": 0.767,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/tin_detach": [
+      {
+        "path": "res://assets/audio/v39/tin_detach_01.wav",
+        "energy": 0.0969,
+        "duration": 0.811,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/tin_detach_02.wav",
+        "energy": 0.0952,
+        "duration": 0.81,
+        "loop": false,
+        "tier": 0.25
+      },
+      {
+        "path": "res://assets/audio/v39/tin_detach_03.wav",
+        "energy": 0.0897,
+        "duration": 0.579,
+        "loop": false,
+        "tier": 0.5
+      },
+      {
+        "path": "res://assets/audio/v39/tin_detach_04.wav",
+        "energy": 0.0915,
+        "duration": 0.765,
+        "loop": false,
+        "tier": 0.75
+      },
+      {
+        "path": "res://assets/audio/v39/tin_detach_05.wav",
+        "energy": 0.0914,
+        "duration": 0.765,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/tin_takeoff": [
+      {
+        "path": "res://assets/audio/v39/tin_takeoff_01.wav",
+        "energy": 0.0634,
+        "duration": 0.478,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/tin_takeoff_02.wav",
+        "energy": 0.059,
+        "duration": 0.451,
+        "loop": false,
+        "tier": 0.3333
+      },
+      {
+        "path": "res://assets/audio/v39/tin_takeoff_03.wav",
+        "energy": 0.0665,
+        "duration": 0.481,
+        "loop": false,
+        "tier": 0.6667
+      },
+      {
+        "path": "res://assets/audio/v39/tin_takeoff_04.wav",
+        "energy": 0.0673,
+        "duration": 0.437,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/tin_head_bump": [
+      {
+        "path": "res://assets/audio/v39/tin_head_bump_01.wav",
+        "energy": 0.0817,
+        "duration": 0.244,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/tin_head_bump_02.wav",
+        "energy": 0.0814,
+        "duration": 0.235,
+        "loop": false,
+        "tier": 0.3333
+      },
+      {
+        "path": "res://assets/audio/v39/tin_head_bump_03.wav",
+        "energy": 0.0743,
+        "duration": 0.225,
+        "loop": false,
+        "tier": 0.6667
+      },
+      {
+        "path": "res://assets/audio/v39/tin_head_bump_04.wav",
+        "energy": 0.0775,
+        "duration": 0.239,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/hopper_step": [
+      {
+        "path": "res://assets/audio/v39/hopper_step_01.wav",
+        "energy": 0.0379,
+        "duration": 0.285,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_step_02.wav",
+        "energy": 0.0381,
+        "duration": 0.269,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_step_03.wav",
+        "energy": 0.041,
+        "duration": 0.283,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_step_04.wav",
+        "energy": 0.041,
+        "duration": 0.267,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_step_05.wav",
+        "energy": 0.0392,
+        "duration": 0.264,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_step_06.wav",
+        "energy": 0.0391,
+        "duration": 0.258,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/hopper_land": [
+      {
+        "path": "res://assets/audio/v39/hopper_land_01.wav",
+        "energy": 0.0941,
+        "duration": 0.705,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_land_02.wav",
+        "energy": 0.09,
+        "duration": 0.736,
+        "loop": false,
+        "tier": 0.1429
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_land_03.wav",
+        "energy": 0.0892,
+        "duration": 0.746,
+        "loop": false,
+        "tier": 0.2857
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_land_04.wav",
+        "energy": 0.0416,
+        "duration": 0.758,
+        "loop": false,
+        "tier": 0.4286
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_land_05.wav",
+        "energy": 0.0486,
+        "duration": 0.791,
+        "loop": false,
+        "tier": 0.5714
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_land_06.wav",
+        "energy": 0.0652,
+        "duration": 0.609,
+        "loop": false,
+        "tier": 0.7143
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_land_07.wav",
+        "energy": 0.0666,
+        "duration": 0.621,
+        "loop": false,
+        "tier": 0.8571
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_land_08.wav",
+        "energy": 0.0656,
+        "duration": 0.628,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/hopper_body": [
+      {
+        "path": "res://assets/audio/v39/hopper_body_01.wav",
+        "energy": 0.0879,
+        "duration": 0.543,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_body_02.wav",
+        "energy": 0.0868,
+        "duration": 0.54,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_body_03.wav",
+        "energy": 0.0897,
+        "duration": 0.542,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_body_04.wav",
+        "energy": 0.0907,
+        "duration": 0.539,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_body_05.wav",
+        "energy": 0.0701,
+        "duration": 0.587,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_body_06.wav",
+        "energy": 0.0698,
+        "duration": 0.576,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/hopper_crash": [
+      {
+        "path": "res://assets/audio/v39/hopper_crash_01.wav",
+        "energy": 0.092,
+        "duration": 0.661,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_crash_02.wav",
+        "energy": 0.0929,
+        "duration": 0.7,
+        "loop": false,
+        "tier": 0.3333
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_crash_03.wav",
+        "energy": 0.0964,
+        "duration": 0.662,
+        "loop": false,
+        "tier": 0.6667
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_crash_04.wav",
+        "energy": 0.0717,
+        "duration": 0.68,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/hopper_detach": [
+      {
+        "path": "res://assets/audio/v39/hopper_detach_01.wav",
+        "energy": 0.0473,
+        "duration": 0.474,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_detach_02.wav",
+        "energy": 0.0468,
+        "duration": 0.469,
+        "loop": false,
+        "tier": 0.25
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_detach_03.wav",
+        "energy": 0.033,
+        "duration": 0.551,
+        "loop": false,
+        "tier": 0.5
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_detach_04.wav",
+        "energy": 0.0334,
+        "duration": 0.548,
+        "loop": false,
+        "tier": 0.75
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_detach_05.wav",
+        "energy": 0.0316,
+        "duration": 0.535,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/hopper_takeoff": [
+      {
+        "path": "res://assets/audio/v39/hopper_takeoff_01.wav",
+        "energy": 0.0772,
+        "duration": 0.734,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_takeoff_02.wav",
+        "energy": 0.0617,
+        "duration": 0.742,
+        "loop": false,
+        "tier": 0.3333
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_takeoff_03.wav",
+        "energy": 0.0601,
+        "duration": 0.758,
+        "loop": false,
+        "tier": 0.6667
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_takeoff_04.wav",
+        "energy": 0.0421,
+        "duration": 0.758,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/hopper_head_bump": [
+      {
+        "path": "res://assets/audio/v39/hopper_head_bump_01.wav",
+        "energy": 0.0825,
+        "duration": 0.189,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_head_bump_02.wav",
+        "energy": 0.0866,
+        "duration": 0.188,
+        "loop": false,
+        "tier": 0.3333
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_head_bump_03.wav",
+        "energy": 0.0866,
+        "duration": 0.188,
+        "loop": false,
+        "tier": 0.6667
+      },
+      {
+        "path": "res://assets/audio/v39/hopper_head_bump_04.wav",
+        "energy": 0.0838,
+        "duration": 0.187,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/heavy_step": [
+      {
+        "path": "res://assets/audio/v39/heavy_step_01.wav",
+        "energy": 0.0627,
+        "duration": 0.45,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_step_02.wav",
+        "energy": 0.0627,
+        "duration": 0.45,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_step_03.wav",
+        "energy": 0.0432,
+        "duration": 0.45,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_step_04.wav",
+        "energy": 0.0432,
+        "duration": 0.45,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_step_05.wav",
+        "energy": 0.065,
+        "duration": 0.45,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_step_06.wav",
+        "energy": 0.065,
+        "duration": 0.45,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/heavy_land": [
+      {
+        "path": "res://assets/audio/v39/heavy_land_01.wav",
+        "energy": 0.0977,
+        "duration": 1.252,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_land_02.wav",
+        "energy": 0.098,
+        "duration": 1.289,
+        "loop": false,
+        "tier": 0.1429
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_land_03.wav",
+        "energy": 0.0981,
+        "duration": 1.246,
+        "loop": false,
+        "tier": 0.2857
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_land_04.wav",
+        "energy": 0.1125,
+        "duration": 1.334,
+        "loop": false,
+        "tier": 0.4286
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_land_05.wav",
+        "energy": 0.1125,
+        "duration": 1.327,
+        "loop": false,
+        "tier": 0.5714
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_land_06.wav",
+        "energy": 0.1126,
+        "duration": 1.346,
+        "loop": false,
+        "tier": 0.7143
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_land_07.wav",
+        "energy": 0.0974,
+        "duration": 1.132,
+        "loop": false,
+        "tier": 0.8571
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_land_08.wav",
+        "energy": 0.0964,
+        "duration": 1.157,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/heavy_body": [
+      {
+        "path": "res://assets/audio/v39/heavy_body_01.wav",
+        "energy": 0.0544,
+        "duration": 0.846,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_body_02.wav",
+        "energy": 0.0542,
+        "duration": 0.872,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_body_03.wav",
+        "energy": 0.0829,
+        "duration": 0.933,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_body_04.wav",
+        "energy": 0.0802,
+        "duration": 0.938,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_body_05.wav",
+        "energy": 0.0801,
+        "duration": 0.923,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_body_06.wav",
+        "energy": 0.0826,
+        "duration": 0.967,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/heavy_crash": [
+      {
+        "path": "res://assets/audio/v39/heavy_crash_01.wav",
+        "energy": 0.0667,
+        "duration": 1.099,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_crash_02.wav",
+        "energy": 0.0865,
+        "duration": 1.101,
+        "loop": false,
+        "tier": 0.3333
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_crash_03.wav",
+        "energy": 0.0899,
+        "duration": 1.098,
+        "loop": false,
+        "tier": 0.6667
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_crash_04.wav",
+        "energy": 0.0899,
+        "duration": 1.099,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/heavy_detach": [
+      {
+        "path": "res://assets/audio/v39/heavy_detach_01.wav",
+        "energy": 0.0939,
+        "duration": 1.181,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_detach_02.wav",
+        "energy": 0.106,
+        "duration": 1.175,
+        "loop": false,
+        "tier": 0.25
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_detach_03.wav",
+        "energy": 0.1088,
+        "duration": 1.165,
+        "loop": false,
+        "tier": 0.5
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_detach_04.wav",
+        "energy": 0.0731,
+        "duration": 1.118,
+        "loop": false,
+        "tier": 0.75
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_detach_05.wav",
+        "energy": 0.0745,
+        "duration": 1.146,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/heavy_takeoff": [
+      {
+        "path": "res://assets/audio/v39/heavy_takeoff_01.wav",
+        "energy": 0.0995,
+        "duration": 0.5,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_takeoff_02.wav",
+        "energy": 0.0707,
+        "duration": 0.5,
+        "loop": false,
+        "tier": 0.3333
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_takeoff_03.wav",
+        "energy": 0.104,
+        "duration": 0.5,
+        "loop": false,
+        "tier": 0.6667
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_takeoff_04.wav",
+        "energy": 0.104,
+        "duration": 0.5,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/heavy_head_bump": [
+      {
+        "path": "res://assets/audio/v39/heavy_head_bump_01.wav",
+        "energy": 0.0892,
+        "duration": 0.273,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_head_bump_02.wav",
+        "energy": 0.0923,
+        "duration": 0.273,
+        "loop": false,
+        "tier": 0.3333
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_head_bump_03.wav",
+        "energy": 0.0906,
+        "duration": 0.27,
+        "loop": false,
+        "tier": 0.6667
+      },
+      {
+        "path": "res://assets/audio/v39/heavy_head_bump_04.wav",
+        "energy": 0.0906,
+        "duration": 0.27,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/rocket_step": [
+      {
+        "path": "res://assets/audio/v39/rocket_step_01.wav",
+        "energy": 0.0446,
+        "duration": 0.259,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_step_02.wav",
+        "energy": 0.0444,
+        "duration": 0.255,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_step_03.wav",
+        "energy": 0.052,
+        "duration": 0.263,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_step_04.wav",
+        "energy": 0.0519,
+        "duration": 0.259,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_step_05.wav",
+        "energy": 0.0549,
+        "duration": 0.257,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_step_06.wav",
+        "energy": 0.0549,
+        "duration": 0.257,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/rocket_land": [
+      {
+        "path": "res://assets/audio/v39/rocket_land_01.wav",
+        "energy": 0.0828,
+        "duration": 0.508,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_land_02.wav",
+        "energy": 0.0828,
+        "duration": 0.495,
+        "loop": false,
+        "tier": 0.1429
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_land_03.wav",
+        "energy": 0.0644,
+        "duration": 0.495,
+        "loop": false,
+        "tier": 0.2857
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_land_04.wav",
+        "energy": 0.0647,
+        "duration": 0.499,
+        "loop": false,
+        "tier": 0.4286
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_land_05.wav",
+        "energy": 0.0648,
+        "duration": 0.491,
+        "loop": false,
+        "tier": 0.5714
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_land_06.wav",
+        "energy": 0.1113,
+        "duration": 0.396,
+        "loop": false,
+        "tier": 0.7143
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_land_07.wav",
+        "energy": 0.1094,
+        "duration": 0.39,
+        "loop": false,
+        "tier": 0.8571
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_land_08.wav",
+        "energy": 0.1085,
+        "duration": 0.388,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/rocket_body": [
+      {
+        "path": "res://assets/audio/v39/rocket_body_01.wav",
+        "energy": 0.0904,
+        "duration": 0.531,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_body_02.wav",
+        "energy": 0.0901,
+        "duration": 0.518,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_body_03.wav",
+        "energy": 0.0901,
+        "duration": 0.521,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_body_04.wav",
+        "energy": 0.0812,
+        "duration": 0.521,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_body_05.wav",
+        "energy": 0.0814,
+        "duration": 0.515,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_body_06.wav",
+        "energy": 0.0853,
+        "duration": 0.517,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/rocket_crash": [
+      {
+        "path": "res://assets/audio/v39/rocket_crash_01.wav",
+        "energy": 0.1052,
+        "duration": 0.86,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_crash_02.wav",
+        "energy": 0.0648,
+        "duration": 0.838,
+        "loop": false,
+        "tier": 0.3333
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_crash_03.wav",
+        "energy": 0.107,
+        "duration": 0.853,
+        "loop": false,
+        "tier": 0.6667
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_crash_04.wav",
+        "energy": 0.0637,
+        "duration": 0.852,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/rocket_detach": [
+      {
+        "path": "res://assets/audio/v39/rocket_detach_01.wav",
+        "energy": 0.0661,
+        "duration": 0.99,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_detach_02.wav",
+        "energy": 0.0751,
+        "duration": 0.938,
+        "loop": false,
+        "tier": 0.25
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_detach_03.wav",
+        "energy": 0.0751,
+        "duration": 0.945,
+        "loop": false,
+        "tier": 0.5
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_detach_04.wav",
+        "energy": 0.0871,
+        "duration": 0.885,
+        "loop": false,
+        "tier": 0.75
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_detach_05.wav",
+        "energy": 0.0887,
+        "duration": 0.906,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/rocket_takeoff": [
+      {
+        "path": "res://assets/audio/v39/rocket_takeoff_01.wav",
+        "energy": 0.0754,
+        "duration": 0.337,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_takeoff_02.wav",
+        "energy": 0.0808,
+        "duration": 0.336,
+        "loop": false,
+        "tier": 0.3333
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_takeoff_03.wav",
+        "energy": 0.0823,
+        "duration": 0.333,
+        "loop": false,
+        "tier": 0.6667
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_takeoff_04.wav",
+        "energy": 0.0821,
+        "duration": 0.326,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/rocket_head_bump": [
+      {
+        "path": "res://assets/audio/v39/rocket_head_bump_01.wav",
+        "energy": 0.0619,
+        "duration": 0.189,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_head_bump_02.wav",
+        "energy": 0.0619,
+        "duration": 0.189,
+        "loop": false,
+        "tier": 0.3333
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_head_bump_03.wav",
+        "energy": 0.0572,
+        "duration": 0.189,
+        "loop": false,
+        "tier": 0.6667
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_head_bump_04.wav",
+        "energy": 0.0572,
+        "duration": 0.189,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/rocket_thrust_burst": [
+      {
+        "path": "res://assets/audio/v39/rocket_thrust_burst_01.wav",
+        "energy": 0.0785,
+        "duration": 0.507,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_thrust_burst_02.wav",
+        "energy": 0.0608,
+        "duration": 0.657,
+        "loop": false,
+        "tier": 0.3333
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_thrust_burst_03.wav",
+        "energy": 0.0635,
+        "duration": 0.651,
+        "loop": false,
+        "tier": 0.6667
+      },
+      {
+        "path": "res://assets/audio/v39/rocket_thrust_burst_04.wav",
+        "energy": 0.0635,
+        "duration": 0.651,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/samurai_step": [
+      {
+        "path": "res://assets/audio/v39/samurai_step_01.wav",
+        "energy": 0.0409,
+        "duration": 0.2,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_step_02.wav",
+        "energy": 0.0392,
+        "duration": 0.197,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_step_03.wav",
+        "energy": 0.0418,
+        "duration": 0.2,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_step_04.wav",
+        "energy": 0.0407,
+        "duration": 0.2,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_step_05.wav",
+        "energy": 0.0403,
+        "duration": 0.2,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_step_06.wav",
+        "energy": 0.045,
+        "duration": 0.2,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/samurai_land": [
+      {
+        "path": "res://assets/audio/v39/samurai_land_01.wav",
+        "energy": 0.0951,
+        "duration": 0.318,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_land_02.wav",
+        "energy": 0.097,
+        "duration": 0.346,
+        "loop": false,
+        "tier": 0.1429
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_land_03.wav",
+        "energy": 0.0946,
+        "duration": 0.344,
+        "loop": false,
+        "tier": 0.2857
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_land_04.wav",
+        "energy": 0.1003,
+        "duration": 0.31,
+        "loop": false,
+        "tier": 0.4286
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_land_05.wav",
+        "energy": 0.0971,
+        "duration": 0.327,
+        "loop": false,
+        "tier": 0.5714
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_land_06.wav",
+        "energy": 0.0991,
+        "duration": 0.335,
+        "loop": false,
+        "tier": 0.7143
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_land_07.wav",
+        "energy": 0.0952,
+        "duration": 0.331,
+        "loop": false,
+        "tier": 0.8571
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_land_08.wav",
+        "energy": 0.1063,
+        "duration": 0.323,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/samurai_body": [
+      {
+        "path": "res://assets/audio/v39/samurai_body_01.wav",
+        "energy": 0.0871,
+        "duration": 0.288,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_body_02.wav",
+        "energy": 0.087,
+        "duration": 0.286,
+        "loop": false,
+        "tier": 0.2
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_body_03.wav",
+        "energy": 0.0869,
+        "duration": 0.294,
+        "loop": false,
+        "tier": 0.4
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_body_04.wav",
+        "energy": 0.0869,
+        "duration": 0.294,
+        "loop": false,
+        "tier": 0.6
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_body_05.wav",
+        "energy": 0.088,
+        "duration": 0.222,
+        "loop": false,
+        "tier": 0.8
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_body_06.wav",
+        "energy": 0.0876,
+        "duration": 0.217,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/samurai_crash": [
+      {
+        "path": "res://assets/audio/v39/samurai_crash_01.wav",
+        "energy": 0.1031,
+        "duration": 0.471,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_crash_02.wav",
+        "energy": 0.0861,
+        "duration": 0.597,
+        "loop": false,
+        "tier": 0.3333
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_crash_03.wav",
+        "energy": 0.0862,
+        "duration": 0.597,
+        "loop": false,
+        "tier": 0.6667
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_crash_04.wav",
+        "energy": 0.1057,
+        "duration": 0.474,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/samurai_detach": [
+      {
+        "path": "res://assets/audio/v39/samurai_detach_01.wav",
+        "energy": 0.1016,
+        "duration": 0.296,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_detach_02.wav",
+        "energy": 0.099,
+        "duration": 0.296,
+        "loop": false,
+        "tier": 0.25
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_detach_03.wav",
+        "energy": 0.0847,
+        "duration": 0.305,
+        "loop": false,
+        "tier": 0.5
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_detach_04.wav",
+        "energy": 0.1031,
+        "duration": 0.473,
+        "loop": false,
+        "tier": 0.75
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_detach_05.wav",
+        "energy": 0.103,
+        "duration": 0.468,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/samurai_takeoff": [
+      {
+        "path": "res://assets/audio/v39/samurai_takeoff_01.wav",
+        "energy": 0.0568,
+        "duration": 0.12,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_takeoff_02.wav",
+        "energy": 0.0601,
+        "duration": 0.12,
+        "loop": false,
+        "tier": 0.3333
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_takeoff_03.wav",
+        "energy": 0.0561,
+        "duration": 0.115,
+        "loop": false,
+        "tier": 0.6667
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_takeoff_04.wav",
+        "energy": 0.0561,
+        "duration": 0.115,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/energy_full": [
+      {
+        "path": "res://assets/audio/v39/energy_full_01.wav",
+        "energy": 0.0419,
+        "duration": 0.554,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/energy_full_02.wav",
+        "energy": 0.0449,
+        "duration": 0.876,
+        "loop": false,
+        "tier": 0.5
+      },
+      {
+        "path": "res://assets/audio/v39/energy_full_03.wav",
+        "energy": 0.0559,
+        "duration": 0.519,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/energy_discharge": [
+      {
+        "path": "res://assets/audio/v39/energy_discharge_01.wav",
+        "energy": 0.1062,
+        "duration": 0.88,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/energy_discharge_02.wav",
+        "energy": 0.1006,
+        "duration": 0.854,
+        "loop": false,
+        "tier": 0.125
+      },
+      {
+        "path": "res://assets/audio/v39/energy_discharge_03.wav",
+        "energy": 0.1027,
+        "duration": 0.907,
+        "loop": false,
+        "tier": 0.25
+      },
+      {
+        "path": "res://assets/audio/v39/energy_discharge_04.wav",
+        "energy": 0.0886,
+        "duration": 0.854,
+        "loop": false,
+        "tier": 0.375
+      },
+      {
+        "path": "res://assets/audio/v39/energy_discharge_05.wav",
+        "energy": 0.0879,
+        "duration": 0.907,
+        "loop": false,
+        "tier": 0.5
+      },
+      {
+        "path": "res://assets/audio/v39/energy_discharge_06.wav",
+        "energy": 0.09,
+        "duration": 0.88,
+        "loop": false,
+        "tier": 0.625
+      },
+      {
+        "path": "res://assets/audio/v39/energy_discharge_07.wav",
+        "energy": 0.1431,
+        "duration": 0.632,
+        "loop": false,
+        "tier": 0.75
+      },
+      {
+        "path": "res://assets/audio/v39/energy_discharge_08.wav",
+        "energy": 0.124,
+        "duration": 0.614,
+        "loop": false,
+        "tier": 0.875
+      },
+      {
+        "path": "res://assets/audio/v39/energy_discharge_09.wav",
+        "energy": 0.1183,
+        "duration": 0.652,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/portal_warp": [
+      {
+        "path": "res://assets/audio/v39/portal_warp_01.wav",
+        "energy": 0.0851,
+        "duration": 0.281,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/portal_warp_02.wav",
+        "energy": 0.0943,
+        "duration": 0.151,
+        "loop": false,
+        "tier": 0.5
+      },
+      {
+        "path": "res://assets/audio/v39/portal_warp_03.wav",
+        "energy": 0.0845,
+        "duration": 0.212,
+        "loop": false,
+        "tier": 1.0
+      }
+    ],
+    "v39/energy_build_low": [
+      {
+        "path": "res://assets/audio/v39/energy_build_low.wav",
+        "energy": 0.0734,
+        "duration": 6.0,
+        "loop": true,
+        "tier": 0.0
+      }
+    ],
+    "v39/energy_build_high": [
+      {
+        "path": "res://assets/audio/v39/energy_build_high.wav",
+        "energy": 0.0909,
+        "duration": 6.0,
+        "loop": true,
+        "tier": 0.0
+      }
+    ],
+    "v39/chrono_thrust_loop": [
+      {
+        "path": "res://assets/audio/v39/chrono_thrust_loop.wav",
+        "energy": 0.0632,
+        "duration": 5.0,
+        "loop": true,
+        "tier": 0.0
+      }
+    ],
+    "v39/tin_rolling": [
+      {
+        "path": "res://assets/audio/v39/tin_rolling.wav",
+        "energy": 0.0222,
+        "duration": 5.454,
+        "loop": true,
+        "tier": 0.0
+      }
+    ],
+    "v39/hopper_rolling": [
+      {
+        "path": "res://assets/audio/v39/hopper_rolling.wav",
+        "energy": 0.0223,
+        "duration": 6.0,
+        "loop": true,
+        "tier": 0.0
+      }
+    ],
+    "v39/heavy_rolling": [
+      {
+        "path": "res://assets/audio/v39/heavy_rolling.wav",
+        "energy": 0.0223,
+        "duration": 6.978,
+        "loop": true,
+        "tier": 0.0
+      }
+    ],
+    "v39/rocket_rolling": [
+      {
+        "path": "res://assets/audio/v39/rocket_rolling.wav",
+        "energy": 0.0222,
+        "duration": 5.712,
+        "loop": true,
+        "tier": 0.0
+      }
+    ],
+    "v39/samurai_ignite": [
+      {
+        "path": "res://assets/audio/v39/samurai_ignite_01.wav",
+        "energy": 0.1299,
+        "duration": 1.6,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_ignite_02.wav",
+        "energy": 0.1181,
+        "duration": 1.6,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_ignite_03.wav",
+        "energy": 0.1212,
+        "duration": 1.6,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_ignite_04.wav",
+        "energy": 0.1119,
+        "duration": 1.6,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_ignite_05.wav",
+        "energy": 0.1438,
+        "duration": 1.6,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_ignite_06.wav",
+        "energy": 0.1259,
+        "duration": 1.6,
+        "loop": false,
+        "tier": 0.0
+      },
+      {
+        "path": "res://assets/audio/v39/samurai_ignite_07.wav",
+        "energy": 0.1374,
+        "duration": 1.6,
+        "loop": false,
+        "tier": 0.0
+      }
+    ],
+    "v40/charge_micro": [
+      {
+        "path": "res://assets/audio/v40/charge_micro_01.wav",
+        "energy": 0.0203,
+        "duration": 0.071,
+        "loop": false,
+        "tier": 0.0,
+        "hf6k": 0.068
+      },
+      {
+        "path": "res://assets/audio/v40/charge_micro_02.wav",
+        "energy": 0.0202,
+        "duration": 0.069,
+        "loop": false,
+        "tier": 0.0769,
+        "hf6k": 0.088
+      },
+      {
+        "path": "res://assets/audio/v40/charge_micro_03.wav",
+        "energy": 0.0222,
+        "duration": 0.071,
+        "loop": false,
+        "tier": 0.1538,
+        "hf6k": 0.034
+      },
+      {
+        "path": "res://assets/audio/v40/charge_micro_04.wav",
+        "energy": 0.0221,
+        "duration": 0.069,
+        "loop": false,
+        "tier": 0.2308,
+        "hf6k": 0.046
+      },
+      {
+        "path": "res://assets/audio/v40/charge_micro_05.wav",
+        "energy": 0.0231,
+        "duration": 0.071,
+        "loop": false,
+        "tier": 0.3077,
+        "hf6k": 0.059
+      },
+      {
+        "path": "res://assets/audio/v40/charge_micro_06.wav",
+        "energy": 0.0229,
+        "duration": 0.069,
+        "loop": false,
+        "tier": 0.3846,
+        "hf6k": 0.069
+      },
+      {
+        "path": "res://assets/audio/v40/charge_micro_07.wav",
+        "energy": 0.0291,
+        "duration": 0.184,
+        "loop": false,
+        "tier": 0.4615,
+        "hf6k": 0.004
+      },
+      {
+        "path": "res://assets/audio/v40/charge_micro_08.wav",
+        "energy": 0.029,
+        "duration": 0.176,
+        "loop": false,
+        "tier": 0.5385,
+        "hf6k": 0.006
+      },
+      {
+        "path": "res://assets/audio/v40/charge_micro_09.wav",
+        "energy": 0.0223,
+        "duration": 0.061,
+        "loop": false,
+        "tier": 0.6154,
+        "hf6k": 0.037
+      },
+      {
+        "path": "res://assets/audio/v40/charge_micro_10.wav",
+        "energy": 0.0222,
+        "duration": 0.059,
+        "loop": false,
+        "tier": 0.6923,
+        "hf6k": 0.053
+      },
+      {
+        "path": "res://assets/audio/v40/charge_micro_11.wav",
+        "energy": 0.0229,
+        "duration": 0.061,
+        "loop": false,
+        "tier": 0.7692,
+        "hf6k": 0.064
+      },
+      {
+        "path": "res://assets/audio/v40/charge_micro_12.wav",
+        "energy": 0.0229,
+        "duration": 0.059,
+        "loop": false,
+        "tier": 0.8462,
+        "hf6k": 0.106
+      },
+      {
+        "path": "res://assets/audio/v40/charge_micro_13.wav",
+        "energy": 0.0226,
+        "duration": 0.184,
+        "loop": false,
+        "tier": 0.9231,
+        "hf6k": 0.0
+      },
+      {
+        "path": "res://assets/audio/v40/charge_micro_14.wav",
+        "energy": 0.0225,
+        "duration": 0.176,
+        "loop": false,
+        "tier": 1.0,
+        "hf6k": 0.0
+      }
+    ],
+    "v40/charge_crackle": [
+      {
+        "path": "res://assets/audio/v40/charge_crackle_01.wav",
+        "energy": 0.0369,
+        "duration": 0.495,
+        "loop": false,
+        "tier": 0.0,
+        "hf6k": 0.058
+      },
+      {
+        "path": "res://assets/audio/v40/charge_crackle_02.wav",
+        "energy": 0.0366,
+        "duration": 0.466,
+        "loop": false,
+        "tier": 0.2,
+        "hf6k": 0.094
+      },
+      {
+        "path": "res://assets/audio/v40/charge_crackle_03.wav",
+        "energy": 0.0403,
+        "duration": 0.495,
+        "loop": false,
+        "tier": 0.4,
+        "hf6k": 0.035
+      },
+      {
+        "path": "res://assets/audio/v40/charge_crackle_04.wav",
+        "energy": 0.0399,
+        "duration": 0.466,
+        "loop": false,
+        "tier": 0.6,
+        "hf6k": 0.05
+      },
+      {
+        "path": "res://assets/audio/v40/charge_crackle_05.wav",
+        "energy": 0.0403,
+        "duration": 0.426,
+        "loop": false,
+        "tier": 0.8,
+        "hf6k": 0.057
+      },
+      {
+        "path": "res://assets/audio/v40/charge_crackle_06.wav",
+        "energy": 0.0399,
+        "duration": 0.401,
+        "loop": false,
+        "tier": 1.0,
+        "hf6k": 0.082
+      }
+    ],
+    "v40/charge_snap": [
+      {
+        "path": "res://assets/audio/v40/charge_snap_01.wav",
+        "energy": 0.0317,
+        "duration": 0.358,
+        "loop": false,
+        "tier": 0.0,
+        "hf6k": 0.04
+      },
+      {
+        "path": "res://assets/audio/v40/charge_snap_02.wav",
+        "energy": 0.0315,
+        "duration": 0.337,
+        "loop": false,
+        "tier": 0.2,
+        "hf6k": 0.059
+      },
+      {
+        "path": "res://assets/audio/v40/charge_snap_03.wav",
+        "energy": 0.0345,
+        "duration": 0.361,
+        "loop": false,
+        "tier": 0.4,
+        "hf6k": 0.047
+      },
+      {
+        "path": "res://assets/audio/v40/charge_snap_04.wav",
+        "energy": 0.0343,
+        "duration": 0.34,
+        "loop": false,
+        "tier": 0.6,
+        "hf6k": 0.06
+      },
+      {
+        "path": "res://assets/audio/v40/charge_snap_05.wav",
+        "energy": 0.0353,
+        "duration": 0.361,
+        "loop": false,
+        "tier": 0.8,
+        "hf6k": 0.064
+      },
+      {
+        "path": "res://assets/audio/v40/charge_snap_06.wav",
+        "energy": 0.0352,
+        "duration": 0.34,
+        "loop": false,
+        "tier": 1.0,
+        "hf6k": 0.11
+      }
+    ],
+    "v40/charge_nearfull": [
+      {
+        "path": "res://assets/audio/v40/charge_nearfull_01.wav",
+        "energy": 0.0308,
+        "duration": 0.588,
+        "loop": false,
+        "tier": 0.0,
+        "hf6k": 0.051
+      },
+      {
+        "path": "res://assets/audio/v40/charge_nearfull_02.wav",
+        "energy": 0.0347,
+        "duration": 0.612,
+        "loop": false,
+        "tier": 0.2,
+        "hf6k": 0.041
+      },
+      {
+        "path": "res://assets/audio/v40/charge_nearfull_03.wav",
+        "energy": 0.0206,
+        "duration": 0.612,
+        "loop": false,
+        "tier": 0.4,
+        "hf6k": 0.052
+      },
+      {
+        "path": "res://assets/audio/v40/charge_nearfull_04.wav",
+        "energy": 0.0202,
+        "duration": 0.588,
+        "loop": false,
+        "tier": 0.6,
+        "hf6k": 0.061
+      },
+      {
+        "path": "res://assets/audio/v40/charge_nearfull_05.wav",
+        "energy": 0.0492,
+        "duration": 0.241,
+        "loop": false,
+        "tier": 0.8,
+        "hf6k": 0.055
+      },
+      {
+        "path": "res://assets/audio/v40/charge_nearfull_06.wav",
+        "energy": 0.0494,
+        "duration": 0.231,
+        "loop": false,
+        "tier": 1.0,
+        "hf6k": 0.064
+      }
+    ],
+    "v40/energy_full": [
+      {
+        "path": "res://assets/audio/v40/energy_full_01.wav",
+        "energy": 0.0426,
+        "duration": 0.7,
+        "loop": false,
+        "tier": 0.0,
+        "hf6k": 0.057
+      },
+      {
+        "path": "res://assets/audio/v40/energy_full_02.wav",
+        "energy": 0.0946,
+        "duration": 0.671,
+        "loop": false,
+        "tier": 0.5,
+        "hf6k": 0.024
+      },
+      {
+        "path": "res://assets/audio/v40/energy_full_03.wav",
+        "energy": 0.1166,
+        "duration": 0.7,
+        "loop": false,
+        "tier": 1.0,
+        "hf6k": 0.071
+      }
+    ],
+    "v40/energy_release": [
+      {
+        "path": "res://assets/audio/v40/energy_release_01.wav",
+        "energy": 0.1361,
+        "duration": 0.674,
+        "loop": false,
+        "tier": 0.0,
+        "hf6k": 0.013
+      },
+      {
+        "path": "res://assets/audio/v40/energy_release_02.wav",
+        "energy": 0.1309,
+        "duration": 0.702,
+        "loop": false,
+        "tier": 0.1429,
+        "hf6k": 0.012
+      },
+      {
+        "path": "res://assets/audio/v40/energy_release_03.wav",
+        "energy": 0.1115,
+        "duration": 0.784,
+        "loop": false,
+        "tier": 0.2857,
+        "hf6k": 0.009
+      },
+      {
+        "path": "res://assets/audio/v40/energy_release_04.wav",
+        "energy": 0.1089,
+        "duration": 0.816,
+        "loop": false,
+        "tier": 0.4286,
+        "hf6k": 0.008
+      },
+      {
+        "path": "res://assets/audio/v40/energy_release_05.wav",
+        "energy": 0.0876,
+        "duration": 0.784,
+        "loop": false,
+        "tier": 0.5714,
+        "hf6k": 0.021
+      },
+      {
+        "path": "res://assets/audio/v40/energy_release_06.wav",
+        "energy": 0.0861,
+        "duration": 0.816,
+        "loop": false,
+        "tier": 0.7143,
+        "hf6k": 0.014
+      },
+      {
+        "path": "res://assets/audio/v40/energy_release_07.wav",
+        "energy": 0.1327,
+        "duration": 0.643,
+        "loop": false,
+        "tier": 0.8571,
+        "hf6k": 0.027
+      },
+      {
+        "path": "res://assets/audio/v40/energy_release_08.wav",
+        "energy": 0.1328,
+        "duration": 0.67,
+        "loop": false,
+        "tier": 1.0,
+        "hf6k": 0.024
+      }
+    ]
+  },
+  "wilhelm_height_m": 30.0,
+  "wilhelm_rearm_m": 20.0,
+  "wilhelm_probability": 0.07,
+  "voice_probability": 0.18,
+  "missing_robot_banks": [],
+  "music_excluded": true,
+  "audio_version": "v27_sourced_physical_redesign",
+  "sample_format": "wav16_mono_44100_qoa_import",
+  "loudness_targets_lufs": {
+    "launch": -15.0,
+    "spring": -17.0,
+    "body": -15.0,
+    "head": -15.0,
+    "limb": -14.0,
+    "voice": -16.0,
+    "head_launch": -14.5,
+    "rolling": -22.0,
+    "click": -23.0,
+    "back": -23.5,
+    "browse": -25.0,
+    "confirm": -21.0,
+    "module_install": -20.0,
+    "module_remove": -20.5,
+    "countdown": -20.0,
+    "go": -17.5,
+    "coin": -19.0,
+    "purchase": -18.0,
+    "unlock": -18.0,
+    "star": -18.0,
+    "all_stars": -16.5,
+    "record": -16.5,
+    "victory": -16.0,
+    "defeat": -17.5,
+    "energy": -20.0,
+    "flight": -21.0,
+    "wilhelm": -15.0
+  },
+  "sources": {
+    "library": "art/audio/source_library (restored from git 14f4661917, v18 segmentation of the user's source files)"
+  },
+  "ui_version": "v38_soft_mallet"
+}

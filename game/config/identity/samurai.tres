@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="RobotIdentityProfile" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/robot/robot_identity_profile.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+robot_id = "samurai"
+rattle = 0.0
+cadence = 12.0
+squash = 0.025
+settle_hz = 14.0
+recovery = 6.0
+particle_color = Color(0.83, 0.88, 0.94, 1)
+particle_kind = "streak"
+particle_gain = 2.0
+impact_ring = false
+leg_exhaust = false
+sfx_family = "armor_percussion"
+event_responses = {"IDLE": {"gain": 1.0, "duration": 0.35}, "AIRBORNE": {"gain": 1.0, "duration": 0.35}, "SPRING_COMPRESS": {"gain": 1.0, "duration": 0.35}, "SPRING_RELEASE": {"gain": 1.0, "duration": 0.35}, "GOOD_LANDING": {"gain": 1.0, "duration": 0.8, "face": "happy"}, "BAD_LANDING": {"gain": 1.0, "duration": 0.8, "face": "scared"}, "HARD_IMPACT": {"gain": 1.0, "duration": 0.8, "face": "angry"}, "CHARGED_LANDING": {"gain": 1.0, "duration": 0.8, "face": "happy"}, "FULL_CHARGE": {"gain": 1.0, "duration": 0.8, "face": "determined"}, "LIMB_LOST": {"gain": 1.0, "duration": 0.8, "face": "dizzy"}, "LOW_HP": {"gain": 1.0, "duration": 0.8, "face": "scared"}, "HEAD_HIT": {"gain": 1.0, "duration": 0.8, "face": "dizzy"}, "ROCKET_PHASE_START": {"gain": 1.0, "duration": 0.8, "face": "determined"}, "ROCKET_PHASE_ACTIVE": {"gain": 1.0, "duration": 0.35}, "DEATH": {"gain": 1.0, "duration": 0.35}}

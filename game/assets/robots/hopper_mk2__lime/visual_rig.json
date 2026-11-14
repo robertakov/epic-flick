@@ -1,0 +1,136 @@
+{
+  "png_modular": true,
+  "source_scale": 0.265,
+  "torso_scale": [
+    1,
+    1
+  ],
+  "head_scale": [
+    1,
+    1
+  ],
+  "torso_offset": [
+    0,
+    -19.738095238095287
+  ],
+  "parts": {
+    "head": {
+      "pivot": [
+        103.0,
+        192.5
+      ],
+      "unit_scale": 0.53,
+      "z": 2
+    },
+    "torso": {
+      "pivot": [
+        72.5,
+        83.0
+      ],
+      "unit_scale": 0.53,
+      "z": 0
+    },
+    "arm_l": {
+      "pivot": [
+        118.5,
+        44.5
+      ],
+      "unit_scale": 0.53,
+      "z": 1,
+      "end": [
+        45.0,
+        184.0
+      ],
+      "spring_rows": [
+        59.0,
+        114.0
+      ],
+      "inertia_gain": 0.2,
+      "png_modular": true
+    },
+    "arm_r": {
+      "pivot": [
+        0.0,
+        -39.5
+      ],
+      "unit_scale": 0.53,
+      "z": 1,
+      "end": [
+        70.0,
+        107.5
+      ],
+      "spring_rows": [
+        -25.0,
+        30.0
+      ],
+      "inertia_gain": 0.2,
+      "png_modular": true
+    },
+    "leg_l": {
+      "pivot": [
+        191.0,
+        40.5
+      ],
+      "unit_scale": 0.53,
+      "z": -1,
+      "end": [
+        104.5,
+        271.5
+      ],
+      "spring_rows": [
+        40.5,
+        163.0
+      ],
+      "inertia_gain": 0.2,
+      "png_modular": true
+    },
+    "leg_r": {
+      "pivot": [
+        58.5,
+        23.5
+      ],
+      "unit_scale": 0.53,
+      "z": -1,
+      "end": [
+        111.5,
+        254.5
+      ],
+      "spring_rows": [
+        23.5,
+        146.0
+      ],
+      "inertia_gain": 0.2,
+      "png_modular": true
+    }
+  },
+  "anchors": {
+    "neck": [
+      58.5,
+      10.5
+    ],
+    "shoulder_l": [
+      -1.0,
+      38.5
+    ],
+    "shoulder_r": [
+      131.5,
+      38.5
+    ],
+    "hip_l": [
+      17.5,
+      168.0
+    ],
+    "hip_r": [
+      120.5,
+      168.0
+    ]
+  },
+  "tail": {
+    "offset": [
+      -200.0,
+      83.5
+    ],
+    "file": "tail.png",
+    "z": -3
+  }
+}

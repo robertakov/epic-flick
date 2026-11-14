@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="SkinDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/config/skin_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "heavy_iron"
+robot_id = "heavy"
+display_name = "Чугунный страж"
+source = "campaign"
+scheme = "iron"
+saturation = 0.15
+brightness = 0.62
+tint = Color(0.45, 0.55, 0.7, 1)
+tint_amount = 0.35

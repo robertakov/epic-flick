@@ -1,0 +1,247 @@
+{
+  "version": 1,
+  "reward_per_objective": 1,
+  "max_rewarded_objectives_per_set": 3,
+  "refresh_policy": "all_completed",
+  "future_daily_cap": null,
+  "future_session_cap": null,
+  "thresholds": {
+    "DISTANCE": {
+      "m": [
+        180,
+        300,
+        450
+      ]
+    },
+    "CLEAN_START": {
+      "m": [
+        35,
+        50,
+        65
+      ]
+    },
+    "LIMB_LIMIT": {
+      "m": [
+        100,
+        150,
+        200
+      ],
+      "n": [
+        1,
+        2
+      ]
+    },
+    "SURVIVAL_HP": {
+      "m": [
+        60,
+        90,
+        120
+      ],
+      "hp": [
+        25,
+        40,
+        55
+      ]
+    },
+    "BAD_LANDING_LIMIT": {
+      "m": [
+        80,
+        120,
+        160
+      ],
+      "n": [
+        1,
+        2
+      ]
+    },
+    "GOOD_LANDING_STREAK": {
+      "n": [
+        3,
+        5
+      ]
+    },
+    "TOTAL_GOOD_LANDINGS": {
+      "n": [
+        5,
+        7,
+        9
+      ]
+    },
+    "RECOVERY": {
+      "n": [
+        1
+      ]
+    },
+    "CLEAN_SECTION": {
+      "m": [
+        65,
+        90,
+        120
+      ]
+    },
+    "CHARGE_TARGET": {
+      "pct": [
+        25,
+        40,
+        55
+      ]
+    },
+    "CHARGED_LANDING": {
+      "pct": [
+        15,
+        25,
+        40
+      ]
+    },
+    "CHARGED_LANDING_STREAK": {
+      "n": [
+        2
+      ],
+      "pct": [
+        15,
+        25
+      ]
+    },
+    "AIR_TIME": {
+      "s": [
+        1.8,
+        2.6,
+        3.2
+      ]
+    },
+    "LONG_JUMP": {
+      "m": [
+        25,
+        40,
+        55
+      ]
+    },
+    "SPEED_TARGET": {
+      "kmh": [
+        65,
+        80,
+        100
+      ]
+    }
+  },
+  "robot_overrides": {
+    "heavy": {
+      "AIR_TIME": {
+        "s": [
+          2.0,
+          2.6,
+          3.2
+        ]
+      },
+      "LONG_JUMP": {
+        "m": [
+          25,
+          40,
+          55
+        ]
+      },
+      "CHARGE_TARGET": {
+        "pct": [
+          20,
+          30,
+          40
+        ]
+      }
+    },
+    "tin": {
+      "TOTAL_GOOD_LANDINGS": {
+        "n": [
+          3,
+          5,
+          7
+        ]
+      },
+      "CHARGE_TARGET": {
+        "pct": [
+          20,
+          30,
+          40
+        ]
+      },
+      "SURVIVAL_HP": {
+        "m": [
+          40,
+          60,
+          80
+        ],
+        "hp": [
+          25,
+          40,
+          55
+        ]
+      },
+      "CLEAN_START": {
+        "m": [
+          35,
+          45,
+          60
+        ]
+      },
+      "LIMB_LIMIT": {
+        "m": [
+          80,
+          110,
+          140
+        ],
+        "n": [
+          1,
+          2
+        ]
+      }
+    },
+    "rocket": {
+      "SURVIVAL_HP": {
+        "m": [
+          40,
+          60,
+          80
+        ],
+        "hp": [
+          25,
+          40,
+          55
+        ]
+      },
+      "CHARGE_TARGET": {
+        "pct": [
+          25,
+          45,
+          65
+        ]
+      },
+      "TOTAL_GOOD_LANDINGS": {
+        "n": [
+          3,
+          5,
+          7
+        ]
+      }
+    },
+    "hopper": {
+      "SURVIVAL_HP": {
+        "m": [
+          40,
+          60,
+          80
+        ],
+        "hp": [
+          25,
+          40,
+          55
+        ]
+      },
+      "CLEAN_START": {
+        "m": [
+          25,
+          35,
+          50
+        ]
+      }
+    }
+  }
+}

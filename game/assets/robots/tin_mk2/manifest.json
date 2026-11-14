@@ -1,0 +1,314 @@
+{
+  "schema": 2,
+  "robot": "tin",
+  "visual_id": "rasta_mk2",
+  "variant": "mk2",
+  "png_modular": true,
+  "fps": 10,
+  "source": {
+    "file": "rastabot mk2.png",
+    "sha256": "c013ad8da08d6b3516068001fbee8b344db9020d5165a124398e233c4a0b968f",
+    "builder": "tools/players/build_mk2_rigs.py v35"
+  },
+  "parts": {
+    "head": {
+      "atlas": "head.png",
+      "frame_size": [
+        265,
+        185
+      ],
+      "columns": 7,
+      "count": 7,
+      "pivot": [
+        159.5,
+        192.5
+      ],
+      "clips": {
+        "idle": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "neutral": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "happy": [
+          2
+        ],
+        "scared": [
+          3
+        ],
+        "angry": [
+          4
+        ],
+        "determined": [
+          0,
+          0,
+          6,
+          6,
+          0,
+          0,
+          5,
+          5
+        ],
+        "dizzy": [
+          5,
+          6
+        ],
+        "dead": [
+          1
+        ],
+        "pain": [
+          4
+        ]
+      },
+      "source_origin": [
+        371,
+        0
+      ]
+    },
+    "torso": {
+      "atlas": "torso.png",
+      "frame_size": [
+        144,
+        198
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        71.5,
+        105.0
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        551,
+        290
+      ]
+    },
+    "arm_l": {
+      "atlas": "arm_l.png",
+      "frame_size": [
+        188,
+        308
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        181.5,
+        72.5
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        228,
+        281
+      ]
+    },
+    "arm_r": {
+      "atlas": "arm_r.png",
+      "frame_size": [
+        186,
+        270
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        36.5,
+        40.0
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        739,
+        346
+      ]
+    },
+    "leg_l": {
+      "atlas": "leg_l.png",
+      "frame_size": [
+        282,
+        336
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        195.5,
+        65.0
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        178,
+        510
+      ]
+    },
+    "leg_r": {
+      "atlas": "leg_r.png",
+      "frame_size": [
+        250,
+        308
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        58.0,
+        36.0
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        666,
+        568
+      ]
+    }
+  },
+  "decorations": []
+}

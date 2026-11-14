@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="RobotDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/config/robot_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "samurai"
+display_name = "Самуробот"
+description = "Легендарный универсал: крепкая броня, отличные пружины, сильный буст и точное управление."
+price = 4000
+max_health = 155.0
+mass_multiplier = 1.0
+spring_strength = 1.0
+bounce = 1.05
+energy_boost_multiplier = 1.3
+charge_rate = 1.1
+air_control = 1.0
+size = 1.0
+momentum_forward_cap = 1800.0
+momentum_max = 220.0
+momentum_gain = 55.0
+mk2_visual_id = "samurai_mk2"
+mk2_price = 8000
+mk2_boss_node = "r40"
+mk2_stat_multipliers = {"energy_boost_multiplier": 1.25, "momentum_gain": 1.25, "charge_rate": 1.1, "air_control": 1.1}
+mk2_stat_offsets = {"max_health": 30.0}

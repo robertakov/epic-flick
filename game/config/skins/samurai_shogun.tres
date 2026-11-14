@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="SkinDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/config/skin_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "samurai_shogun"
+robot_id = "samurai"
+display_name = "Сёгун ночи"
+source = "campaign"
+scheme = "shogun"
+hue_shift = 0.62
+saturation = 1.1
+brightness = 0.85

@@ -1,0 +1,347 @@
+{
+  "schema": 1,
+  "achievements": [
+    {
+      "id": "distance_100",
+      "name_key": "ACH_DISTANCE_NAME",
+      "description_key": "ACH_DISTANCE_DESC",
+      "metric": "distance",
+      "target": 100,
+      "hidden": false,
+      "category": "distance"
+    },
+    {
+      "id": "distance_300",
+      "name_key": "ACH_DISTANCE_NAME",
+      "description_key": "ACH_DISTANCE_DESC",
+      "metric": "distance",
+      "target": 300,
+      "hidden": false,
+      "category": "distance"
+    },
+    {
+      "id": "distance_500",
+      "name_key": "ACH_DISTANCE_NAME",
+      "description_key": "ACH_DISTANCE_DESC",
+      "metric": "distance",
+      "target": 500,
+      "hidden": false,
+      "category": "distance"
+    },
+    {
+      "id": "distance_800",
+      "name_key": "ACH_DISTANCE_NAME",
+      "description_key": "ACH_DISTANCE_DESC",
+      "metric": "distance",
+      "target": 800,
+      "hidden": false,
+      "category": "distance"
+    },
+    {
+      "id": "distance_1000",
+      "name_key": "ACH_DISTANCE_NAME",
+      "description_key": "ACH_DISTANCE_DESC",
+      "metric": "distance",
+      "target": 1000,
+      "hidden": false,
+      "category": "distance"
+    },
+    {
+      "id": "height_10",
+      "name_key": "ACH_HEIGHT_NAME",
+      "description_key": "ACH_HEIGHT_DESC",
+      "metric": "height",
+      "target": 10,
+      "hidden": false,
+      "category": "height"
+    },
+    {
+      "id": "height_25",
+      "name_key": "ACH_HEIGHT_NAME",
+      "description_key": "ACH_HEIGHT_DESC",
+      "metric": "height",
+      "target": 25,
+      "hidden": false,
+      "category": "height"
+    },
+    {
+      "id": "speed_50",
+      "name_key": "ACH_SPEED_NAME",
+      "description_key": "ACH_SPEED_DESC",
+      "metric": "speed",
+      "target": 50,
+      "hidden": false,
+      "category": "speed"
+    },
+    {
+      "id": "speed_80",
+      "name_key": "ACH_SPEED_NAME",
+      "description_key": "ACH_SPEED_DESC",
+      "metric": "speed",
+      "target": 80,
+      "hidden": false,
+      "category": "speed"
+    },
+    {
+      "id": "speed_100",
+      "name_key": "ACH_SPEED_NAME",
+      "description_key": "ACH_SPEED_DESC",
+      "metric": "speed",
+      "target": 100,
+      "hidden": false,
+      "category": "speed"
+    },
+    {
+      "id": "feet_1",
+      "name_key": "ACH_FEET_NAME",
+      "description_key": "ACH_FEET_DESC",
+      "metric": "feet_total",
+      "target": 1,
+      "hidden": false,
+      "category": "feet"
+    },
+    {
+      "id": "feet_100",
+      "name_key": "ACH_FEET_NAME",
+      "description_key": "ACH_FEET_DESC",
+      "metric": "feet_total",
+      "target": 100,
+      "hidden": false,
+      "category": "feet"
+    },
+    {
+      "id": "streak_3",
+      "name_key": "ACH_STREAK_NAME",
+      "description_key": "ACH_STREAK_DESC",
+      "metric": "streak",
+      "target": 3,
+      "hidden": false,
+      "category": "streak"
+    },
+    {
+      "id": "streak_5",
+      "name_key": "ACH_STREAK_NAME",
+      "description_key": "ACH_STREAK_DESC",
+      "metric": "streak",
+      "target": 5,
+      "hidden": false,
+      "category": "streak"
+    },
+    {
+      "id": "full_charge",
+      "name_key": "ACH_CHARGE_NAME",
+      "description_key": "ACH_CHARGE_DESC",
+      "metric": "charge",
+      "target": 100,
+      "hidden": false,
+      "category": "charge"
+    },
+    {
+      "id": "charged_1",
+      "name_key": "ACH_CHARGED_NAME",
+      "description_key": "ACH_CHARGED_DESC",
+      "metric": "charged_total",
+      "target": 1,
+      "hidden": false,
+      "category": "charged"
+    },
+    {
+      "id": "charged_10",
+      "name_key": "ACH_CHARGED_NAME",
+      "description_key": "ACH_CHARGED_DESC",
+      "metric": "charged_total",
+      "target": 10,
+      "hidden": false,
+      "category": "charged"
+    },
+    {
+      "id": "air_turns_3",
+      "name_key": "ACH_TURNS_NAME",
+      "description_key": "ACH_TURNS_DESC",
+      "metric": "turns",
+      "target": 3,
+      "hidden": false,
+      "category": "turns"
+    },
+    {
+      "id": "air_turns_6",
+      "name_key": "ACH_TURNS_NAME",
+      "description_key": "ACH_TURNS_DESC",
+      "metric": "turns",
+      "target": 6,
+      "hidden": false,
+      "category": "turns"
+    },
+    {
+      "id": "low_hp_finish",
+      "name_key": "ACH_LOWHP_NAME",
+      "description_key": "ACH_LOWHP_DESC",
+      "metric": "low_hp_finish",
+      "target": 1,
+      "hidden": false,
+      "category": "lowhp"
+    },
+    {
+      "id": "limb_travel_25",
+      "name_key": "ACH_LIMBTRAVEL_NAME",
+      "description_key": "ACH_LIMBTRAVEL_DESC",
+      "metric": "limb_travel",
+      "target": 25,
+      "hidden": false,
+      "category": "limbtravel"
+    },
+    {
+      "id": "limping_finish",
+      "name_key": "ACH_LIMPFINISH_NAME",
+      "description_key": "ACH_LIMPFINISH_DESC",
+      "metric": "limping_finish",
+      "target": 1,
+      "hidden": false,
+      "category": "limpfinish"
+    },
+    {
+      "id": "rocket_launch",
+      "name_key": "ACH_ROCKET_NAME",
+      "description_key": "ACH_ROCKET_DESC",
+      "metric": "rocket",
+      "target": 1,
+      "hidden": false,
+      "category": "rocket"
+    },
+    {
+      "id": "head_25",
+      "name_key": "ACH_HEAD_NAME",
+      "description_key": "ACH_HEAD_DESC",
+      "metric": "head_distance",
+      "target": 25,
+      "hidden": false,
+      "category": "head"
+    },
+    {
+      "id": "head_100",
+      "name_key": "ACH_HEAD_NAME",
+      "description_key": "ACH_HEAD_DESC",
+      "metric": "head_distance",
+      "target": 100,
+      "hidden": false,
+      "category": "head"
+    },
+    {
+      "id": "campaign_1",
+      "name_key": "ACH_CAMPAIGN_NAME",
+      "description_key": "ACH_CAMPAIGN_DESC",
+      "metric": "campaign",
+      "target": 1,
+      "hidden": false,
+      "category": "campaign"
+    },
+    {
+      "id": "campaign_10",
+      "name_key": "ACH_CAMPAIGN_NAME",
+      "description_key": "ACH_CAMPAIGN_DESC",
+      "metric": "campaign",
+      "target": 10,
+      "hidden": false,
+      "category": "campaign"
+    },
+    {
+      "id": "campaign_50",
+      "name_key": "ACH_CAMPAIGN_NAME",
+      "description_key": "ACH_CAMPAIGN_DESC",
+      "metric": "campaign",
+      "target": 50,
+      "hidden": false,
+      "category": "campaign"
+    },
+    {
+      "id": "campaign_100",
+      "name_key": "ACH_CAMPAIGN_NAME",
+      "description_key": "ACH_CAMPAIGN_DESC",
+      "metric": "campaign",
+      "target": 100,
+      "hidden": false,
+      "category": "campaign"
+    },
+    {
+      "id": "boss_1",
+      "name_key": "ACH_BOSS_NAME",
+      "description_key": "ACH_BOSS_DESC",
+      "metric": "bosses",
+      "target": 1,
+      "hidden": false,
+      "category": "boss"
+    },
+    {
+      "id": "boss_10",
+      "name_key": "ACH_BOSS_NAME",
+      "description_key": "ACH_BOSS_DESC",
+      "metric": "bosses",
+      "target": 10,
+      "hidden": false,
+      "category": "boss"
+    },
+    {
+      "id": "robots_2",
+      "name_key": "ACH_ROBOTS_NAME",
+      "description_key": "ACH_ROBOTS_DESC",
+      "metric": "robots",
+      "target": 2,
+      "hidden": false,
+      "category": "robots"
+    },
+    {
+      "id": "robots_5",
+      "name_key": "ACH_ROBOTS_NAME",
+      "description_key": "ACH_ROBOTS_DESC",
+      "metric": "robots",
+      "target": 5,
+      "hidden": false,
+      "category": "robots"
+    },
+    {
+      "id": "mk2_owner",
+      "name_key": "ACH_MK2_NAME",
+      "description_key": "ACH_MK2_DESC",
+      "metric": "mk2",
+      "target": 1,
+      "hidden": false,
+      "category": "mk2"
+    },
+    {
+      "id": "moon_feet",
+      "name_key": "ACH_MOON_NAME",
+      "description_key": "ACH_MOON_DESC",
+      "metric": "moon_feet",
+      "target": 1,
+      "hidden": true,
+      "category": "moon"
+    },
+    {
+      "id": "chocolate_feet",
+      "name_key": "ACH_CHOCOLATE_NAME",
+      "description_key": "ACH_CHOCOLATE_DESC",
+      "metric": "chocolate_feet",
+      "target": 1,
+      "hidden": true,
+      "category": "chocolate"
+    },
+    {
+      "id": "artifact_discovery",
+      "name_key": "ACH_ARTIFACT_NAME",
+      "description_key": "ACH_ARTIFACT_DESC",
+      "metric": "artifact",
+      "target": 1,
+      "hidden": true,
+      "category": "artifact"
+    },
+    {
+      "id": "heads_close",
+      "name_key": "ACH_CLOSE_NAME",
+      "description_key": "ACH_CLOSE_DESC",
+      "metric": "heads_close",
+      "target": 1,
+      "hidden": true,
+      "category": "close"
+    }
+  ]
+}

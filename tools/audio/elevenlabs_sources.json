@@ -1,0 +1,225 @@
+{
+  "_doc": "v39 ElevenLabs source components (tools/audio/generate_elevenlabs_sources.py). Each component = one focused physical sound; several candidates are generated, analysed objectively and the kept ones are copied to Assets/Characters/Players/NewAudioMasters/<component>_<n>.wav. Composites (robot personality cadence) are built later by tools/audio/build_v39_sound_design.py.",
+  "common_suffix": "Close-up, completely dry studio foley recording, no reverb, no music, no voice, no background noise.",
+  "components": {
+    "energy_build_low": {
+      "n": 2,
+      "dur": 6.0,
+      "loop": true,
+      "text": "Smooth warm mechanical dynamo spinning steadily, soft electric hum with gentle rotating motion, mid frequencies, calm and pleasant, no whine, no beeps."
+    },
+    "energy_build_high": {
+      "n": 2,
+      "dur": 6.0,
+      "loop": true,
+      "text": "Energised warm electric dynamo spinning fast, fuller richer hum with dense smooth rotating pulse, charged and powerful but soft, no high whine, no beeps, no crackle bursts."
+    },
+    "energy_full": {
+      "n": 3,
+      "dur": 1.0,
+      "loop": false,
+      "text": "Short satisfying mechanical latch click followed by a brief soft clean energised shimmer swell, charge complete, confident, not musical, no beep."
+    },
+    "energy_discharge": {
+      "n": 3,
+      "dur": 0.9,
+      "loop": false,
+      "text": "Compact punchy release of stored electric energy, tight electric thump with a short soft bright crackle tail, physical and satisfying, not a laser, not thunder."
+    },
+    "portal_warp": {
+      "n": 3,
+      "dur": 1.0,
+      "loop": false,
+      "text": "Soft airy spatial warp: quick inward suction whoosh then a soft outward pop, clean and subtle, no sci-fi beeps, no melody."
+    },
+    "head_roll_metal": {
+      "n": 2,
+      "dur": 6.0,
+      "loop": true,
+      "text": "Hollow metal ball rolling steadily on gravel and packed dirt, continuous medium speed, gentle irregular small bumps, no single loud hit."
+    },
+    "rasta_spring": {
+      "n": 3,
+      "dur": 0.8,
+      "loop": false,
+      "text": "Old rusty creaky coil spring bouncing once on a light tin robot, slightly squeaky compression and springy release, relaxed, not a cartoon boing."
+    },
+    "rasta_tin_hit": {
+      "n": 3,
+      "dur": 0.6,
+      "loop": false,
+      "text": "Thin dented rusty tin sheet metal body hitting dirt ground, light hollow clank, short, no long ringing."
+    },
+    "rasta_rattle": {
+      "n": 3,
+      "dur": 0.7,
+      "loop": false,
+      "text": "A few loose rusty bolts and screws rattling briefly inside a small tin can after a bump, light charming jingle-rattle, short."
+    },
+    "rasta_break": {
+      "n": 3,
+      "dur": 0.9,
+      "loop": false,
+      "text": "Rusty tin robot arm popping off its worn joint, dry pop and small screws and tin bits scattering on the ground."
+    },
+    "kangu_compress": {
+      "n": 3,
+      "dur": 0.5,
+      "loop": false,
+      "text": "Large heavy-duty steel spring compressing hard under an athlete's weight, low-mid muscular metallic crunch and tension creak, solid body, no hiss, no boing."
+    },
+    "kangu_release": {
+      "n": 3,
+      "dur": 0.8,
+      "loop": false,
+      "text": "Powerful heavy steel spring releasing explosively, deep elastic thrum with a short resonant spring hum, satisfying and athletic, not a cartoon boing, no twang melody."
+    },
+    "kangu_hit": {
+      "n": 3,
+      "dur": 0.6,
+      "loop": false,
+      "text": "Medium-weight aluminium robot body hitting dirt ground, mid-range solid metallic thunk with a short damped clank, agile machine, not deep, not boomy."
+    },
+    "kangu_break": {
+      "n": 3,
+      "dur": 0.8,
+      "loop": false,
+      "text": "Spring-loaded metal robot limb snapping loose, tight mechanical snap with a short sprung zing of a released coil and small parts falling."
+    },
+    "sumo_suspension": {
+      "n": 3,
+      "dur": 1.4,
+      "loop": false,
+      "text": "Enormous heavy steel suspension compressing under a huge weight, deep heavy metal thud and low groan, slow controlled settle, no hiss, no air release.",
+      "influence": 0.7
+    },
+    "sumo_hull": {
+      "n": 3,
+      "dur": 1.5,
+      "loop": false,
+      "text": "Huge hollow thick steel boiler hull struck by a heavy impact, deep resonant bong with heavy thud, short controlled resonance, real weight, not a church bell, not a cinematic boom."
+    },
+    "sumo_lock": {
+      "n": 3,
+      "dur": 0.8,
+      "loop": false,
+      "text": "Large heavy industrial steel mechanical lock clunking firmly into place, slow deliberate heavy latch, short."
+    },
+    "sumo_break": {
+      "n": 3,
+      "dur": 1.2,
+      "loop": false,
+      "text": "Heavy thick steel robot limb tearing off, thick bolt shearing clunk and one heavy metal part dropping onto the ground."
+    },
+    "chrono_spring": {
+      "n": 3,
+      "dur": 0.6,
+      "loop": false,
+      "text": "Firm small steel coil spring bouncing inside a heavy precision instrument, solid mid-range metallic thunk on compression and a clean quick release, compact and dense, low hiss, no ticking.",
+      "influence": 0.7
+    },
+    "chrono_index": {
+      "n": 3,
+      "dur": 0.5,
+      "loop": false,
+      "text": "Tiny precise clockwork indexing: a single ratchet pawl click followed by a crisp lock, brass mechanism, very short."
+    },
+    "chrono_hit": {
+      "n": 3,
+      "dur": 0.6,
+      "loop": false,
+      "text": "Compact brass and steel clockwork casing hitting the ground, tight dense clack with a brief tiny internal gear rattle, short, no ringing."
+    },
+    "chrono_break": {
+      "n": 3,
+      "dur": 1.0,
+      "loop": false,
+      "text": "Clockwork robot limb breaking free: escapement spring snaps, small gears spin down briefly, tiny brass parts fall."
+    },
+    "chrono_thrust_loop": {
+      "n": 2,
+      "dur": 5.0,
+      "loop": true,
+      "text": "Small restrained compressed-gas thruster, steady pressurised hiss, controlled and mechanical, soft, not a jet engine, no whistle."
+    },
+    "chrono_thrust_burst": {
+      "n": 3,
+      "dur": 0.7,
+      "loop": false,
+      "text": "Small mechanical valve clicks open then a short soft muffled puff of compressed gas, low-mid pneumatic puff, restrained, not a bright hiss."
+    },
+    "samu_armor_hit": {
+      "n": 3,
+      "dur": 0.5,
+      "loop": false,
+      "text": "Lacquered steel armour plates impacting dirt ground, dry sharp precise clack-thud of layered plates, stops immediately, no ringing, no sword sound."
+    },
+    "samu_lock": {
+      "n": 3,
+      "dur": 0.5,
+      "loop": false,
+      "text": "Tight precise steel armour latch locking, a single clean dry metal click, very short."
+    },
+    "samu_break": {
+      "n": 3,
+      "dur": 0.7,
+      "loop": false,
+      "text": "Armour lacing cord snapping and two lacquered steel armour plates coming apart with a brief dry clatter, clean and precise."
+    },
+    "energy_snap": {
+      "n": 3,
+      "dur": 0.5,
+      "loop": false,
+      "text": "Short clean electric snap of stored energy releasing, one tight crackling zap transient with very short decay, punchy, not a laser, not harsh."
+    },
+    "chrono_thunk": {
+      "n": 3,
+      "dur": 0.5,
+      "loop": false,
+      "influence": 0.7,
+      "text": "Dense compact brass clockwork mechanism set down firmly, one solid mid-range wooden-metallic knock with a tight damped body, precise and heavy for its size, no ringing, no hiss."
+    },
+    "e40_micro": {
+      "n": 4,
+      "dur": 0.5,
+      "loop": false,
+      "influence": 0.65,
+      "text": "One tiny soft electrostatic spark, a single faint dry electrical tick of static discharge, like a small static shock from a doorknob, extremely short. Real physical electricity only, very short and dry, no hum, no buzz, no whine, no synth, no laser, no beep, no thunder."
+    },
+    "e40_crackle": {
+      "n": 4,
+      "dur": 0.5,
+      "loop": false,
+      "influence": 0.65,
+      "text": "A short small electrical arc crackle, two or three quick dry static snaps from stored energy, brief and controlled, soft mid-range body. Real physical electricity only, very short and dry, no hum, no buzz, no whine, no synth, no laser, no beep, no thunder."
+    },
+    "e40_snap": {
+      "n": 4,
+      "dur": 0.5,
+      "loop": false,
+      "influence": 0.65,
+      "text": "A single stronger electrical snap of a small capacitor discharging, punchy dry crack with a tiny crackle tail, controlled, warm body. Real physical electricity only, very short and dry, no hum, no buzz, no whine, no synth, no laser, no beep, no thunder."
+    },
+    "e40_nearfull": {
+      "n": 4,
+      "dur": 0.6,
+      "loop": false,
+      "influence": 0.65,
+      "text": "A tight burst of a few energetic electrical arc snaps in quick succession, unstable stored high voltage about to overflow, short and dry, then silence. Real physical electricity only, very short and dry, no hum, no buzz, no whine, no synth, no laser, no beep, no thunder."
+    },
+    "e40_full": {
+      "n": 4,
+      "dur": 0.8,
+      "loop": false,
+      "influence": 0.65,
+      "text": "A compact cluster of three quick electrical snaps followed by one clean settling electric discharge, energy fully stored, short, ends in silence, not musical. Real physical electricity only, very short and dry, no hum, no buzz, no whine, no synth, no laser, no beep, no thunder."
+    },
+    "e40_release": {
+      "n": 4,
+      "dur": 0.8,
+      "loop": false,
+      "influence": 0.65,
+      "text": "A satisfying physical release of stored electrical energy into the ground: a solid deep electric thump with a strong dry arc crack and a short crackle decay, powerful but controlled. Real physical electricity only, very short and dry, no hum, no buzz, no whine, no synth, no laser, no beep, no thunder."
+    }
+  }
+}

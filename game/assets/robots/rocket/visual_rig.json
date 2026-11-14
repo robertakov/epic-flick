@@ -1,0 +1,136 @@
+{
+  "png_modular": true,
+  "source_scale": 0.24,
+  "torso_scale": [
+    1,
+    1
+  ],
+  "head_scale": [
+    1,
+    1
+  ],
+  "torso_offset": [
+    0,
+    -9.547619047619026
+  ],
+  "parts": {
+    "head": {
+      "pivot": [
+        115.5,
+        250.0
+      ],
+      "unit_scale": 0.48,
+      "z": 2
+    },
+    "torso": {
+      "pivot": [
+        85.0,
+        97.5
+      ],
+      "unit_scale": 0.48,
+      "z": 0
+    },
+    "arm_l": {
+      "pivot": [
+        139.0,
+        34.0
+      ],
+      "unit_scale": 0.48,
+      "z": 1,
+      "end": [
+        61.5,
+        206.5
+      ],
+      "spring_rows": [
+        73.5,
+        126.0
+      ],
+      "inertia_gain": 0.2,
+      "png_modular": true
+    },
+    "arm_r": {
+      "pivot": [
+        9.0,
+        34.0
+      ],
+      "unit_scale": 0.48,
+      "z": 1,
+      "end": [
+        88.0,
+        204.0
+      ],
+      "spring_rows": [
+        71.0,
+        123.5
+      ],
+      "inertia_gain": 0.2,
+      "png_modular": true
+    },
+    "leg_l": {
+      "pivot": [
+        164.5,
+        14.0
+      ],
+      "unit_scale": 0.48,
+      "z": -1,
+      "end": [
+        98.5,
+        266.5
+      ],
+      "spring_rows": [
+        19.5,
+        138.5
+      ],
+      "inertia_gain": 0.2,
+      "png_modular": true,
+      "rigid_middle_rows": [
+        61.0,
+        102.0
+      ]
+    },
+    "leg_r": {
+      "pivot": [
+        40.5,
+        -3.5
+      ],
+      "unit_scale": 0.48,
+      "z": -1,
+      "end": [
+        107.0,
+        253.0
+      ],
+      "spring_rows": [
+        6.0,
+        125.0
+      ],
+      "inertia_gain": 0.2,
+      "png_modular": true,
+      "rigid_middle_rows": [
+        47.5,
+        88.5
+      ]
+    }
+  },
+  "anchors": {
+    "neck": [
+      84.5,
+      19.0
+    ],
+    "shoulder_l": [
+      19.0,
+      47.0
+    ],
+    "shoulder_r": [
+      144.0,
+      49.5
+    ],
+    "hip_l": [
+      44.0,
+      185.0
+    ],
+    "hip_r": [
+      119.5,
+      181.0
+    ]
+  }
+}

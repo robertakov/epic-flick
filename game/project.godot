@@ -1,0 +1,65 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="ЭПИЧЕСКИЙ ЩЕЛБАН"
+config/name_localized={"ru": "ЭПИЧЕСКИЙ ЩЕЛБАН", "en": "Epic Flick", "es": "Papirotazo épico", "pt_BR": "Peteleco épico", "fr": "Pichenette épique", "de": "Epischer Schnipser", "it": "Schicchera epica", "pl": "Epicki pstryczek", "tr": "Epik Fiske", "uk": "Епічний щелбан", "zh_CN": "史诗弹脑门", "ja": "エピック・デコピン", "ko": "에픽 딱밤", "pt": "Peteleco épico", "zh": "史诗弹脑门"}
+config/description="Fate's Flick — 2D physics downhill robot race (first playable)"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+boot_splash/bg_color=Color(0.98, 0.86, 0.55, 1)
+config/icon="res://icon.png"
+config/quit_on_go_back=false
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=4
+window/vsync/vsync_mode=1
+
+[input]
+
+spin_ccw={
+"deadzone": 0.2,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":32,"key_label":0,"unicode":32,"location":0,"echo":false,"script":null)
+]
+}
+retry={
+"deadzone": 0.2,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":82,"key_label":0,"unicode":114,"location":0,"echo":false,"script":null)
+]
+}
+
+[input_devices]
+
+pointing/emulate_mouse_from_touch=true
+
+[physics]
+
+common/physics_ticks_per_second=120
+common/max_physics_steps_per_frame=8
+2d/default_gravity=1800.0
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+2d/snap/snap_2d_transforms_to_pixel=false
+environment/defaults/default_clear_color=Color(0.55, 0.78, 0.93, 1)
+anti_aliasing/quality/msaa_2d=0
+
+[internationalization]
+
+locale/fallback="en"

@@ -1,0 +1,1742 @@
+{
+  "r1": [
+    {
+      "type": "DISTANCE",
+      "m": 200,
+      "reward": 15
+    },
+    {
+      "type": "TOTAL_GOOD_LANDINGS",
+      "n": 7,
+      "reward": 15
+    },
+    {
+      "type": "CHARGE_TARGET",
+      "pct": 70,
+      "reward": 15
+    }
+  ],
+  "r2": [
+    {
+      "type": "CLEAN_START",
+      "m": 75,
+      "reward": 20
+    },
+    {
+      "type": "TOTAL_GOOD_LANDINGS",
+      "n": 7,
+      "reward": 20
+    },
+    {
+      "type": "AIR_TIME",
+      "s": 2.6,
+      "reward": 20
+    }
+  ],
+  "r3": [
+    {
+      "type": "DISTANCE",
+      "m": 240,
+      "reward": 20
+    },
+    {
+      "type": "GOOD_LANDING_STREAK",
+      "n": 6,
+      "reward": 20
+    },
+    {
+      "type": "AIR_TIME",
+      "s": 2.6,
+      "reward": 20
+    }
+  ],
+  "r4": [
+    {
+      "type": "CLEAN_START",
+      "m": 80,
+      "reward": 20
+    },
+    {
+      "type": "GOOD_LANDING_STREAK",
+      "n": 7,
+      "reward": 20
+    },
+    {
+      "type": "SPEED_TARGET",
+      "kmh": 80,
+      "reward": 20
+    }
+  ],
+  "r5": [
+    {
+      "type": "DISTANCE",
+      "m": 270,
+      "reward": 20
+    },
+    {
+      "type": "GOOD_LANDING_STREAK",
+      "n": 7,
+      "reward": 20
+    },
+    {
+      "type": "CHARGED_LANDING",
+      "pct": 90,
+      "reward": 20
+    }
+  ],
+  "r6": [
+    {
+      "type": "SURVIVAL_HP",
+      "hp": 60,
+      "m": 110,
+      "reward": 20
+    },
+    {
+      "type": "BAD_LANDING_LIMIT",
+      "n": 1,
+      "m": 140,
+      "reward": 20
+    },
+    {
+      "type": "LONG_JUMP",
+      "m": 50,
+      "reward": 20
+    }
+  ],
+  "r7": [
+    {
+      "type": "CLEAN_START",
+      "m": 90,
+      "reward": 25
+    },
+    {
+      "type": "BAD_LANDING_LIMIT",
+      "n": 1,
+      "m": 140,
+      "reward": 25
+    },
+    {
+      "type": "CHARGE_TARGET",
+      "pct": 95,
+      "reward": 25
+    }
+  ],
+  "r8": [
+    {
+      "type": "LIMB_LIMIT",
+      "n": 1,
+      "m": 115,
+      "reward": 25
+    },
+    {
+      "type": "CLEAN_SECTION",
+      "m": 160,
+      "reward": 25
+    },
+    {
+      "type": "CHARGED_LANDING",
+      "pct": 95,
+      "reward": 25
+    }
+  ],
+  "r9": [
+    {
+      "type": "SURVIVAL_HP",
+      "hp": 60,
+      "m": 115,
+      "reward": 25
+    },
+    {
+      "type": "CLEAN_SECTION",
+      "m": 160,
+      "reward": 25
+    },
+    {
+      "type": "LONG_JUMP",
+      "m": 55,
+      "reward": 25
+    }
+  ],
+  "r10": [
+    {
+      "type": "LIMB_LIMIT",
+      "n": 1,
+      "m": 125,
+      "reward": 40
+    },
+    {
+      "type": "RECOVERY",
+      "n": 1,
+      "reward": 40
+    },
+    {
+      "type": "SPEED_TARGET",
+      "kmh": 80,
+      "reward": 40
+    }
+  ],
+  "r11": [
+    {
+      "type": "SURVIVAL_HP",
+      "hp": 60,
+      "m": 115,
+      "reward": 30
+    },
+    {
+      "type": "RECOVERY",
+      "n": 1,
+      "reward": 30
+    },
+    {
+      "type": "LONG_JUMP",
+      "m": 55,
+      "reward": 30
+    }
+  ],
+  "r12": [
+    {
+      "type": "LIMB_LIMIT",
+      "n": 1,
+      "m": 125,
+      "reward": 30
+    },
+    {
+      "type": "BAD_LANDING_LIMIT",
+      "n": 1,
+      "m": 180,
+      "reward": 30
+    },
+    {
+      "type": "CHARGED_LANDING",
+      "pct": 95,
+      "reward": 30
+    }
+  ],
+  "r13": [
+    {
+      "type": "CLEAN_START",
+      "m": 95,
+      "reward": 30
+    },
+    {
+      "type": "TOTAL_GOOD_LANDINGS",
+      "n": 7,
+      "reward": 30
+    },
+    {
+      "type": "SPEED_TARGET",
+      "kmh": 80,
+      "reward": 30
+    }
+  ],
+  "r14": [
+    {
+      "type": "LIMB_LIMIT",
+      "n": 1,
+      "m": 135,
+      "reward": 30
+    },
+    {
+      "type": "RECOVERY",
+      "n": 1,
+      "reward": 30
+    },
+    {
+      "type": "AIR_TIME",
+      "s": 3.1,
+      "reward": 30
+    }
+  ],
+  "r15": [
+    {
+      "type": "DISTANCE",
+      "m": 375,
+      "reward": 35
+    },
+    {
+      "type": "CLEAN_SECTION",
+      "m": 190,
+      "reward": 35
+    },
+    {
+      "type": "CHARGE_TARGET",
+      "pct": 100,
+      "reward": 35
+    }
+  ],
+  "r16": [
+    {
+      "type": "SURVIVAL_HP",
+      "hp": 50,
+      "m": 135,
+      "reward": 35
+    },
+    {
+      "type": "CLEAN_SECTION",
+      "m": 190,
+      "reward": 35
+    },
+    {
+      "type": "AIR_TIME",
+      "s": 3.1,
+      "reward": 35
+    }
+  ],
+  "r17": [
+    {
+      "type": "DISTANCE",
+      "m": 420,
+      "reward": 35
+    },
+    {
+      "type": "TOTAL_GOOD_LANDINGS",
+      "n": 7,
+      "reward": 35
+    },
+    {
+      "type": "SPEED_TARGET",
+      "kmh": 85,
+      "reward": 35
+    }
+  ],
+  "r18": [
+    {
+      "type": "LIMB_LIMIT",
+      "n": 1,
+      "m": 140,
+      "reward": 40
+    },
+    {
+      "type": "BAD_LANDING_LIMIT",
+      "n": 1,
+      "m": 275,
+      "reward": 40
+    },
+    {
+      "type": "CHARGED_LANDING_STREAK",
+      "n": 2,
+      "pct": 70,
+      "reward": 40
+    }
+  ],
+  "r19": [
+    {
+      "type": "SURVIVAL_HP",
+      "hp": 60,
+      "m": 135,
+      "reward": 40
+    },
+    {
+      "type": "RECOVERY",
+      "n": 1,
+      "reward": 40
+    },
+    {
+      "type": "CHARGED_LANDING_STREAK",
+      "n": 2,
+      "pct": 70,
+      "reward": 40
+    }
+  ],
+  "r20": [
+    {
+      "type": "CLEAN_START",
+      "m": 100,
+      "reward": 60
+    },
+    {
+      "type": "CLEAN_SECTION",
+      "m": 255,
+      "reward": 60
+    },
+    {
+      "type": "CHARGED_LANDING_STREAK",
+      "n": 2,
+      "pct": 70,
+      "reward": 60
+    }
+  ],
+  "r21": [
+    {
+      "type": "SURVIVAL_HP",
+      "hp": 50,
+      "m": 140,
+      "reward": 40
+    },
+    {
+      "type": "GOOD_LANDING_STREAK",
+      "n": 7,
+      "reward": 40
+    },
+    {
+      "type": "CHARGE_TARGET",
+      "pct": 100,
+      "reward": 40
+    }
+  ],
+  "r22": [
+    {
+      "type": "DISTANCE",
+      "m": 455,
+      "reward": 40
+    },
+    {
+      "type": "GOOD_LANDING_STREAK",
+      "n": 7,
+      "reward": 40
+    },
+    {
+      "type": "LONG_JUMP",
+      "m": 55,
+      "reward": 40
+    }
+  ],
+  "r23": [
+    {
+      "type": "CLEAN_START",
+      "m": 100,
+      "reward": 45
+    },
+    {
+      "type": "TOTAL_GOOD_LANDINGS",
+      "n": 7,
+      "reward": 45
+    },
+    {
+      "type": "CHARGED_LANDING",
+      "pct": 100,
+      "reward": 45
+    }
+  ],
+  "r24": [
+    {
+      "type": "LIMB_LIMIT",
+      "n": 1,
+      "m": 145,
+      "reward": 45
+    },
+    {
+      "type": "RECOVERY",
+      "n": 1,
+      "reward": 45
+    },
+    {
+      "type": "CHARGED_LANDING_STREAK",
+      "n": 2,
+      "pct": 70,
+      "reward": 45
+    }
+  ],
+  "r25": [
+    {
+      "type": "LIMB_LIMIT",
+      "n": 1,
+      "m": 150,
+      "reward": 45
+    },
+    {
+      "type": "BAD_LANDING_LIMIT",
+      "n": 1,
+      "m": 320,
+      "reward": 45
+    },
+    {
+      "type": "LONG_JUMP",
+      "m": 55,
+      "reward": 45
+    }
+  ],
+  "r26": [
+    {
+      "type": "SURVIVAL_HP",
+      "hp": 50,
+      "m": 150,
+      "reward": 50
+    },
+    {
+      "type": "GOOD_LANDING_STREAK",
+      "n": 7,
+      "reward": 50
+    },
+    {
+      "type": "SPEED_TARGET",
+      "kmh": 85,
+      "reward": 50
+    }
+  ],
+  "r27": [
+    {
+      "type": "CLEAN_START",
+      "m": 100,
+      "reward": 50
+    },
+    {
+      "type": "RECOVERY",
+      "n": 1,
+      "reward": 50
+    },
+    {
+      "type": "AIR_TIME",
+      "s": 3.3,
+      "reward": 50
+    }
+  ],
+  "r28": [
+    {
+      "type": "DISTANCE",
+      "m": 500,
+      "reward": 50
+    },
+    {
+      "type": "BAD_LANDING_LIMIT",
+      "n": 1,
+      "m": 325,
+      "reward": 50
+    },
+    {
+      "type": "CHARGED_LANDING_STREAK",
+      "n": 2,
+      "pct": 75,
+      "reward": 50
+    }
+  ],
+  "r29": [
+    {
+      "type": "DISTANCE",
+      "m": 500,
+      "reward": 50
+    },
+    {
+      "type": "CLEAN_SECTION",
+      "m": 290,
+      "reward": 50
+    },
+    {
+      "type": "CHARGED_LANDING",
+      "pct": 100,
+      "reward": 50
+    }
+  ],
+  "r30": [
+    {
+      "type": "CLEAN_START",
+      "m": 100,
+      "reward": 80
+    },
+    {
+      "type": "TOTAL_GOOD_LANDINGS",
+      "n": 7,
+      "reward": 80
+    },
+    {
+      "type": "CHARGE_TARGET",
+      "pct": 100,
+      "reward": 80
+    }
+  ],
+  "r31": [
+    {
+      "type": "SURVIVAL_HP",
+      "hp": 50,
+      "m": 155,
+      "reward": 55
+    },
+    {
+      "type": "BAD_LANDING_LIMIT",
+      "n": 1,
+      "m": 330,
+      "reward": 55
+    },
+    {
+      "type": "CHARGED_LANDING_STREAK",
+      "n": 2,
+      "pct": 80,
+      "reward": 55
+    }
+  ],
+  "r32": [
+    {
+      "type": "LIMB_LIMIT",
+      "n": 1,
+      "m": 155,
+      "reward": 55
+    },
+    {
+      "type": "GOOD_LANDING_STREAK",
+      "n": 7,
+      "reward": 55
+    },
+    {
+      "type": "AIR_TIME",
+      "s": 3.3,
+      "reward": 55
+    }
+  ],
+  "r33": [
+    {
+      "type": "LIMB_LIMIT",
+      "n": 1,
+      "m": 155,
+      "reward": 55
+    },
+    {
+      "type": "TOTAL_GOOD_LANDINGS",
+      "n": 7,
+      "reward": 55
+    },
+    {
+      "type": "CHARGED_LANDING",
+      "pct": 100,
+      "reward": 55
+    }
+  ],
+  "r34": [
+    {
+      "type": "CLEAN_START",
+      "m": 100,
+      "reward": 60
+    },
+    {
+      "type": "CLEAN_SECTION",
+      "m": 305,
+      "reward": 60
+    },
+    {
+      "type": "SPEED_TARGET",
+      "kmh": 85,
+      "reward": 60
+    }
+  ],
+  "r35": [
+    {
+      "type": "SURVIVAL_HP",
+      "hp": 50,
+      "m": 155,
+      "reward": 60
+    },
+    {
+      "type": "RECOVERY",
+      "n": 1,
+      "reward": 60
+    },
+    {
+      "type": "CHARGE_TARGET",
+      "pct": 100,
+      "reward": 60
+    }
+  ],
+  "r36": [
+    {
+      "type": "DISTANCE",
+      "m": 550,
+      "reward": 60
+    },
+    {
+      "type": "TOTAL_GOOD_LANDINGS",
+      "n": 7,
+      "reward": 60
+    },
+    {
+      "type": "LONG_JUMP",
+      "m": 60,
+      "reward": 60
+    }
+  ],
+  "r37": [
+    {
+      "type": "CLEAN_START",
+      "m": 100,
+      "reward": 60
+    },
+    {
+      "type": "CLEAN_SECTION",
+      "m": 310,
+      "reward": 60
+    },
+    {
+      "type": "CHARGE_TARGET",
+      "pct": 100,
+      "reward": 60
+    }
+  ],
+  "r38": [
+    {
+      "type": "DISTANCE",
+      "m": 550,
+      "reward": 60
+    },
+    {
+      "type": "GOOD_LANDING_STREAK",
+      "n": 7,
+      "reward": 60
+    },
+    {
+      "type": "SPEED_TARGET",
+      "kmh": 85,
+      "reward": 60
+    }
+  ],
+  "r39": [
+    {
+      "type": "SURVIVAL_HP",
+      "hp": 50,
+      "m": 160,
+      "reward": 65
+    },
+    {
+      "type": "BAD_LANDING_LIMIT",
+      "n": 1,
+      "m": 340,
+      "reward": 65
+    },
+    {
+      "type": "AIR_TIME",
+      "s": 3.3,
+      "reward": 65
+    }
+  ],
+  "r40": [
+    {
+      "type": "LIMB_LIMIT",
+      "n": 1,
+      "m": 160,
+      "reward": 100
+    },
+    {
+      "type": "RECOVERY",
+      "n": 1,
+      "reward": 100
+    },
+    {
+      "type": "LONG_JUMP",
+      "m": 60,
+      "reward": 100
+    }
+  ],
+  "r41": [
+    {
+      "type": "ROCKET_HEAD_DISTANCE",
+      "m": 100,
+      "reward": 55
+    },
+    {
+      "type": "NO_TOUCH_AND_WIN",
+      "s": 3.5,
+      "reward": 55
+    },
+    {
+      "type": "FLICK_MIN_AND_WIN",
+      "reward": 55
+    }
+  ],
+  "r42": [
+    {
+      "type": "DISTANCE",
+      "m": 390,
+      "reward": 55
+    },
+    {
+      "type": "HEAD_LANDINGS",
+      "n": 2,
+      "reward": 55
+    },
+    {
+      "type": "MAX_HEIGHT_M",
+      "m": 24,
+      "reward": 55
+    }
+  ],
+  "r43": [
+    {
+      "type": "WIN_MARGIN_OVER",
+      "m": 200,
+      "reward": 55
+    },
+    {
+      "type": "NO_TOUCH_AND_WIN",
+      "s": 3.5,
+      "reward": 55
+    },
+    {
+      "type": "CCW_TURNS",
+      "n": 2,
+      "reward": 55
+    }
+  ],
+  "r44": [
+    {
+      "type": "LIMB_LIMIT",
+      "m": 190,
+      "n": 1,
+      "reward": 55
+    },
+    {
+      "type": "HEAD_LANDINGS",
+      "n": 2,
+      "reward": 55
+    },
+    {
+      "type": "FLICK_MAX_POWER",
+      "reward": 55
+    }
+  ],
+  "r45": [
+    {
+      "type": "ROCKET_HEAD_DISTANCE",
+      "m": 90,
+      "reward": 55
+    },
+    {
+      "type": "NO_TOUCH_AND_WIN",
+      "s": 3.5,
+      "reward": 55
+    },
+    {
+      "type": "FLICK_MAX_POWER",
+      "reward": 55
+    }
+  ],
+  "r46": [
+    {
+      "type": "WIN_MARGIN_OVER",
+      "m": 160,
+      "reward": 55
+    },
+    {
+      "type": "HEAD_LANDINGS",
+      "n": 1,
+      "reward": 55
+    },
+    {
+      "type": "MAX_HEIGHT_M",
+      "m": 25,
+      "reward": 55
+    }
+  ],
+  "r47": [
+    {
+      "type": "ROCKET_HEAD_DISTANCE",
+      "m": 110,
+      "reward": 60
+    },
+    {
+      "type": "HEAD_LANDINGS",
+      "n": 1,
+      "reward": 60
+    },
+    {
+      "type": "CCW_TURNS",
+      "n": 2,
+      "reward": 60
+    }
+  ],
+  "r48": [
+    {
+      "type": "DISTANCE",
+      "m": 400,
+      "reward": 60
+    },
+    {
+      "type": "HEAD_LANDINGS",
+      "n": 3,
+      "reward": 60
+    },
+    {
+      "type": "FLICK_MIN_AND_WIN",
+      "reward": 60
+    }
+  ],
+  "r49": [
+    {
+      "type": "WIN_MARGIN_OVER",
+      "m": 180,
+      "reward": 60
+    },
+    {
+      "type": "NO_TOUCH_AND_WIN",
+      "s": 3.5,
+      "reward": 60
+    },
+    {
+      "type": "FLICK_MIN_AND_WIN",
+      "reward": 60
+    }
+  ],
+  "r50": [
+    {
+      "type": "LIMB_LIMIT",
+      "m": 200,
+      "n": 1,
+      "reward": 110
+    },
+    {
+      "type": "NO_TOUCH_AND_WIN",
+      "s": 3.5,
+      "reward": 110
+    },
+    {
+      "type": "CCW_TURNS",
+      "n": 3,
+      "reward": 110
+    }
+  ],
+  "r51": [
+    {
+      "type": "WIN_MARGIN_OVER",
+      "m": 200,
+      "reward": 60
+    },
+    {
+      "type": "HEAD_LANDINGS",
+      "n": 2,
+      "reward": 60
+    },
+    {
+      "type": "FLICK_MAX_POWER",
+      "reward": 60
+    }
+  ],
+  "r52": [
+    {
+      "type": "ROCKET_HEAD_DISTANCE",
+      "m": 120,
+      "reward": 60
+    },
+    {
+      "type": "CLEAN_SECTION",
+      "m": 220,
+      "reward": 60
+    },
+    {
+      "type": "MAX_HEIGHT_M",
+      "m": 25,
+      "reward": 60
+    }
+  ],
+  "r53": [
+    {
+      "type": "ROCKET_HEAD_DISTANCE",
+      "m": 100,
+      "reward": 65
+    },
+    {
+      "type": "HEAD_LANDINGS",
+      "n": 3,
+      "reward": 65
+    },
+    {
+      "type": "FLICK_MIN_AND_WIN",
+      "reward": 65
+    }
+  ],
+  "r54": [
+    {
+      "type": "DISTANCE",
+      "m": 420,
+      "reward": 65
+    },
+    {
+      "type": "NO_TOUCH_AND_WIN",
+      "s": 3.5,
+      "reward": 65
+    },
+    {
+      "type": "MAX_HEIGHT_M",
+      "m": 25,
+      "reward": 65
+    }
+  ],
+  "r55": [
+    {
+      "type": "WIN_MARGIN_OVER",
+      "m": 220,
+      "reward": 65
+    },
+    {
+      "type": "NO_TOUCH_AND_WIN",
+      "s": 3.5,
+      "reward": 65
+    },
+    {
+      "type": "FLICK_MAX_POWER",
+      "reward": 65
+    }
+  ],
+  "r56": [
+    {
+      "type": "LIMB_LIMIT",
+      "m": 210,
+      "n": 1,
+      "reward": 65
+    },
+    {
+      "type": "NO_TOUCH_AND_WIN",
+      "s": 3.5,
+      "reward": 65
+    },
+    {
+      "type": "FLICK_MIN_AND_WIN",
+      "reward": 65
+    }
+  ],
+  "r57": [
+    {
+      "type": "WIN_MARGIN_OVER",
+      "m": 240,
+      "reward": 65
+    },
+    {
+      "type": "HEAD_LANDINGS",
+      "n": 2,
+      "reward": 65
+    },
+    {
+      "type": "CCW_TURNS",
+      "n": 2,
+      "reward": 65
+    }
+  ],
+  "r58": [
+    {
+      "type": "ROCKET_HEAD_DISTANCE",
+      "m": 130,
+      "reward": 65
+    },
+    {
+      "type": "TOTAL_GOOD_LANDINGS",
+      "n": 7,
+      "reward": 65
+    },
+    {
+      "type": "FLICK_MAX_POWER",
+      "reward": 65
+    }
+  ],
+  "r59": [
+    {
+      "type": "ROCKET_HEAD_DISTANCE",
+      "m": 140,
+      "reward": 70
+    },
+    {
+      "type": "NO_TOUCH_AND_WIN",
+      "s": 3.5,
+      "reward": 70
+    },
+    {
+      "type": "MAX_HEIGHT_M",
+      "m": 26,
+      "reward": 70
+    }
+  ],
+  "r60": [
+    {
+      "type": "DISTANCE",
+      "m": 440,
+      "reward": 110
+    },
+    {
+      "type": "HEAD_LANDINGS",
+      "n": 2,
+      "reward": 110
+    },
+    {
+      "type": "CCW_TURNS",
+      "n": 3,
+      "reward": 110
+    }
+  ],
+  "r61": [
+    {
+      "type": "WIN_MARGIN_OVER",
+      "m": 250,
+      "reward": 70
+    },
+    {
+      "type": "BAD_LANDING_LIMIT",
+      "m": 240,
+      "n": 2,
+      "reward": 70
+    },
+    {
+      "type": "CCW_TURNS",
+      "n": 4,
+      "reward": 70
+    }
+  ],
+  "r62": [
+    {
+      "type": "WIN_MARGIN_OVER",
+      "m": 200,
+      "reward": 70
+    },
+    {
+      "type": "HEAD_LANDINGS",
+      "n": 2,
+      "reward": 70
+    },
+    {
+      "type": "FLICK_MIN_AND_WIN",
+      "reward": 70
+    }
+  ],
+  "r63": [
+    {
+      "type": "SURVIVAL_HP",
+      "m": 210,
+      "hp": 50,
+      "reward": 70
+    },
+    {
+      "type": "NO_TOUCH_AND_WIN",
+      "s": 3.5,
+      "reward": 70
+    },
+    {
+      "type": "FLICK_MAX_POWER",
+      "reward": 70
+    }
+  ],
+  "r64": [
+    {
+      "type": "ROCKET_HEAD_DISTANCE",
+      "m": 100,
+      "reward": 70
+    },
+    {
+      "type": "CLEAN_SECTION",
+      "m": 240,
+      "reward": 70
+    },
+    {
+      "type": "CHARGED_LANDING_STREAK",
+      "n": 3,
+      "pct": 65,
+      "reward": 70
+    }
+  ],
+  "r65": [
+    {
+      "type": "ROCKET_HEAD_DISTANCE",
+      "m": 90,
+      "reward": 75
+    },
+    {
+      "type": "RECOVERY",
+      "n": 2,
+      "reward": 75
+    },
+    {
+      "type": "MAX_HEIGHT_M",
+      "m": 26,
+      "reward": 75
+    }
+  ],
+  "r66": [
+    {
+      "type": "WIN_MARGIN_OVER",
+      "m": 160,
+      "reward": 75
+    },
+    {
+      "type": "NO_TOUCH_AND_WIN",
+      "s": 3.5,
+      "reward": 75
+    },
+    {
+      "type": "MAX_HEIGHT_M",
+      "m": 27,
+      "reward": 75
+    }
+  ],
+  "r67": [
+    {
+      "type": "LIMB_LIMIT",
+      "m": 230,
+      "n": 2,
+      "reward": 75
+    },
+    {
+      "type": "HEAD_LANDINGS",
+      "n": 3,
+      "reward": 75
+    },
+    {
+      "type": "CHARGED_LANDING",
+      "pct": 85,
+      "reward": 75
+    }
+  ],
+  "r68": [
+    {
+      "type": "ROCKET_HEAD_DISTANCE",
+      "m": 110,
+      "reward": 75
+    },
+    {
+      "type": "GOOD_LANDING_STREAK",
+      "n": 7,
+      "reward": 75
+    },
+    {
+      "type": "CCW_TURNS",
+      "n": 2,
+      "reward": 75
+    }
+  ],
+  "r69": [
+    {
+      "type": "SURVIVAL_HP",
+      "m": 220,
+      "hp": 50,
+      "reward": 75
+    },
+    {
+      "type": "TOTAL_GOOD_LANDINGS",
+      "n": 9,
+      "reward": 75
+    },
+    {
+      "type": "FLICK_MIN_AND_WIN",
+      "reward": 75
+    }
+  ],
+  "r70": [
+    {
+      "type": "WIN_MARGIN_OVER",
+      "m": 180,
+      "reward": 110
+    },
+    {
+      "type": "CLEAN_SECTION",
+      "m": 250,
+      "reward": 110
+    },
+    {
+      "type": "FLICK_MAX_POWER",
+      "reward": 110
+    }
+  ],
+  "r71": [
+    {
+      "type": "WIN_MARGIN_OVER",
+      "m": 200,
+      "reward": 80
+    },
+    {
+      "type": "GOOD_LANDING_STREAK",
+      "n": 7,
+      "reward": 80
+    },
+    {
+      "type": "FLICK_MIN_AND_WIN",
+      "reward": 80
+    }
+  ],
+  "r72": [
+    {
+      "type": "ROCKET_HEAD_DISTANCE",
+      "m": 120,
+      "reward": 80
+    },
+    {
+      "type": "RECOVERY",
+      "n": 2,
+      "reward": 80
+    },
+    {
+      "type": "SPEED_TARGET",
+      "kmh": 95,
+      "reward": 80
+    }
+  ],
+  "r73": [
+    {
+      "type": "CLEAN_START",
+      "m": 150,
+      "reward": 80
+    },
+    {
+      "type": "BAD_LANDING_LIMIT",
+      "m": 260,
+      "n": 1,
+      "reward": 80
+    },
+    {
+      "type": "AIR_TIME",
+      "s": 3.0,
+      "reward": 80
+    }
+  ],
+  "r74": [
+    {
+      "type": "LIMB_LIMIT",
+      "m": 280,
+      "n": 1,
+      "reward": 80
+    },
+    {
+      "type": "GOOD_LANDING_STREAK",
+      "n": 7,
+      "reward": 80
+    },
+    {
+      "type": "CHARGED_LANDING",
+      "pct": 90,
+      "reward": 80
+    }
+  ],
+  "r75": [
+    {
+      "type": "CLEAN_START",
+      "m": 180,
+      "reward": 80
+    },
+    {
+      "type": "NO_TOUCH_AND_WIN",
+      "s": 3.5,
+      "reward": 80
+    },
+    {
+      "type": "FLICK_MAX_POWER",
+      "reward": 80
+    }
+  ],
+  "r76": [
+    {
+      "type": "SURVIVAL_HP",
+      "m": 250,
+      "hp": 60,
+      "reward": 80
+    },
+    {
+      "type": "CLEAN_SECTION",
+      "m": 260,
+      "reward": 80
+    },
+    {
+      "type": "MAX_HEIGHT_M",
+      "m": 28,
+      "reward": 80
+    }
+  ],
+  "r77": [
+    {
+      "type": "DISTANCE",
+      "m": 510,
+      "reward": 85
+    },
+    {
+      "type": "BAD_LANDING_LIMIT",
+      "m": 260,
+      "n": 0,
+      "reward": 85
+    },
+    {
+      "type": "CHARGE_TARGET",
+      "pct": 95,
+      "reward": 85
+    }
+  ],
+  "r78": [
+    {
+      "type": "ROCKET_HEAD_DISTANCE",
+      "m": 100,
+      "reward": 85
+    },
+    {
+      "type": "TOTAL_GOOD_LANDINGS",
+      "n": 9,
+      "reward": 85
+    },
+    {
+      "type": "LONG_JUMP",
+      "m": 80,
+      "reward": 85
+    }
+  ],
+  "r79": [
+    {
+      "type": "SURVIVAL_HP",
+      "m": 240,
+      "hp": 45,
+      "reward": 85
+    },
+    {
+      "type": "HEAD_LANDINGS",
+      "n": 2,
+      "reward": 85
+    },
+    {
+      "type": "CHARGED_LANDING_STREAK",
+      "n": 4,
+      "pct": 70,
+      "reward": 85
+    }
+  ],
+  "r80": [
+    {
+      "type": "DISTANCE",
+      "m": 530,
+      "reward": 110
+    },
+    {
+      "type": "RECOVERY",
+      "n": 2,
+      "reward": 110
+    },
+    {
+      "type": "CCW_TURNS",
+      "n": 2,
+      "reward": 110
+    }
+  ],
+  "r81": [
+    {
+      "type": "SURVIVAL_HP",
+      "m": 260,
+      "hp": 60,
+      "reward": 85
+    },
+    {
+      "type": "GOOD_LANDING_STREAK",
+      "n": 7,
+      "reward": 85
+    },
+    {
+      "type": "CHARGED_LANDING",
+      "pct": 90,
+      "reward": 85
+    }
+  ],
+  "r82": [
+    {
+      "type": "WIN_MARGIN_OVER",
+      "m": 220,
+      "reward": 85
+    },
+    {
+      "type": "CLEAN_SECTION",
+      "m": 270,
+      "reward": 85
+    },
+    {
+      "type": "MAX_HEIGHT_M",
+      "m": 28,
+      "reward": 85
+    }
+  ],
+  "r83": [
+    {
+      "type": "LIMB_LIMIT",
+      "m": 300,
+      "n": 2,
+      "reward": 90
+    },
+    {
+      "type": "BAD_LANDING_LIMIT",
+      "m": 280,
+      "n": 2,
+      "reward": 90
+    },
+    {
+      "type": "FLICK_MIN_AND_WIN",
+      "reward": 90
+    }
+  ],
+  "r84": [
+    {
+      "type": "CLEAN_START",
+      "m": 190,
+      "reward": 90
+    },
+    {
+      "type": "RECOVERY",
+      "n": 3,
+      "reward": 90
+    },
+    {
+      "type": "SPEED_TARGET",
+      "kmh": 95,
+      "reward": 90
+    }
+  ],
+  "r85": [
+    {
+      "type": "CLEAN_START",
+      "m": 160,
+      "reward": 90
+    },
+    {
+      "type": "NO_TOUCH_AND_WIN",
+      "s": 3.5,
+      "reward": 90
+    },
+    {
+      "type": "AIR_TIME",
+      "s": 3.1,
+      "reward": 90
+    }
+  ],
+  "r86": [
+    {
+      "type": "DISTANCE",
+      "m": 550,
+      "reward": 90
+    },
+    {
+      "type": "TOTAL_GOOD_LANDINGS",
+      "n": 10,
+      "reward": 90
+    },
+    {
+      "type": "CCW_TURNS",
+      "n": 2,
+      "reward": 90
+    }
+  ],
+  "r87": [
+    {
+      "type": "CLEAN_START",
+      "m": 195,
+      "reward": 90
+    },
+    {
+      "type": "BAD_LANDING_LIMIT",
+      "m": 280,
+      "n": 0,
+      "reward": 90
+    },
+    {
+      "type": "LONG_JUMP",
+      "m": 80,
+      "reward": 90
+    }
+  ],
+  "r88": [
+    {
+      "type": "LIMB_LIMIT",
+      "m": 310,
+      "n": 1,
+      "reward": 90
+    },
+    {
+      "type": "HEAD_LANDINGS",
+      "n": 3,
+      "reward": 90
+    },
+    {
+      "type": "CHARGED_LANDING_STREAK",
+      "n": 4,
+      "pct": 70,
+      "reward": 90
+    }
+  ],
+  "r89": [
+    {
+      "type": "ROCKET_HEAD_DISTANCE",
+      "m": 130,
+      "reward": 95
+    },
+    {
+      "type": "HEAD_LANDINGS",
+      "n": 2,
+      "reward": 95
+    },
+    {
+      "type": "CHARGE_TARGET",
+      "pct": 95,
+      "reward": 95
+    }
+  ],
+  "r90": [
+    {
+      "type": "WIN_MARGIN_OVER",
+      "m": 240,
+      "reward": 110
+    },
+    {
+      "type": "TOTAL_GOOD_LANDINGS",
+      "n": 10,
+      "reward": 110
+    },
+    {
+      "type": "FLICK_MAX_POWER",
+      "reward": 110
+    }
+  ],
+  "r91": [
+    {
+      "type": "SURVIVAL_HP",
+      "m": 280,
+      "hp": 60,
+      "reward": 95
+    },
+    {
+      "type": "NO_TOUCH_AND_WIN",
+      "s": 3.5,
+      "reward": 95
+    },
+    {
+      "type": "CCW_TURNS",
+      "n": 3,
+      "reward": 95
+    }
+  ],
+  "r92": [
+    {
+      "type": "LIMB_LIMIT",
+      "m": 280,
+      "n": 1,
+      "reward": 95
+    },
+    {
+      "type": "GOOD_LANDING_STREAK",
+      "n": 8,
+      "reward": 95
+    },
+    {
+      "type": "CHARGE_TARGET",
+      "pct": 95,
+      "reward": 95
+    }
+  ],
+  "r93": [
+    {
+      "type": "SURVIVAL_HP",
+      "m": 280,
+      "hp": 60,
+      "reward": 95
+    },
+    {
+      "type": "HEAD_LANDINGS",
+      "n": 2,
+      "reward": 95
+    },
+    {
+      "type": "CHARGED_LANDING",
+      "pct": 90,
+      "reward": 95
+    }
+  ],
+  "r94": [
+    {
+      "type": "ROCKET_HEAD_DISTANCE",
+      "m": 140,
+      "reward": 95
+    },
+    {
+      "type": "RECOVERY",
+      "n": 3,
+      "reward": 95
+    },
+    {
+      "type": "LONG_JUMP",
+      "m": 85,
+      "reward": 95
+    }
+  ],
+  "r95": [
+    {
+      "type": "WIN_MARGIN_OVER",
+      "m": 250,
+      "reward": 100
+    },
+    {
+      "type": "CLEAN_SECTION",
+      "m": 290,
+      "reward": 100
+    },
+    {
+      "type": "AIR_TIME",
+      "s": 3.2,
+      "reward": 100
+    }
+  ],
+  "r96": [
+    {
+      "type": "LIMB_LIMIT",
+      "m": 320,
+      "n": 1,
+      "reward": 100
+    },
+    {
+      "type": "BAD_LANDING_LIMIT",
+      "m": 290,
+      "n": 0,
+      "reward": 100
+    },
+    {
+      "type": "SPEED_TARGET",
+      "kmh": 100,
+      "reward": 100
+    }
+  ],
+  "r97": [
+    {
+      "type": "CLEAN_START",
+      "m": 205,
+      "reward": 100
+    },
+    {
+      "type": "RECOVERY",
+      "n": 3,
+      "reward": 100
+    },
+    {
+      "type": "FLICK_MIN_AND_WIN",
+      "reward": 100
+    }
+  ],
+  "r98": [
+    {
+      "type": "DISTANCE",
+      "m": 590,
+      "reward": 100
+    },
+    {
+      "type": "GOOD_LANDING_STREAK",
+      "n": 8,
+      "reward": 100
+    },
+    {
+      "type": "MAX_HEIGHT_M",
+      "m": 30,
+      "reward": 100
+    }
+  ],
+  "r99": [
+    {
+      "type": "DISTANCE",
+      "m": 600,
+      "reward": 100
+    },
+    {
+      "type": "HEAD_LANDINGS",
+      "n": 2,
+      "reward": 100
+    },
+    {
+      "type": "CHARGED_LANDING_STREAK",
+      "n": 4,
+      "pct": 70,
+      "reward": 100
+    }
+  ],
+  "r100": [
+    {
+      "type": "ROCKET_HEAD_DISTANCE",
+      "m": 100,
+      "reward": 110
+    },
+    {
+      "type": "CLEAN_SECTION",
+      "m": 300,
+      "reward": 110
+    },
+    {
+      "type": "FLICK_MAX_POWER",
+      "reward": 110
+    }
+  ]
+}

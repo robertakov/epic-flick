@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="SkinDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/config/skin_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "tin_copper"
+robot_id = "tin"
+display_name = "Медный котелок"
+source = "campaign"
+scheme = "copper"
+hue_shift = 0.02
+saturation = 0.9
+brightness = 1.05
+tint = Color(0.95, 0.55, 0.25, 1)
+tint_amount = 0.55

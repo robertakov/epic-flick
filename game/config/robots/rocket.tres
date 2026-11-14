@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="RobotDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/config/robot_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "rocket"
+visual_id = "chronos"
+display_name = "Хронобот"
+description = "Заводной часовой механизм с взрывным энергетическим бустом и стремительным зарядом вращения."
+price = 2000
+max_health = 100.0
+mass_multiplier = 0.95
+spring_strength = 0.95
+bounce = 0.96
+energy_boost_multiplier = 1.8
+charge_rate = 1.25
+air_control = 1.1
+size = 1.0
+momentum_forward_cap = 2600.0
+momentum_max = 700.0
+momentum_gain = 240.0
+mk2_visual_id = "chronos_mk2"
+mk2_price = 4000
+mk2_boss_node = "r30"
+mk2_stat_multipliers = {"momentum_gain": 1.25, "momentum_max": 1.3, "momentum_forward_cap": 1.15, "charge_rate": 1.2, "energy_boost_multiplier": 1.15}
+mk2_stat_offsets = {"max_health": 18.0}
+hue_shift = -0.42
+saturation = 1.1
+brightness = 1.05

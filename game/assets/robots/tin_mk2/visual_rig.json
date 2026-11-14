@@ -1,0 +1,128 @@
+{
+  "png_modular": true,
+  "source_scale": 0.245,
+  "torso_scale": [
+    1,
+    1
+  ],
+  "head_scale": [
+    1,
+    1
+  ],
+  "torso_offset": [
+    0,
+    -7.142857142857143
+  ],
+  "parts": {
+    "head": {
+      "pivot": [
+        159.5,
+        192.5
+      ],
+      "unit_scale": 0.49,
+      "z": 2
+    },
+    "torso": {
+      "pivot": [
+        71.5,
+        105.0
+      ],
+      "unit_scale": 0.49,
+      "z": 0
+    },
+    "arm_l": {
+      "pivot": [
+        181.5,
+        72.5
+      ],
+      "unit_scale": 0.49,
+      "z": 1,
+      "end": [
+        56.5,
+        234.5
+      ],
+      "spring_rows": [
+        99.5,
+        144.5
+      ],
+      "inertia_gain": 0.2,
+      "png_modular": true
+    },
+    "arm_r": {
+      "pivot": [
+        36.5,
+        40.0
+      ],
+      "unit_scale": 0.49,
+      "z": 1,
+      "end": [
+        132.0,
+        209.5
+      ],
+      "spring_rows": [
+        67.0,
+        112.0
+      ],
+      "inertia_gain": 0.2,
+      "png_modular": true
+    },
+    "leg_l": {
+      "pivot": [
+        195.5,
+        65.0
+      ],
+      "unit_scale": 0.49,
+      "z": -1,
+      "end": [
+        116.5,
+        326.0
+      ],
+      "spring_rows": [
+        67.5,
+        195.0
+      ],
+      "inertia_gain": 0.2,
+      "png_modular": true
+    },
+    "leg_r": {
+      "pivot": [
+        58.0,
+        36.0
+      ],
+      "unit_scale": 0.49,
+      "z": -1,
+      "end": [
+        122.5,
+        297.0
+      ],
+      "spring_rows": [
+        38.5,
+        166.0
+      ],
+      "inertia_gain": 0.2,
+      "png_modular": true
+    }
+  },
+  "anchors": {
+    "neck": [
+      69.5,
+      47.5
+    ],
+    "shoulder_l": [
+      20.0,
+      68.0
+    ],
+    "shoulder_r": [
+      130.5,
+      68.0
+    ],
+    "hip_l": [
+      9.0,
+      175.0
+    ],
+    "hip_r": [
+      115.5,
+      175.0
+    ]
+  }
+}

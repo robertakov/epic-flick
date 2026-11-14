@@ -1,0 +1,2574 @@
+{
+ "version": 1,
+ "start": "r1",
+ "nodes": [
+  {
+   "id": "r1",
+   "type": "race",
+   "round": 1,
+   "difficulty": "normal",
+   "next": [
+    "r2"
+   ],
+   "title": "Раунд 1",
+   "reward_first": 45,
+   "enemies": [
+    {
+     "name": "Ржавый Вася",
+     "robot": "tin",
+     "skill": 0.1,
+     "lean": 19,
+     "greed": 0.34,
+     "skin": "",
+     "target_min_distance": 115,
+     "target_max_distance": 365
+    }
+   ]
+  },
+  {
+   "id": "r2",
+   "type": "race",
+   "round": 2,
+   "difficulty": "normal",
+   "next": [
+    "r3"
+   ],
+   "title": "Раунд 2",
+   "reward_first": 50,
+   "enemies": [
+    {
+     "name": "Гайка",
+     "robot": "tin",
+     "skill": 0.113,
+     "lean": 15,
+     "greed": 0.35,
+     "skin": "",
+     "target_min_distance": 125,
+     "target_max_distance": 280
+    }
+   ]
+  },
+  {
+   "id": "r3",
+   "type": "race",
+   "round": 3,
+   "difficulty": "normal",
+   "next": [
+    "r4"
+   ],
+   "title": "Раунд 3",
+   "reward_first": 50,
+   "enemies": [
+    {
+     "name": "Болтун",
+     "robot": "tin",
+     "skill": 0.129,
+     "lean": 20,
+     "greed": 0.36,
+     "skin": "",
+     "target_min_distance": 130,
+     "target_max_distance": 270
+    }
+   ]
+  },
+  {
+   "id": "r4",
+   "type": "race",
+   "round": 4,
+   "difficulty": "normal",
+   "next": [
+    "r5"
+   ],
+   "title": "Раунд 4",
+   "reward_first": 55,
+   "enemies": [
+    {
+     "name": "Шестерёнка",
+     "robot": "tin",
+     "skill": 0.095,
+     "lean": 16,
+     "greed": 0.34,
+     "skin": "",
+     "target_min_distance": 135,
+     "target_max_distance": 285
+    },
+    {
+     "name": "Пружинкин",
+     "robot": "tin",
+     "skill": 0.055,
+     "lean": 14,
+     "greed": 0.32,
+     "skin": "",
+     "target_min_distance": 135,
+     "target_max_distance": 295
+    }
+   ]
+  },
+  {
+   "id": "r5",
+   "type": "race",
+   "round": 5,
+   "difficulty": "normal",
+   "next": [
+    "r6"
+   ],
+   "title": "Раунд 5",
+   "reward_first": 60,
+   "enemies": [
+    {
+     "name": "Скрипач",
+     "robot": "tin",
+     "skill": 0.162,
+     "lean": 21,
+     "greed": 0.37,
+     "skin": "",
+     "target_min_distance": 145,
+     "target_max_distance": 295
+    }
+   ]
+  },
+  {
+   "id": "r6",
+   "type": "race",
+   "round": 6,
+   "difficulty": "normal",
+   "next": [
+    "r7"
+   ],
+   "title": "Раунд 6",
+   "reward_first": 65,
+   "enemies": [
+    {
+     "name": "Жестяной Жора",
+     "robot": "tin",
+     "skill": 0.18,
+     "lean": 17,
+     "greed": 0.38,
+     "skin": "",
+     "target_min_distance": 150,
+     "target_max_distance": 310
+    }
+   ]
+  },
+  {
+   "id": "r7",
+   "type": "race",
+   "round": 7,
+   "difficulty": "hard",
+   "next": [
+    "r8"
+   ],
+   "title": "Раунд 7",
+   "reward_first": 85,
+   "enemies": [
+    {
+     "name": "Тётя Клёпа",
+     "robot": "hopper",
+     "skill": 0.248,
+     "lean": 22,
+     "greed": 0.41,
+     "skin": "",
+     "target_min_distance": 155,
+     "target_max_distance": 325
+    }
+   ]
+  },
+  {
+   "id": "r8",
+   "type": "race",
+   "round": 8,
+   "difficulty": "normal",
+   "next": [
+    "r9"
+   ],
+   "title": "Раунд 8",
+   "reward_first": 70,
+   "enemies": [
+    {
+     "name": "Дядя Винт",
+     "robot": "tin",
+     "skill": 0.167,
+     "lean": 18,
+     "greed": 0.38,
+     "skin": "",
+     "target_min_distance": 160,
+     "target_max_distance": 340
+    },
+    {
+     "name": "Шуруп",
+     "robot": "hopper",
+     "skill": 0.127,
+     "lean": 16,
+     "greed": 0.36,
+     "skin": "",
+     "target_min_distance": 160,
+     "target_max_distance": 340
+    }
+   ]
+  },
+  {
+   "id": "r9",
+   "type": "race",
+   "round": 9,
+   "difficulty": "hard",
+   "next": [
+    "r10"
+   ],
+   "title": "Раунд 9",
+   "reward_first": 95,
+   "enemies": [
+    {
+     "name": "Кастрюлькин",
+     "robot": "hopper",
+     "skill": 0.286,
+     "lean": 14,
+     "greed": 0.43,
+     "skin": "",
+     "target_min_distance": 170,
+     "target_max_distance": 355
+    }
+   ]
+  },
+  {
+   "id": "r10",
+   "type": "race",
+   "round": 10,
+   "difficulty": "boss",
+   "next": [
+    "r11"
+   ],
+   "title": "Босс: Барон фон Пружина",
+   "reward_first": 300,
+   "reward_skin": "tin_copper",
+   "enemies": [
+    {
+     "name": "Барон фон Пружина",
+     "robot": "hopper",
+     "skill": 0.5,
+     "lean": 20,
+     "greed": 0.9,
+     "skin": "hopper_lime",
+     "target_min_distance": 275,
+     "target_max_distance": 565
+    }
+   ]
+  },
+  {
+   "id": "r11",
+   "type": "race",
+   "round": 11,
+   "difficulty": "normal",
+   "next": [
+    "r12"
+   ],
+   "title": "Раунд 11",
+   "reward_first": 85,
+   "enemies": [
+    {
+     "name": "Ведёрко",
+     "robot": "heavy",
+     "skill": 0.249,
+     "lean": 15,
+     "greed": 0.4,
+     "skin": "",
+     "target_min_distance": 195,
+     "target_max_distance": 420
+    }
+   ]
+  },
+  {
+   "id": "r12",
+   "type": "race",
+   "round": 12,
+   "difficulty": "normal",
+   "next": [
+    "r13"
+   ],
+   "title": "Раунд 12",
+   "reward_first": 90,
+   "enemies": [
+    {
+     "name": "Самоварыч",
+     "robot": "hopper",
+     "skill": 0.329,
+     "lean": 20,
+     "greed": 0.43,
+     "skin": "",
+     "target_min_distance": 205,
+     "target_max_distance": 430
+    }
+   ]
+  },
+  {
+   "id": "r13",
+   "type": "race",
+   "round": 13,
+   "difficulty": "normal",
+   "next": [
+    "r14"
+   ],
+   "title": "Раунд 13",
+   "reward_first": 90,
+   "enemies": [
+    {
+     "name": "Чайник",
+     "robot": "tin",
+     "skill": 0.299,
+     "lean": 16,
+     "greed": 0.42,
+     "skin": "",
+     "target_min_distance": 210,
+     "target_max_distance": 445
+    },
+    {
+     "name": "Прыг-Скок",
+     "robot": "tin",
+     "skill": 0.259,
+     "lean": 14,
+     "greed": 0.4,
+     "skin": "",
+     "target_min_distance": 210,
+     "target_max_distance": 445
+    }
+   ]
+  },
+  {
+   "id": "r14",
+   "type": "race",
+   "round": 14,
+   "difficulty": "normal",
+   "next": [
+    "r15"
+   ],
+   "title": "Раунд 14",
+   "reward_first": 95,
+   "enemies": [
+    {
+     "name": "Тостер",
+     "robot": "heavy",
+     "skill": 0.369,
+     "lean": 21,
+     "greed": 0.45,
+     "skin": "",
+     "target_min_distance": 215,
+     "target_max_distance": 560
+    }
+   ]
+  },
+  {
+   "id": "r15",
+   "type": "race",
+   "round": 15,
+   "difficulty": "hard",
+   "next": [
+    "r16"
+   ],
+   "title": "Раунд 15",
+   "reward_first": 125,
+   "enemies": [
+    {
+     "name": "Фонарик",
+     "robot": "hopper",
+     "skill": 0.439,
+     "lean": 17,
+     "greed": 0.48,
+     "skin": "",
+     "target_min_distance": 225,
+     "target_max_distance": 475
+    }
+   ]
+  },
+  {
+   "id": "r16",
+   "type": "race",
+   "round": 16,
+   "difficulty": "normal",
+   "next": [
+    "r17"
+   ],
+   "title": "Раунд 16",
+   "reward_first": 105,
+   "enemies": [
+    {
+     "name": "Кнопка",
+     "robot": "hopper",
+     "skill": 0.409,
+     "lean": 22,
+     "greed": 0.47,
+     "skin": "",
+     "target_min_distance": 230,
+     "target_max_distance": 490
+    }
+   ]
+  },
+  {
+   "id": "r17",
+   "type": "race",
+   "round": 17,
+   "difficulty": "normal",
+   "next": [
+    "r18"
+   ],
+   "title": "Раунд 17",
+   "reward_first": 110,
+   "enemies": [
+    {
+     "name": "Рычаг",
+     "robot": "tin",
+     "skill": 0.38,
+     "lean": 18,
+     "greed": 0.46,
+     "skin": "",
+     "target_min_distance": 240,
+     "target_max_distance": 505
+    },
+    {
+     "name": "Поршень",
+     "robot": "tin",
+     "skill": 0.34,
+     "lean": 16,
+     "greed": 0.44,
+     "skin": "",
+     "target_min_distance": 240,
+     "target_max_distance": 505
+    }
+   ]
+  },
+  {
+   "id": "r18",
+   "type": "race",
+   "round": 18,
+   "difficulty": "normal",
+   "next": [
+    "r19"
+   ],
+   "title": "Раунд 18",
+   "reward_first": 110,
+   "enemies": [
+    {
+     "name": "Мистер Шарнир",
+     "robot": "heavy",
+     "skill": 0.451,
+     "lean": 14,
+     "greed": 0.49,
+     "skin": "",
+     "target_min_distance": 250,
+     "target_max_distance": 660
+    }
+   ]
+  },
+  {
+   "id": "r19",
+   "type": "race",
+   "round": 19,
+   "difficulty": "hard",
+   "next": [
+    "r20"
+   ],
+   "title": "Раунд 19",
+   "reward_first": 145,
+   "enemies": [
+    {
+     "name": "Леди Заклёпка",
+     "robot": "hopper",
+     "skill": 0.522,
+     "lean": 19,
+     "greed": 0.52,
+     "skin": "",
+     "target_min_distance": 255,
+     "target_max_distance": 565
+    }
+   ]
+  },
+  {
+   "id": "r20",
+   "type": "race",
+   "round": 20,
+   "difficulty": "boss",
+   "next": [
+    "r21"
+   ],
+   "title": "Босс: Генерал Чугун",
+   "reward_first": 550,
+   "reward_skin": "hopper_lime",
+   "enemies": [
+    {
+     "name": "Генерал Чугун",
+     "robot": "heavy",
+     "skill": 0.68,
+     "lean": 20,
+     "greed": 0.9,
+     "skin": "heavy_iron",
+     "target_min_distance": 405,
+     "target_max_distance": 835
+    }
+   ]
+  },
+  {
+   "id": "r21",
+   "type": "race",
+   "round": 21,
+   "difficulty": "normal",
+   "next": [
+    "r22"
+   ],
+   "title": "Раунд 21",
+   "reward_first": 125,
+   "enemies": [
+    {
+     "name": "Ниндзя Болт",
+     "robot": "rocket",
+     "skill": 0.454,
+     "lean": 20,
+     "greed": 0.49,
+     "skin": "",
+     "target_min_distance": 265,
+     "target_max_distance": 565
+    }
+   ]
+  },
+  {
+   "id": "r22",
+   "type": "race",
+   "round": 22,
+   "difficulty": "normal",
+   "next": [
+    "r23"
+   ],
+   "title": "Раунд 22",
+   "reward_first": 130,
+   "enemies": [
+    {
+     "name": "Сенсей Гайко",
+     "robot": "heavy",
+     "skill": 0.535,
+     "lean": 16,
+     "greed": 0.53,
+     "skin": "",
+     "target_min_distance": 275,
+     "target_max_distance": 580
+    }
+   ]
+  },
+  {
+   "id": "r23",
+   "type": "race",
+   "round": 23,
+   "difficulty": "normal",
+   "next": [
+    "r24"
+   ],
+   "title": "Раунд 23",
+   "reward_first": 130,
+   "enemies": [
+    {
+     "name": "Капитан Ржавчина",
+     "robot": "hopper",
+     "skill": 0.506,
+     "lean": 21,
+     "greed": 0.51,
+     "skin": "",
+     "target_min_distance": 280,
+     "target_max_distance": 595
+    },
+    {
+     "name": "Профессор Ключ",
+     "robot": "hopper",
+     "skill": 0.466,
+     "lean": 19,
+     "greed": 0.49,
+     "skin": "",
+     "target_min_distance": 280,
+     "target_max_distance": 595
+    }
+   ]
+  },
+  {
+   "id": "r24",
+   "type": "race",
+   "round": 24,
+   "difficulty": "normal",
+   "next": [
+    "r25"
+   ],
+   "title": "Раунд 24",
+   "reward_first": 135,
+   "enemies": [
+    {
+     "name": "Мадам Пружина",
+     "robot": "rocket",
+     "skill": 0.578,
+     "lean": 17,
+     "greed": 0.54,
+     "skin": "",
+     "target_min_distance": 285,
+     "target_max_distance": 610
+    }
+   ]
+  },
+  {
+   "id": "r25",
+   "type": "race",
+   "round": 25,
+   "difficulty": "hard",
+   "next": [
+    "r26"
+   ],
+   "title": "Раунд 25",
+   "reward_first": 175,
+   "enemies": [
+    {
+     "name": "Граф Дроссель",
+     "robot": "heavy",
+     "skill": 0.659,
+     "lean": 22,
+     "greed": 0.58,
+     "skin": "",
+     "target_min_distance": 295,
+     "target_max_distance": 735
+    }
+   ]
+  },
+  {
+   "id": "r26",
+   "type": "race",
+   "round": 26,
+   "difficulty": "normal",
+   "next": [
+    "r27"
+   ],
+   "title": "Раунд 26",
+   "reward_first": 145,
+   "enemies": [
+    {
+     "name": "Бубен",
+     "robot": "heavy",
+     "skill": 0.631,
+     "lean": 18,
+     "greed": 0.56,
+     "skin": "",
+     "target_min_distance": 300,
+     "target_max_distance": 815
+    }
+   ]
+  },
+  {
+   "id": "r27",
+   "type": "race",
+   "round": 27,
+   "difficulty": "normal",
+   "next": [
+    "r28"
+   ],
+   "title": "Раунд 27",
+   "reward_first": 150,
+   "enemies": [
+    {
+     "name": "Колобот",
+     "robot": "rocket",
+     "skill": 0.603,
+     "lean": 14,
+     "greed": 0.55,
+     "skin": "",
+     "target_min_distance": 310,
+     "target_max_distance": 655
+    },
+    {
+     "name": "Свисток",
+     "robot": "rocket",
+     "skill": 0.563,
+     "lean": 21,
+     "greed": 0.53,
+     "skin": "",
+     "target_min_distance": 310,
+     "target_max_distance": 655
+    }
+   ]
+  },
+  {
+   "id": "r28",
+   "type": "race",
+   "round": 28,
+   "difficulty": "normal",
+   "next": [
+    "r29"
+   ],
+   "title": "Раунд 28",
+   "reward_first": 150,
+   "enemies": [
+    {
+     "name": "Утюжок",
+     "robot": "samurai",
+     "skill": 0.675,
+     "lean": 19,
+     "greed": 0.58,
+     "skin": "",
+     "target_min_distance": 315,
+     "target_max_distance": 815
+    }
+   ]
+  },
+  {
+   "id": "r29",
+   "type": "race",
+   "round": 29,
+   "difficulty": "hard",
+   "next": [
+    "r30"
+   ],
+   "title": "Раунд 29",
+   "reward_first": 195,
+   "enemies": [
+    {
+     "name": "Дрель",
+     "robot": "heavy",
+     "skill": 0.747,
+     "lean": 15,
+     "greed": 0.62,
+     "skin": "",
+     "target_min_distance": 325,
+     "target_max_distance": 730
+    }
+   ]
+  },
+  {
+   "id": "r30",
+   "type": "race",
+   "round": 30,
+   "difficulty": "boss",
+   "next": [
+    "r31"
+   ],
+   "title": "Босс: Капитан Комета",
+   "reward_first": 850,
+   "reward_skin": "heavy_iron",
+   "enemies": [
+    {
+     "name": "Капитан Комета",
+     "robot": "rocket",
+     "skill": 0.98,
+     "lean": 20,
+     "greed": 0.5,
+     "skin": "",
+     "target_min_distance": 460,
+     "target_max_distance": 960
+    }
+   ]
+  },
+  {
+   "id": "r31",
+   "type": "race",
+   "round": 31,
+   "difficulty": "normal",
+   "next": [
+    "r32"
+   ],
+   "title": "Раунд 31",
+   "reward_first": 165,
+   "enemies": [
+    {
+     "name": "Миксер",
+     "robot": "rocket",
+     "skill": 0.681,
+     "lean": 16,
+     "greed": 0.59,
+     "skin": "",
+     "target_min_distance": 335,
+     "target_max_distance": 715
+    }
+   ]
+  },
+  {
+   "id": "r32",
+   "type": "race",
+   "round": 32,
+   "difficulty": "normal",
+   "next": [
+    "r33"
+   ],
+   "title": "Раунд 32",
+   "reward_first": 170,
+   "enemies": [
+    {
+     "name": "Тромбон",
+     "robot": "samurai",
+     "skill": 0.764,
+     "lean": 21,
+     "greed": 0.62,
+     "skin": "",
+     "target_min_distance": 345,
+     "target_max_distance": 755
+    }
+   ]
+  },
+  {
+   "id": "r33",
+   "type": "race",
+   "round": 33,
+   "difficulty": "normal",
+   "next": [
+    "r34"
+   ],
+   "title": "Раунд 33",
+   "reward_first": 170,
+   "enemies": [
+    {
+     "name": "Компас",
+     "robot": "hopper",
+     "skill": 0.736,
+     "lean": 17,
+     "greed": 0.61,
+     "skin": "",
+     "target_min_distance": 350,
+     "target_max_distance": 745
+    },
+    {
+     "name": "Маятник",
+     "robot": "heavy",
+     "skill": 0.696,
+     "lean": 15,
+     "greed": 0.59,
+     "skin": "",
+     "target_min_distance": 350,
+     "target_max_distance": 760
+    }
+   ]
+  },
+  {
+   "id": "r34",
+   "type": "race",
+   "round": 34,
+   "difficulty": "normal",
+   "next": [
+    "r35"
+   ],
+   "title": "Раунд 34",
+   "reward_first": 175,
+   "enemies": [
+    {
+     "name": "Гром",
+     "robot": "heavy",
+     "skill": 0.808,
+     "lean": 22,
+     "greed": 0.64,
+     "skin": "",
+     "target_min_distance": 355,
+     "target_max_distance": 760
+    }
+   ]
+  },
+  {
+   "id": "r35",
+   "type": "race",
+   "round": 35,
+   "difficulty": "hard",
+   "next": [
+    "r36"
+   ],
+   "title": "Раунд 35",
+   "reward_first": 225,
+   "enemies": [
+    {
+     "name": "Сирена",
+     "robot": "rocket",
+     "skill": 0.881,
+     "lean": 18,
+     "greed": 0.68,
+     "skin": "",
+     "target_min_distance": 365,
+     "target_max_distance": 770
+    }
+   ]
+  },
+  {
+   "id": "r36",
+   "type": "race",
+   "round": 36,
+   "difficulty": "normal",
+   "next": [
+    "r37"
+   ],
+   "title": "Раунд 36",
+   "reward_first": 185,
+   "enemies": [
+    {
+     "name": "Щелкунчик",
+     "robot": "samurai",
+     "skill": 0.854,
+     "lean": 14,
+     "greed": 0.66,
+     "skin": "",
+     "target_min_distance": 375,
+     "target_max_distance": 785
+    }
+   ]
+  },
+  {
+   "id": "r37",
+   "type": "race",
+   "round": 37,
+   "difficulty": "normal",
+   "next": [
+    "r38"
+   ],
+   "title": "Раунд 37",
+   "reward_first": 190,
+   "enemies": [
+    {
+     "name": "Флюгер",
+     "robot": "hopper",
+     "skill": 0.826,
+     "lean": 19,
+     "greed": 0.65,
+     "skin": "",
+     "target_min_distance": 380,
+     "target_max_distance": 805
+    },
+    {
+     "name": "Кочерга",
+     "robot": "heavy",
+     "skill": 0.786,
+     "lean": 17,
+     "greed": 0.63,
+     "skin": "",
+     "target_min_distance": 380,
+     "target_max_distance": 805
+    }
+   ]
+  },
+  {
+   "id": "r38",
+   "type": "race",
+   "round": 38,
+   "difficulty": "hard",
+   "next": [
+    "r39"
+   ],
+   "title": "Раунд 38",
+   "reward_first": 240,
+   "enemies": [
+    {
+     "name": "Будильник",
+     "robot": "heavy",
+     "skill": 0.949,
+     "lean": 15,
+     "greed": 0.71,
+     "skin": "",
+     "target_min_distance": 390,
+     "target_max_distance": 815
+    }
+   ]
+  },
+  {
+   "id": "r39",
+   "type": "race",
+   "round": 39,
+   "difficulty": "hard",
+   "next": [
+    "r40"
+   ],
+   "title": "Раунд 39",
+   "reward_first": 245,
+   "enemies": [
+    {
+     "name": "Вентиль",
+     "robot": "rocket",
+     "skill": 0.955,
+     "lean": 20,
+     "greed": 0.72,
+     "skin": "",
+     "target_min_distance": 395,
+     "target_max_distance": 830
+    }
+   ]
+  },
+  {
+   "id": "r40",
+   "type": "race",
+   "round": 40,
+   "difficulty": "boss",
+   "next": [
+    "r41"
+   ],
+   "title": "Финал: Сёгун Судьбы",
+   "reward_first": 1500,
+   "reward_skin": "samurai_shogun",
+   "enemies": [
+    {
+     "name": "Сёгун Судьбы",
+     "robot": "samurai",
+     "skill": 0.99,
+     "lean": 20,
+     "greed": 0.9,
+     "skin": "samurai_shogun",
+     "target_min_distance": 525,
+     "target_max_distance": 1095
+    }
+   ]
+  },
+  {
+   "id": "r41",
+   "type": "race",
+   "round": 41,
+   "difficulty": "normal",
+   "next": [
+    "r42"
+   ],
+   "title": "Раунд 41",
+   "reward_first": 200,
+   "enemies": [
+    {
+     "name": "Тигр",
+     "robot": "hopper",
+     "skill": 0.555,
+     "lean": 20,
+     "greed": 0.56,
+     "skin": "",
+     "target_min_distance": 300,
+     "target_max_distance": 625
+    }
+   ]
+  },
+  {
+   "id": "r42",
+   "type": "race",
+   "round": 42,
+   "difficulty": "normal",
+   "next": [
+    "r43"
+   ],
+   "title": "Раунд 42",
+   "reward_first": 200,
+   "enemies": [
+    {
+     "name": "Чёрт",
+     "robot": "tin",
+     "skill": 0.68,
+     "lean": 17,
+     "greed": 0.6,
+     "skin": "",
+     "target_min_distance": 370,
+     "target_max_distance": 755
+    }
+   ]
+  },
+  {
+   "id": "r43",
+   "type": "race",
+   "round": 43,
+   "difficulty": "normal",
+   "next": [
+    "r44"
+   ],
+   "title": "Раунд 43",
+   "reward_first": 205,
+   "enemies": [
+    {
+     "name": "Вампир",
+     "robot": "tin",
+     "skill": 0.566,
+     "lean": 22,
+     "greed": 0.57,
+     "skin": "",
+     "target_min_distance": 305,
+     "target_max_distance": 635
+    },
+    {
+     "name": "Ковбой",
+     "robot": "samurai",
+     "skill": 0.528,
+     "lean": 14,
+     "greed": 0.54,
+     "skin": "",
+     "target_min_distance": 305,
+     "target_max_distance": 650
+    }
+   ]
+  },
+  {
+   "id": "r44",
+   "type": "race",
+   "round": 44,
+   "difficulty": "hard",
+   "next": [
+    "r45"
+   ],
+   "title": "Раунд 44",
+   "reward_first": 260,
+   "enemies": [
+    {
+     "name": "Чёрт",
+     "robot": "heavy",
+     "skill": 0.671,
+     "lean": 19,
+     "greed": 0.57,
+     "skin": "",
+     "target_min_distance": 360,
+     "target_max_distance": 745
+    }
+   ]
+  },
+  {
+   "id": "r45",
+   "type": "race",
+   "round": 45,
+   "difficulty": "normal",
+   "next": [
+    "r46"
+   ],
+   "title": "Раунд 45",
+   "reward_first": 210,
+   "enemies": [
+    {
+     "name": "Ковбой",
+     "robot": "samurai",
+     "skill": 0.617,
+     "lean": 16,
+     "greed": 0.58,
+     "skin": "",
+     "target_min_distance": 345,
+     "target_max_distance": 705
+    }
+   ]
+  },
+  {
+   "id": "r46",
+   "type": "race",
+   "round": 46,
+   "difficulty": "normal",
+   "next": [
+    "r47"
+   ],
+   "title": "Раунд 46",
+   "reward_first": 210,
+   "enemies": [
+    {
+     "name": "Чёрт",
+     "robot": "tin",
+     "skill": 0.647,
+     "lean": 21,
+     "greed": 0.58,
+     "skin": "",
+     "target_min_distance": 345,
+     "target_max_distance": 710
+    },
+    {
+     "name": "Тигр",
+     "robot": "hopper",
+     "skill": 0.609,
+     "lean": 19,
+     "greed": 0.55,
+     "skin": "",
+     "target_min_distance": 345,
+     "target_max_distance": 725
+    }
+   ]
+  },
+  {
+   "id": "r47",
+   "type": "race",
+   "round": 47,
+   "difficulty": "hard",
+   "next": [
+    "r48"
+   ],
+   "title": "Раунд 47",
+   "reward_first": 280,
+   "enemies": [
+    {
+     "name": "Тигр",
+     "robot": "hopper",
+     "skill": 0.707,
+     "lean": 18,
+     "greed": 0.63,
+     "skin": "",
+     "target_min_distance": 385,
+     "target_max_distance": 785
+    }
+   ]
+  },
+  {
+   "id": "r48",
+   "type": "race",
+   "round": 48,
+   "difficulty": "normal",
+   "next": [
+    "r49"
+   ],
+   "title": "Раунд 48",
+   "reward_first": 210,
+   "enemies": [
+    {
+     "name": "Акула",
+     "robot": "rocket",
+     "skill": 0.592,
+     "lean": 15,
+     "greed": 0.59,
+     "skin": "",
+     "target_min_distance": 320,
+     "target_max_distance": 670
+    }
+   ]
+  },
+  {
+   "id": "r49",
+   "type": "race",
+   "round": 49,
+   "difficulty": "hard",
+   "next": [
+    "r50"
+   ],
+   "title": "Раунд 49",
+   "reward_first": 265,
+   "enemies": [
+    {
+     "name": "Акула",
+     "robot": "hopper",
+     "skill": 0.698,
+     "lean": 20,
+     "greed": 0.6,
+     "skin": "",
+     "target_min_distance": 375,
+     "target_max_distance": 775
+    },
+    {
+     "name": "Ковбой",
+     "robot": "heavy",
+     "skill": 0.66,
+     "lean": 16,
+     "greed": 0.57,
+     "skin": "",
+     "target_min_distance": 375,
+     "target_max_distance": 790
+    }
+   ]
+  },
+  {
+   "id": "r50",
+   "type": "race",
+   "round": 50,
+   "difficulty": "boss",
+   "next": [
+    "r51"
+   ],
+   "title": "Босс: Медный Барон",
+   "reward_first": 1650,
+   "reward_skin": "tin_copper",
+   "enemies": [
+    {
+     "name": "Медный Барон",
+     "robot": "tin",
+     "skill": 0.875,
+     "lean": 18,
+     "greed": 0.76,
+     "skin": "tin_copper",
+     "target_min_distance": 430,
+     "target_max_distance": 890
+    }
+   ]
+  },
+  {
+   "id": "r51",
+   "type": "race",
+   "round": 51,
+   "difficulty": "normal",
+   "next": [
+    "r52"
+   ],
+   "title": "Раунд 51",
+   "reward_first": 215,
+   "enemies": [
+    {
+     "name": "Тигр",
+     "robot": "hopper",
+     "skill": 0.608,
+     "lean": 22,
+     "greed": 0.6,
+     "skin": "",
+     "target_min_distance": 330,
+     "target_max_distance": 685
+    }
+   ]
+  },
+  {
+   "id": "r52",
+   "type": "race",
+   "round": 52,
+   "difficulty": "normal",
+   "next": [
+    "r53"
+   ],
+   "title": "Раунд 52",
+   "reward_first": 215,
+   "enemies": [
+    {
+     "name": "Тигр",
+     "robot": "heavy",
+     "skill": 0.703,
+     "lean": 19,
+     "greed": 0.61,
+     "skin": "",
+     "target_min_distance": 365,
+     "target_max_distance": 750
+    },
+    {
+     "name": "Вампир",
+     "robot": "tin",
+     "skill": 0.665,
+     "lean": 21,
+     "greed": 0.58,
+     "skin": "",
+     "target_min_distance": 365,
+     "target_max_distance": 765
+    }
+   ]
+  },
+  {
+   "id": "r53",
+   "type": "race",
+   "round": 53,
+   "difficulty": "hard",
+   "next": [
+    "r54"
+   ],
+   "title": "Раунд 53",
+   "reward_first": 285,
+   "enemies": [
+    {
+     "name": "Ковбой",
+     "robot": "heavy",
+     "skill": 0.739,
+     "lean": 16,
+     "greed": 0.65,
+     "skin": "",
+     "target_min_distance": 405,
+     "target_max_distance": 825
+    }
+   ]
+  },
+  {
+   "id": "r54",
+   "type": "race",
+   "round": 54,
+   "difficulty": "normal",
+   "next": [
+    "r55"
+   ],
+   "title": "Раунд 54",
+   "reward_first": 215,
+   "enemies": [
+    {
+     "name": "Чёрт",
+     "robot": "heavy",
+     "skill": 0.624,
+     "lean": 21,
+     "greed": 0.62,
+     "skin": "",
+     "target_min_distance": 340,
+     "target_max_distance": 705
+    }
+   ]
+  },
+  {
+   "id": "r55",
+   "type": "race",
+   "round": 55,
+   "difficulty": "normal",
+   "next": [
+    "r56"
+   ],
+   "title": "Раунд 55",
+   "reward_first": 220,
+   "enemies": [
+    {
+     "name": "Ковбой",
+     "robot": "samurai",
+     "skill": 0.671,
+     "lean": 18,
+     "greed": 0.62,
+     "skin": "",
+     "target_min_distance": 375,
+     "target_max_distance": 765
+    },
+    {
+     "name": "Ковбой",
+     "robot": "heavy",
+     "skill": 0.633,
+     "lean": 18,
+     "greed": 0.59,
+     "skin": "",
+     "target_min_distance": 375,
+     "target_max_distance": 780
+    }
+   ]
+  },
+  {
+   "id": "r56",
+   "type": "race",
+   "round": 56,
+   "difficulty": "hard",
+   "next": [
+    "r57"
+   ],
+   "title": "Раунд 56",
+   "reward_first": 275,
+   "enemies": [
+    {
+     "name": "Чёрт",
+     "robot": "tin",
+     "skill": 0.735,
+     "lean": 15,
+     "greed": 0.63,
+     "skin": "",
+     "target_min_distance": 400,
+     "target_max_distance": 820
+    }
+   ]
+  },
+  {
+   "id": "r57",
+   "type": "race",
+   "round": 57,
+   "difficulty": "normal",
+   "next": [
+    "r58"
+   ],
+   "title": "Раунд 57",
+   "reward_first": 225,
+   "enemies": [
+    {
+     "name": "Ковбой",
+     "robot": "heavy",
+     "skill": 0.73,
+     "lean": 20,
+     "greed": 0.63,
+     "skin": "",
+     "target_min_distance": 380,
+     "target_max_distance": 780
+    }
+   ]
+  },
+  {
+   "id": "r58",
+   "type": "race",
+   "round": 58,
+   "difficulty": "normal",
+   "next": [
+    "r59"
+   ],
+   "title": "Раунд 58",
+   "reward_first": 225,
+   "enemies": [
+    {
+     "name": "Тигр",
+     "robot": "heavy",
+     "skill": 0.766,
+     "lean": 17,
+     "greed": 0.68,
+     "skin": "",
+     "target_min_distance": 420,
+     "target_max_distance": 855
+    }
+   ]
+  },
+  {
+   "id": "r59",
+   "type": "race",
+   "round": 59,
+   "difficulty": "normal",
+   "next": [
+    "r60"
+   ],
+   "title": "Раунд 59",
+   "reward_first": 230,
+   "enemies": [
+    {
+     "name": "Акула",
+     "robot": "hopper",
+     "skill": 0.651,
+     "lean": 22,
+     "greed": 0.64,
+     "skin": "",
+     "target_min_distance": 355,
+     "target_max_distance": 735
+    },
+    {
+     "name": "Тигр",
+     "robot": "hopper",
+     "skill": 0.613,
+     "lean": 14,
+     "greed": 0.61,
+     "skin": "",
+     "target_min_distance": 355,
+     "target_max_distance": 750
+    }
+   ]
+  },
+  {
+   "id": "r60",
+   "type": "race",
+   "round": 60,
+   "difficulty": "boss",
+   "next": [
+    "r61"
+   ],
+   "title": "Босс: Изумрудный Прыгун",
+   "reward_first": 1850,
+   "reward_skin": "hopper_lime",
+   "enemies": [
+    {
+     "name": "Изумрудный Прыгун",
+     "robot": "hopper",
+     "skill": 0.905,
+     "lean": 19,
+     "greed": 0.8,
+     "skin": "hopper_lime",
+     "target_min_distance": 460,
+     "target_max_distance": 935
+    }
+   ]
+  },
+  {
+   "id": "r61",
+   "type": "race",
+   "round": 61,
+   "difficulty": "normal",
+   "next": [
+    "r62"
+   ],
+   "title": "Раунд 61",
+   "reward_first": 235,
+   "enemies": [
+    {
+     "name": "Тигр",
+     "robot": "hopper",
+     "skill": 0.662,
+     "lean": 16,
+     "greed": 0.65,
+     "skin": "",
+     "target_min_distance": 365,
+     "target_max_distance": 750
+    }
+   ]
+  },
+  {
+   "id": "r62",
+   "type": "race",
+   "round": 62,
+   "difficulty": "normal",
+   "next": [
+    "r63"
+   ],
+   "title": "Раунд 62",
+   "reward_first": 235,
+   "enemies": [
+    {
+     "name": "Тигр",
+     "robot": "heavy",
+     "skill": 0.756,
+     "lean": 21,
+     "greed": 0.65,
+     "skin": "",
+     "target_min_distance": 395,
+     "target_max_distance": 810
+    },
+    {
+     "name": "Ковбой",
+     "robot": "heavy",
+     "skill": 0.718,
+     "lean": 19,
+     "greed": 0.62,
+     "skin": "",
+     "target_min_distance": 395,
+     "target_max_distance": 825
+    }
+   ]
+  },
+  {
+   "id": "r63",
+   "type": "race",
+   "round": 63,
+   "difficulty": "hard",
+   "next": [
+    "r64"
+   ],
+   "title": "Раунд 63",
+   "reward_first": 290,
+   "enemies": [
+    {
+     "name": "Вампир",
+     "robot": "tin",
+     "skill": 0.773,
+     "lean": 18,
+     "greed": 0.66,
+     "skin": "",
+     "target_min_distance": 420,
+     "target_max_distance": 860
+    }
+   ]
+  },
+  {
+   "id": "r64",
+   "type": "race",
+   "round": 64,
+   "difficulty": "normal",
+   "next": [
+    "r65"
+   ],
+   "title": "Раунд 64",
+   "reward_first": 235,
+   "enemies": [
+    {
+     "name": "Чёрт",
+     "robot": "heavy",
+     "skill": 0.755,
+     "lean": 15,
+     "greed": 0.66,
+     "skin": "",
+     "target_min_distance": 405,
+     "target_max_distance": 825
+    }
+   ]
+  },
+  {
+   "id": "r65",
+   "type": "race",
+   "round": 65,
+   "difficulty": "hard",
+   "next": [
+    "r66"
+   ],
+   "title": "Раунд 65",
+   "reward_first": 305,
+   "enemies": [
+    {
+     "name": "Акула",
+     "robot": "hopper",
+     "skill": 0.803,
+     "lean": 20,
+     "greed": 0.71,
+     "skin": "",
+     "target_min_distance": 440,
+     "target_max_distance": 900
+    }
+   ]
+  },
+  {
+   "id": "r66",
+   "type": "race",
+   "round": 66,
+   "difficulty": "normal",
+   "next": [
+    "r67"
+   ],
+   "title": "Раунд 66",
+   "reward_first": 235,
+   "enemies": [
+    {
+     "name": "Чёрт",
+     "robot": "tin",
+     "skill": 0.689,
+     "lean": 17,
+     "greed": 0.67,
+     "skin": "",
+     "target_min_distance": 380,
+     "target_max_distance": 780
+    },
+    {
+     "name": "Тигр",
+     "robot": "hopper",
+     "skill": 0.651,
+     "lean": 15,
+     "greed": 0.64,
+     "skin": "",
+     "target_min_distance": 380,
+     "target_max_distance": 795
+    }
+   ]
+  },
+  {
+   "id": "r67",
+   "type": "race",
+   "round": 67,
+   "difficulty": "normal",
+   "next": [
+    "r68"
+   ],
+   "title": "Раунд 67",
+   "reward_first": 240,
+   "enemies": [
+    {
+     "name": "Ковбой",
+     "robot": "heavy",
+     "skill": 0.783,
+     "lean": 22,
+     "greed": 0.68,
+     "skin": "",
+     "target_min_distance": 415,
+     "target_max_distance": 840
+    }
+   ]
+  },
+  {
+   "id": "r68",
+   "type": "race",
+   "round": 68,
+   "difficulty": "hard",
+   "next": [
+    "r69"
+   ],
+   "title": "Раунд 68",
+   "reward_first": 295,
+   "enemies": [
+    {
+     "name": "Акула",
+     "robot": "rocket",
+     "skill": 0.799,
+     "lean": 19,
+     "greed": 0.68,
+     "skin": "",
+     "target_min_distance": 435,
+     "target_max_distance": 895
+    },
+    {
+     "name": "Акула",
+     "robot": "hopper",
+     "skill": 0.761,
+     "lean": 21,
+     "greed": 0.65,
+     "skin": "",
+     "target_min_distance": 435,
+     "target_max_distance": 910
+    }
+   ]
+  },
+  {
+   "id": "r69",
+   "type": "race",
+   "round": 69,
+   "difficulty": "normal",
+   "next": [
+    "r70"
+   ],
+   "title": "Раунд 69",
+   "reward_first": 245,
+   "enemies": [
+    {
+     "name": "Вампир",
+     "robot": "tin",
+     "skill": 0.825,
+     "lean": 16,
+     "greed": 0.73,
+     "skin": "",
+     "target_min_distance": 455,
+     "target_max_distance": 925
+    }
+   ]
+  },
+  {
+   "id": "r70",
+   "type": "race",
+   "round": 70,
+   "difficulty": "boss",
+   "next": [
+    "r71"
+   ],
+   "title": "Босс: Железный Колосс",
+   "reward_first": 2100,
+   "reward_skin": "heavy_iron",
+   "enemies": [
+    {
+     "name": "Железный Колосс",
+     "robot": "heavy",
+     "skill": 0.93,
+     "lean": 17,
+     "greed": 0.83,
+     "skin": "heavy_iron",
+     "target_min_distance": 490,
+     "target_max_distance": 980
+    }
+   ]
+  },
+  {
+   "id": "r71",
+   "type": "race",
+   "round": 71,
+   "difficulty": "normal",
+   "next": [
+    "r72"
+   ],
+   "title": "Раунд 71",
+   "reward_first": 250,
+   "enemies": [
+    {
+     "name": "Тигр",
+     "robot": "hopper",
+     "skill": 0.715,
+     "lean": 18,
+     "greed": 0.69,
+     "skin": "",
+     "target_min_distance": 395,
+     "target_max_distance": 810
+    }
+   ]
+  },
+  {
+   "id": "r72",
+   "type": "race",
+   "round": 72,
+   "difficulty": "normal",
+   "next": [
+    "r73"
+   ],
+   "title": "Раунд 72",
+   "reward_first": 250,
+   "enemies": [
+    {
+     "name": "Тигр",
+     "robot": "heavy",
+     "skill": 0.81,
+     "lean": 15,
+     "greed": 0.7,
+     "skin": "",
+     "target_min_distance": 430,
+     "target_max_distance": 870
+    },
+    {
+     "name": "Вампир",
+     "robot": "tin",
+     "skill": 0.772,
+     "lean": 17,
+     "greed": 0.67,
+     "skin": "",
+     "target_min_distance": 430,
+     "target_max_distance": 885
+    }
+   ]
+  },
+  {
+   "id": "r73",
+   "type": "race",
+   "round": 73,
+   "difficulty": "normal",
+   "next": [
+    "r74"
+   ],
+   "title": "Раунд 73",
+   "reward_first": 255,
+   "enemies": [
+    {
+     "name": "Вампир",
+     "robot": "tin",
+     "skill": 0.779,
+     "lean": 20,
+     "greed": 0.7,
+     "skin": "",
+     "target_min_distance": 430,
+     "target_max_distance": 880
+    }
+   ]
+  },
+  {
+   "id": "r74",
+   "type": "race",
+   "round": 74,
+   "difficulty": "hard",
+   "next": [
+    "r75"
+   ],
+   "title": "Раунд 74",
+   "reward_first": 310,
+   "enemies": [
+    {
+     "name": "Чёрт",
+     "robot": "heavy",
+     "skill": 0.831,
+     "lean": 17,
+     "greed": 0.71,
+     "skin": "",
+     "target_min_distance": 455,
+     "target_max_distance": 930
+    }
+   ]
+  },
+  {
+   "id": "r75",
+   "type": "race",
+   "round": 75,
+   "difficulty": "normal",
+   "next": [
+    "r76"
+   ],
+   "title": "Раунд 75",
+   "reward_first": 260,
+   "enemies": [
+    {
+     "name": "Ковбой",
+     "robot": "samurai",
+     "skill": 0.778,
+     "lean": 22,
+     "greed": 0.71,
+     "skin": "",
+     "target_min_distance": 440,
+     "target_max_distance": 890
+    },
+    {
+     "name": "Ковбой",
+     "robot": "heavy",
+     "skill": 0.74,
+     "lean": 14,
+     "greed": 0.68,
+     "skin": "",
+     "target_min_distance": 440,
+     "target_max_distance": 905
+    }
+   ]
+  },
+  {
+   "id": "r76",
+   "type": "race",
+   "round": 76,
+   "difficulty": "hard",
+   "next": [
+    "r77"
+   ],
+   "title": "Раунд 76",
+   "reward_first": 330,
+   "enemies": [
+    {
+     "name": "Вампир",
+     "robot": "hopper",
+     "skill": 0.862,
+     "lean": 19,
+     "greed": 0.76,
+     "skin": "",
+     "target_min_distance": 475,
+     "target_max_distance": 965
+    }
+   ]
+  },
+  {
+   "id": "r77",
+   "type": "race",
+   "round": 77,
+   "difficulty": "normal",
+   "next": [
+    "r78"
+   ],
+   "title": "Раунд 77",
+   "reward_first": 265,
+   "enemies": [
+    {
+     "name": "Ковбой",
+     "robot": "heavy",
+     "skill": 0.747,
+     "lean": 16,
+     "greed": 0.72,
+     "skin": "",
+     "target_min_distance": 415,
+     "target_max_distance": 850
+    }
+   ]
+  },
+  {
+   "id": "r78",
+   "type": "race",
+   "round": 78,
+   "difficulty": "normal",
+   "next": [
+    "r79"
+   ],
+   "title": "Раунд 78",
+   "reward_first": 265,
+   "enemies": [
+    {
+     "name": "Акула",
+     "robot": "rocket",
+     "skill": 0.806,
+     "lean": 21,
+     "greed": 0.73,
+     "skin": "",
+     "target_min_distance": 450,
+     "target_max_distance": 910
+    },
+    {
+     "name": "Вампир",
+     "robot": "tin",
+     "skill": 0.768,
+     "lean": 19,
+     "greed": 0.7,
+     "skin": "",
+     "target_min_distance": 450,
+     "target_max_distance": 925
+    }
+   ]
+  },
+  {
+   "id": "r79",
+   "type": "race",
+   "round": 79,
+   "difficulty": "hard",
+   "next": [
+    "r80"
+   ],
+   "title": "Раунд 79",
+   "reward_first": 320,
+   "enemies": [
+    {
+     "name": "Акула",
+     "robot": "hopper",
+     "skill": 0.858,
+     "lean": 18,
+     "greed": 0.73,
+     "skin": "",
+     "target_min_distance": 470,
+     "target_max_distance": 960
+    }
+   ]
+  },
+  {
+   "id": "r80",
+   "type": "race",
+   "round": 80,
+   "difficulty": "boss",
+   "next": [
+    "r81"
+   ],
+   "title": "Босс: Хронос-Титан",
+   "reward_first": 2400,
+   "reward_skin": "rocket_silver",
+   "enemies": [
+    {
+     "name": "Хронос-Титан",
+     "robot": "rocket",
+     "skill": 0.955,
+     "lean": 20,
+     "greed": 0.86,
+     "skin": "",
+     "target_min_distance": 515,
+     "target_max_distance": 1030
+    }
+   ]
+  },
+  {
+   "id": "r81",
+   "type": "race",
+   "round": 81,
+   "difficulty": "normal",
+   "next": [
+    "r82"
+   ],
+   "title": "Раунд 81",
+   "reward_first": 270,
+   "enemies": [
+    {
+     "name": "Тигр",
+     "robot": "hopper",
+     "skill": 0.769,
+     "lean": 20,
+     "greed": 0.74,
+     "skin": "",
+     "target_min_distance": 430,
+     "target_max_distance": 875
+    }
+   ]
+  },
+  {
+   "id": "r82",
+   "type": "race",
+   "round": 82,
+   "difficulty": "hard",
+   "next": [
+    "r83"
+   ],
+   "title": "Раунд 82",
+   "reward_first": 340,
+   "enemies": [
+    {
+     "name": "Чёрт",
+     "robot": "tin",
+     "skill": 0.894,
+     "lean": 17,
+     "greed": 0.78,
+     "skin": "",
+     "target_min_distance": 495,
+     "target_max_distance": 1005
+    }
+   ]
+  },
+  {
+   "id": "r83",
+   "type": "race",
+   "round": 83,
+   "difficulty": "normal",
+   "next": [
+    "r84"
+   ],
+   "title": "Раунд 83",
+   "reward_first": 275,
+   "enemies": [
+    {
+     "name": "Вампир",
+     "robot": "tin",
+     "skill": 0.779,
+     "lean": 22,
+     "greed": 0.75,
+     "skin": "",
+     "target_min_distance": 435,
+     "target_max_distance": 885
+    },
+    {
+     "name": "Ковбой",
+     "robot": "samurai",
+     "skill": 0.741,
+     "lean": 14,
+     "greed": 0.72,
+     "skin": "",
+     "target_min_distance": 435,
+     "target_max_distance": 900
+    }
+   ]
+  },
+  {
+   "id": "r84",
+   "type": "race",
+   "round": 84,
+   "difficulty": "normal",
+   "next": [
+    "r85"
+   ],
+   "title": "Раунд 84",
+   "reward_first": 275,
+   "enemies": [
+    {
+     "name": "Чёрт",
+     "robot": "heavy",
+     "skill": 0.862,
+     "lean": 19,
+     "greed": 0.75,
+     "skin": "",
+     "target_min_distance": 465,
+     "target_max_distance": 945
+    }
+   ]
+  },
+  {
+   "id": "r85",
+   "type": "race",
+   "round": 85,
+   "difficulty": "hard",
+   "next": [
+    "r86"
+   ],
+   "title": "Раунд 85",
+   "reward_first": 330,
+   "enemies": [
+    {
+     "name": "Ковбой",
+     "robot": "samurai",
+     "skill": 0.89,
+     "lean": 16,
+     "greed": 0.76,
+     "skin": "",
+     "target_min_distance": 490,
+     "target_max_distance": 1000
+    }
+   ]
+  },
+  {
+   "id": "r86",
+   "type": "race",
+   "round": 86,
+   "difficulty": "normal",
+   "next": [
+    "r87"
+   ],
+   "title": "Раунд 86",
+   "reward_first": 275,
+   "enemies": [
+    {
+     "name": "Чёрт",
+     "robot": "tin",
+     "skill": 0.861,
+     "lean": 21,
+     "greed": 0.76,
+     "skin": "",
+     "target_min_distance": 475,
+     "target_max_distance": 960
+    },
+    {
+     "name": "Тигр",
+     "robot": "hopper",
+     "skill": 0.823,
+     "lean": 19,
+     "greed": 0.73,
+     "skin": "",
+     "target_min_distance": 475,
+     "target_max_distance": 975
+    }
+   ]
+  },
+  {
+   "id": "r87",
+   "type": "race",
+   "round": 87,
+   "difficulty": "normal",
+   "next": [
+    "r88"
+   ],
+   "title": "Раунд 87",
+   "reward_first": 280,
+   "enemies": [
+    {
+     "name": "Тигр",
+     "robot": "hopper",
+     "skill": 0.921,
+     "lean": 18,
+     "greed": 0.81,
+     "skin": "",
+     "target_min_distance": 510,
+     "target_max_distance": 1035
+    }
+   ]
+  },
+  {
+   "id": "r88",
+   "type": "race",
+   "round": 88,
+   "difficulty": "normal",
+   "next": [
+    "r89"
+   ],
+   "title": "Раунд 88",
+   "reward_first": 280,
+   "enemies": [
+    {
+     "name": "Акула",
+     "robot": "rocket",
+     "skill": 0.806,
+     "lean": 15,
+     "greed": 0.77,
+     "skin": "",
+     "target_min_distance": 450,
+     "target_max_distance": 915
+    }
+   ]
+  },
+  {
+   "id": "r89",
+   "type": "race",
+   "round": 89,
+   "difficulty": "hard",
+   "next": [
+    "r90"
+   ],
+   "title": "Раунд 89",
+   "reward_first": 335,
+   "enemies": [
+    {
+     "name": "Акула",
+     "robot": "hopper",
+     "skill": 0.912,
+     "lean": 20,
+     "greed": 0.78,
+     "skin": "",
+     "target_min_distance": 505,
+     "target_max_distance": 1025
+    },
+    {
+     "name": "Ковбой",
+     "robot": "heavy",
+     "skill": 0.874,
+     "lean": 16,
+     "greed": 0.75,
+     "skin": "",
+     "target_min_distance": 505,
+     "target_max_distance": 1040
+    }
+   ]
+  },
+  {
+   "id": "r90",
+   "type": "race",
+   "round": 90,
+   "difficulty": "boss",
+   "next": [
+    "r91"
+   ],
+   "title": "Босс: Тень Сёгуна",
+   "reward_first": 2800,
+   "reward_skin": "samurai_shogun",
+   "enemies": [
+    {
+     "name": "Тень Сёгуна",
+     "robot": "samurai",
+     "skill": 0.975,
+     "lean": 18,
+     "greed": 0.89,
+     "skin": "samurai_shogun",
+     "target_min_distance": 545,
+     "target_max_distance": 1085
+    }
+   ]
+  },
+  {
+   "id": "r91",
+   "type": "race",
+   "round": 91,
+   "difficulty": "normal",
+   "next": [
+    "r92"
+   ],
+   "title": "Раунд 91",
+   "reward_first": 285,
+   "enemies": [
+    {
+     "name": "Тигр",
+     "robot": "hopper",
+     "skill": 0.822,
+     "lean": 22,
+     "greed": 0.78,
+     "skin": "",
+     "target_min_distance": 460,
+     "target_max_distance": 935
+    }
+   ]
+  },
+  {
+   "id": "r92",
+   "type": "race",
+   "round": 92,
+   "difficulty": "hard",
+   "next": [
+    "r93"
+   ],
+   "title": "Раунд 92",
+   "reward_first": 340,
+   "enemies": [
+    {
+     "name": "Тигр",
+     "robot": "heavy",
+     "skill": 0.928,
+     "lean": 19,
+     "greed": 0.79,
+     "skin": "",
+     "target_min_distance": 515,
+     "target_max_distance": 1040
+    }
+   ]
+  },
+  {
+   "id": "r93",
+   "type": "race",
+   "round": 93,
+   "difficulty": "normal",
+   "next": [
+    "r94"
+   ],
+   "title": "Раунд 93",
+   "reward_first": 290,
+   "enemies": [
+    {
+     "name": "Вампир",
+     "robot": "tin",
+     "skill": 0.886,
+     "lean": 16,
+     "greed": 0.79,
+     "skin": "",
+     "target_min_distance": 495,
+     "target_max_distance": 1005
+    },
+    {
+     "name": "Тигр",
+     "robot": "hopper",
+     "skill": 0.848,
+     "lean": 20,
+     "greed": 0.76,
+     "skin": "",
+     "target_min_distance": 495,
+     "target_max_distance": 1020
+    }
+   ]
+  },
+  {
+   "id": "r94",
+   "type": "race",
+   "round": 94,
+   "difficulty": "hard",
+   "next": [
+    "r95"
+   ],
+   "title": "Раунд 94",
+   "reward_first": 360,
+   "enemies": [
+    {
+     "name": "Акула",
+     "robot": "rocket",
+     "skill": 0.958,
+     "lean": 21,
+     "greed": 0.84,
+     "skin": "",
+     "target_min_distance": 535,
+     "target_max_distance": 1080
+    }
+   ]
+  },
+  {
+   "id": "r95",
+   "type": "race",
+   "round": 95,
+   "difficulty": "normal",
+   "next": [
+    "r96"
+   ],
+   "title": "Раунд 95",
+   "reward_first": 295,
+   "enemies": [
+    {
+     "name": "Ковбой",
+     "robot": "samurai",
+     "skill": 0.844,
+     "lean": 18,
+     "greed": 0.8,
+     "skin": "",
+     "target_min_distance": 470,
+     "target_max_distance": 960
+    }
+   ]
+  },
+  {
+   "id": "r96",
+   "type": "race",
+   "round": 96,
+   "difficulty": "normal",
+   "next": [
+    "r97"
+   ],
+   "title": "Раунд 96",
+   "reward_first": 295,
+   "enemies": [
+    {
+     "name": "Чёрт",
+     "robot": "tin",
+     "skill": 0.914,
+     "lean": 15,
+     "greed": 0.81,
+     "skin": "",
+     "target_min_distance": 505,
+     "target_max_distance": 1020
+    },
+    {
+     "name": "Ковбой",
+     "robot": "heavy",
+     "skill": 0.876,
+     "lean": 17,
+     "greed": 0.78,
+     "skin": "",
+     "target_min_distance": 505,
+     "target_max_distance": 1035
+    }
+   ]
+  },
+  {
+   "id": "r97",
+   "type": "race",
+   "round": 97,
+   "difficulty": "hard",
+   "next": [
+    "r98"
+   ],
+   "title": "Раунд 97",
+   "reward_first": 350,
+   "enemies": [
+    {
+     "name": "Ковбой",
+     "robot": "heavy",
+     "skill": 0.954,
+     "lean": 20,
+     "greed": 0.81,
+     "skin": "",
+     "target_min_distance": 530,
+     "target_max_distance": 1075
+    }
+   ]
+  },
+  {
+   "id": "r98",
+   "type": "race",
+   "round": 98,
+   "difficulty": "hard",
+   "next": [
+    "r99"
+   ],
+   "title": "Раунд 98",
+   "reward_first": 365,
+   "enemies": [
+    {
+     "name": "Тигр",
+     "robot": "heavy",
+     "skill": 0.98,
+     "lean": 17,
+     "greed": 0.86,
+     "skin": "",
+     "target_min_distance": 545,
+     "target_max_distance": 1105
+    }
+   ]
+  },
+  {
+   "id": "r99",
+   "type": "race",
+   "round": 99,
+   "difficulty": "hard",
+   "next": [
+    "r100"
+   ],
+   "title": "Раунд 99",
+   "reward_first": 350,
+   "enemies": [
+    {
+     "name": "Акула",
+     "robot": "hopper",
+     "skill": 0.965,
+     "lean": 22,
+     "greed": 0.82,
+     "skin": "",
+     "target_min_distance": 535,
+     "target_max_distance": 1085
+    },
+    {
+     "name": "Тигр",
+     "robot": "hopper",
+     "skill": 0.927,
+     "lean": 14,
+     "greed": 0.79,
+     "skin": "",
+     "target_min_distance": 535,
+     "target_max_distance": 1100
+    }
+   ]
+  },
+  {
+   "id": "r100",
+   "type": "race",
+   "round": 100,
+   "difficulty": "boss",
+   "next": [],
+   "title": "Финал: Император Щелбана",
+   "reward_first": 3600,
+   "reward_skin": "samurai_shogun",
+   "enemies": [
+    {
+     "name": "Император Щелбана",
+     "robot": "samurai",
+     "skill": 0.99,
+     "lean": 19,
+     "greed": 0.92,
+     "skin": "samurai_shogun",
+     "target_min_distance": 580,
+     "target_max_distance": 1160
+    }
+   ]
+  }
+ ]
+}

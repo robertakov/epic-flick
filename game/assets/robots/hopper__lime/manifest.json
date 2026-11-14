@@ -1,0 +1,319 @@
+{
+  "schema": 2,
+  "robot": "hopper",
+  "visual_id": "kenguru__lime",
+  "png_modular": true,
+  "fps": 10,
+  "source": {
+    "file": "Kengurobot.png",
+    "sha256": "f97663e4980812a4f8fdea75d29d4255a51367dacdb0e597db6d798731abfdba",
+    "builder": "tools/players/build_player_rigs.py v28"
+  },
+  "parts": {
+    "head": {
+      "atlas": "head.png",
+      "frame_size": [
+        215,
+        244
+      ],
+      "columns": 7,
+      "count": 7,
+      "pivot": [
+        93.5,
+        238.5
+      ],
+      "clips": {
+        "idle": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "neutral": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "happy": [
+          2
+        ],
+        "scared": [
+          3
+        ],
+        "angry": [
+          4
+        ],
+        "determined": [
+          0,
+          0,
+          6,
+          6,
+          0,
+          0,
+          5,
+          5
+        ],
+        "dizzy": [
+          5,
+          6
+        ],
+        "dead": [
+          1
+        ],
+        "pain": [
+          4
+        ]
+      },
+      "source_origin": [
+        419,
+        31
+      ]
+    },
+    "torso": {
+      "atlas": "torso.png",
+      "frame_size": [
+        141,
+        180
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        70.5,
+        85.0
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        463,
+        477
+      ]
+    },
+    "arm_l": {
+      "atlas": "arm_l.png",
+      "frame_size": [
+        151,
+        217
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        137.5,
+        33.0
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        248,
+        492
+      ]
+    },
+    "arm_r": {
+      "atlas": "arm_r.png",
+      "frame_size": [
+        160,
+        220
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        25.5,
+        33.5
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        647,
+        489
+      ]
+    },
+    "leg_l": {
+      "atlas": "leg_l.png",
+      "frame_size": [
+        186,
+        273
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        162.5,
+        0.0
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        206,
+        798
+      ]
+    },
+    "leg_r": {
+      "atlas": "leg_r.png",
+      "frame_size": [
+        206,
+        272
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        39.0,
+        5.0
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        600,
+        785
+      ]
+    }
+  },
+  "decorations": [],
+  "scheme": {
+    "key": "lime",
+    "skin_id": "hopper_lime",
+    "base_dir": "hopper",
+    "builder": "tools/players/build_color_schemes.py v36"
+  }
+}

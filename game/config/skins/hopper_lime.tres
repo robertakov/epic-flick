@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="SkinDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/config/skin_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "hopper_lime"
+robot_id = "hopper"
+display_name = "Лаймовый прыгун"
+source = "campaign"
+scheme = "lime"
+hue_shift = 0.18
+saturation = 1.35
+brightness = 1.15

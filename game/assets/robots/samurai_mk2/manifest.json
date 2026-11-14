@@ -1,0 +1,314 @@
+{
+  "schema": 2,
+  "robot": "samurai",
+  "visual_id": "samurai_mk2",
+  "variant": "mk2",
+  "png_modular": true,
+  "fps": 10,
+  "source": {
+    "file": "Samurobot MK2.png",
+    "sha256": "8269d14da51d32aac39dd4e3a6bffb4e8e752e847f31c6a38e4833c36e3f7c9a",
+    "builder": "tools/players/build_mk2_rigs.py v35"
+  },
+  "parts": {
+    "head": {
+      "atlas": "head.png",
+      "frame_size": [
+        280,
+        215
+      ],
+      "columns": 7,
+      "count": 7,
+      "pivot": [
+        143.0,
+        201.5
+      ],
+      "clips": {
+        "idle": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "neutral": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "happy": [
+          2
+        ],
+        "scared": [
+          3
+        ],
+        "angry": [
+          4
+        ],
+        "determined": [
+          0,
+          0,
+          6,
+          6,
+          0,
+          0,
+          5,
+          5
+        ],
+        "dizzy": [
+          5,
+          6
+        ],
+        "dead": [
+          1
+        ],
+        "pain": [
+          4
+        ]
+      },
+      "source_origin": [
+        343,
+        11
+      ]
+    },
+    "torso": {
+      "atlas": "torso.png",
+      "frame_size": [
+        190,
+        208
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        92.0,
+        98.5
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        445,
+        374
+      ]
+    },
+    "arm_l": {
+      "atlas": "arm_l.png",
+      "frame_size": [
+        142,
+        235
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        138.0,
+        41.0
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        238,
+        389
+      ]
+    },
+    "arm_r": {
+      "atlas": "arm_r.png",
+      "frame_size": [
+        144,
+        247
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        2.5,
+        46.0
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        745,
+        379
+      ]
+    },
+    "leg_l": {
+      "atlas": "leg_l.png",
+      "frame_size": [
+        221,
+        199
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        141.5,
+        11.0
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        246,
+        748
+      ]
+    },
+    "leg_r": {
+      "atlas": "leg_r.png",
+      "frame_size": [
+        188,
+        230
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        33.5,
+        45.5
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        662,
+        679
+      ]
+    }
+  },
+  "decorations": []
+}

@@ -1,0 +1,111 @@
+{
+  "frame_size": [
+    237,
+    190
+  ],
+  "count": 10,
+  "columns": 5,
+  "fps": 3,
+  "clips": {
+    "idle": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "neutral": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "scared": [
+      3
+    ],
+    "angry": [
+      4
+    ],
+    "determined": [
+      5
+    ],
+    "happy": [
+      6,
+      9
+    ],
+    "dizzy": [
+      7
+    ],
+    "death": [
+      8
+    ]
+  },
+  "face_region": [
+    0.4,
+    0.38,
+    0.82,
+    0.65
+  ],
+  "registration": [
+    {
+      "frame": 0,
+      "dx": 0,
+      "dy": -2,
+      "shell_error": 29.89
+    },
+    {
+      "frame": 8,
+      "dx": 0,
+      "dy": -1,
+      "shell_error": 27.05
+    },
+    {
+      "frame": 16,
+      "dx": 0,
+      "dy": -1,
+      "shell_error": 27.48
+    },
+    {
+      "frame": 48,
+      "dx": 2,
+      "dy": 2,
+      "shell_error": 57.3
+    },
+    {
+      "frame": 72,
+      "dx": 0,
+      "dy": -2,
+      "shell_error": 34.33
+    },
+    {
+      "frame": 72,
+      "dx": 0,
+      "dy": -2,
+      "shell_error": 34.33
+    },
+    {
+      "frame": 24,
+      "dx": 0,
+      "dy": -1,
+      "shell_error": 27.69
+    },
+    {
+      "frame": 120,
+      "dx": 1,
+      "dy": 1,
+      "shell_error": 64.33
+    },
+    {
+      "frame": 192,
+      "dx": 0,
+      "dy": 3,
+      "shell_error": 60.88
+    },
+    {
+      "frame": 32,
+      "dx": 0,
+      "dy": -2,
+      "shell_error": 27.42
+    }
+  ],
+  "fixed_shell_alpha": true
+}

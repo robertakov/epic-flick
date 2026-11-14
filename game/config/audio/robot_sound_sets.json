@@ -1,0 +1,706 @@
+{
+  "_doc": "v37 per-robot sound sets (RobotSoundSet). A robot listed here uses its set; others keep the v27 bank profile. impact = authoritative contact speed along the normal (px/s) from the gameplay event; below min = silent; intensity = (impact-min)/(full-min); level = lerp(gain[0], gain[1], intensity). key = shared anti-spam channel: within cooldown a new sound on the same key plays only if it is clearly stronger (+break_through). repeat_duck: same event again within 0.6 s plays quieter (x duck^n, n<=4). families: replaces the v27 profile family of adapter events (launch / rolling / voice) and the charge energy family. All samurai_v37 families are takes split from Assets/Characters/Players/MasterAudio (tools/audio/build_robot_sound_sets.py). v39: all five robots have a set (personality composites in game/assets/audio/v39, built by tools/audio/build_v39_sound_design.py from ElevenLabs sources + MasterAudio). v40 (APK v36.7): charged-landing release = v40/energy_release; charge accumulation = sparse v40/charge_* discharges scheduled in RobotAudioFeedback (no loop).",
+  "tin": {
+    "voice": false,
+    "families": {
+      "launch": "samurai_v37/launch",
+      "rolling": "v39/tin_rolling",
+      "energy": "v40/energy_release"
+    },
+    "discharge_gain": 1.3,
+    "pitch_var": 0.02,
+    "break_through": 0.35,
+    "events": {
+      "step": {
+        "family": "v39/tin_step",
+        "min": 140,
+        "full": 600,
+        "gain": [
+          0.35,
+          0.7
+        ],
+        "cooldown": 0.12,
+        "key": "impact"
+      },
+      "land": {
+        "family": "v39/tin_land",
+        "min": 600,
+        "full": 1700,
+        "gain": [
+          0.6,
+          1.0
+        ],
+        "cooldown": 0.12,
+        "key": "impact"
+      },
+      "charged": {
+        "family": "v39/tin_land",
+        "min": 250,
+        "full": 1600,
+        "gain": [
+          0.85,
+          1.0
+        ],
+        "cooldown": 0.1,
+        "key": "impact",
+        "min_charge": 0.2
+      },
+      "body": {
+        "family": "v39/tin_body",
+        "min": 180,
+        "full": 1100,
+        "gain": [
+          0.4,
+          0.85
+        ],
+        "cooldown": 0.14,
+        "key": "impact",
+        "escalate": "crash"
+      },
+      "crash": {
+        "family": "v39/tin_crash",
+        "min": 1100,
+        "full": 2000,
+        "gain": [
+          0.8,
+          1.0
+        ],
+        "cooldown": 0.22,
+        "key": "impact"
+      },
+      "detach": {
+        "family": "v39/tin_detach",
+        "min": 0,
+        "full": 1,
+        "gain": [
+          0.9,
+          0.9
+        ],
+        "cooldown": 0.08,
+        "key": "detach",
+        "repeat_duck": 0.85
+      },
+      "death": {
+        "family": "v39/tin_crash",
+        "min": 0,
+        "full": 1,
+        "gain": [
+          0.95,
+          0.95
+        ],
+        "cooldown": 0.0,
+        "key": "death"
+      },
+      "takeoff": {
+        "family": "v39/tin_takeoff",
+        "min": 400,
+        "full": 3300,
+        "gain": [
+          0.5,
+          0.85
+        ],
+        "cooldown": 0.5,
+        "key": "takeoff"
+      },
+      "ignite": {
+        "family": "v39/samurai_ignite",
+        "min": 0,
+        "full": 1,
+        "gain": [
+          0.8,
+          0.8
+        ],
+        "cooldown": 0.0,
+        "key": "ignite",
+        "layers": [
+          {
+            "family": "v39/tin_detach",
+            "from": 0.0,
+            "gain": 0.45
+          }
+        ]
+      },
+      "head_bump": {
+        "family": "v39/tin_head_bump",
+        "min": 180,
+        "full": 1300,
+        "gain": [
+          0.35,
+          0.8
+        ],
+        "cooldown": 0.18,
+        "key": "head"
+      },
+      "thrust": {
+        "family": "samurai_v37/head_flight",
+        "loop": true,
+        "base": 0.42,
+        "speed": 0.3
+      }
+    }
+  },
+  "hopper": {
+    "voice": false,
+    "families": {
+      "launch": "samurai_v37/launch",
+      "rolling": "v39/hopper_rolling",
+      "energy": "v40/energy_release"
+    },
+    "discharge_gain": 1.3,
+    "pitch_var": 0.02,
+    "break_through": 0.35,
+    "events": {
+      "step": {
+        "family": "v39/hopper_step",
+        "min": 140,
+        "full": 600,
+        "gain": [
+          0.35,
+          0.7
+        ],
+        "cooldown": 0.12,
+        "key": "impact"
+      },
+      "land": {
+        "family": "v39/hopper_land",
+        "min": 600,
+        "full": 1700,
+        "gain": [
+          0.65,
+          1.0
+        ],
+        "cooldown": 0.12,
+        "key": "impact"
+      },
+      "charged": {
+        "family": "v39/hopper_land",
+        "min": 250,
+        "full": 1600,
+        "gain": [
+          0.85,
+          1.0
+        ],
+        "cooldown": 0.1,
+        "key": "impact",
+        "min_charge": 0.2
+      },
+      "body": {
+        "family": "v39/hopper_body",
+        "min": 180,
+        "full": 1100,
+        "gain": [
+          0.4,
+          0.85
+        ],
+        "cooldown": 0.14,
+        "key": "impact",
+        "escalate": "crash"
+      },
+      "crash": {
+        "family": "v39/hopper_crash",
+        "min": 1100,
+        "full": 2000,
+        "gain": [
+          0.8,
+          1.0
+        ],
+        "cooldown": 0.22,
+        "key": "impact"
+      },
+      "detach": {
+        "family": "v39/hopper_detach",
+        "min": 0,
+        "full": 1,
+        "gain": [
+          0.9,
+          0.9
+        ],
+        "cooldown": 0.08,
+        "key": "detach",
+        "repeat_duck": 0.85
+      },
+      "death": {
+        "family": "v39/hopper_crash",
+        "min": 0,
+        "full": 1,
+        "gain": [
+          0.95,
+          0.95
+        ],
+        "cooldown": 0.0,
+        "key": "death"
+      },
+      "takeoff": {
+        "family": "v39/hopper_takeoff",
+        "min": 400,
+        "full": 3300,
+        "gain": [
+          0.5,
+          0.85
+        ],
+        "cooldown": 0.5,
+        "key": "takeoff"
+      },
+      "ignite": {
+        "family": "v39/samurai_ignite",
+        "min": 0,
+        "full": 1,
+        "gain": [
+          0.8,
+          0.8
+        ],
+        "cooldown": 0.0,
+        "key": "ignite",
+        "layers": [
+          {
+            "family": "v39/hopper_detach",
+            "from": 0.0,
+            "gain": 0.45
+          }
+        ]
+      },
+      "head_bump": {
+        "family": "v39/hopper_head_bump",
+        "min": 180,
+        "full": 1300,
+        "gain": [
+          0.35,
+          0.8
+        ],
+        "cooldown": 0.18,
+        "key": "head"
+      },
+      "thrust": {
+        "family": "samurai_v37/head_flight",
+        "loop": true,
+        "base": 0.42,
+        "speed": 0.3
+      }
+    }
+  },
+  "heavy": {
+    "voice": false,
+    "families": {
+      "launch": "samurai_v37/launch",
+      "rolling": "v39/heavy_rolling",
+      "energy": "v40/energy_release"
+    },
+    "discharge_gain": 1.3,
+    "pitch_var": 0.02,
+    "break_through": 0.35,
+    "events": {
+      "step": {
+        "family": "v39/heavy_step",
+        "min": 140,
+        "full": 600,
+        "gain": [
+          0.4,
+          0.75
+        ],
+        "cooldown": 0.12,
+        "key": "impact"
+      },
+      "land": {
+        "family": "v39/heavy_land",
+        "min": 600,
+        "full": 1700,
+        "gain": [
+          0.6,
+          1.0
+        ],
+        "cooldown": 0.12,
+        "key": "impact"
+      },
+      "charged": {
+        "family": "v39/heavy_land",
+        "min": 250,
+        "full": 1600,
+        "gain": [
+          0.85,
+          1.0
+        ],
+        "cooldown": 0.1,
+        "key": "impact",
+        "min_charge": 0.2
+      },
+      "body": {
+        "family": "v39/heavy_body",
+        "min": 180,
+        "full": 1100,
+        "gain": [
+          0.5,
+          0.9
+        ],
+        "cooldown": 0.14,
+        "key": "impact",
+        "escalate": "crash"
+      },
+      "crash": {
+        "family": "v39/heavy_crash",
+        "min": 1100,
+        "full": 2000,
+        "gain": [
+          0.8,
+          1.0
+        ],
+        "cooldown": 0.22,
+        "key": "impact"
+      },
+      "detach": {
+        "family": "v39/heavy_detach",
+        "min": 0,
+        "full": 1,
+        "gain": [
+          0.9,
+          0.9
+        ],
+        "cooldown": 0.08,
+        "key": "detach",
+        "repeat_duck": 0.85
+      },
+      "death": {
+        "family": "v39/heavy_crash",
+        "min": 0,
+        "full": 1,
+        "gain": [
+          0.95,
+          0.95
+        ],
+        "cooldown": 0.0,
+        "key": "death"
+      },
+      "takeoff": {
+        "family": "v39/heavy_takeoff",
+        "min": 400,
+        "full": 3300,
+        "gain": [
+          0.5,
+          0.85
+        ],
+        "cooldown": 0.5,
+        "key": "takeoff"
+      },
+      "ignite": {
+        "family": "v39/samurai_ignite",
+        "min": 0,
+        "full": 1,
+        "gain": [
+          0.8,
+          0.8
+        ],
+        "cooldown": 0.0,
+        "key": "ignite",
+        "layers": [
+          {
+            "family": "v39/heavy_detach",
+            "from": 0.0,
+            "gain": 0.45
+          }
+        ]
+      },
+      "head_bump": {
+        "family": "v39/heavy_head_bump",
+        "min": 180,
+        "full": 1300,
+        "gain": [
+          0.35,
+          0.8
+        ],
+        "cooldown": 0.18,
+        "key": "head"
+      },
+      "thrust": {
+        "family": "samurai_v37/head_flight",
+        "loop": true,
+        "base": 0.42,
+        "speed": 0.3
+      }
+    }
+  },
+  "rocket": {
+    "voice": false,
+    "families": {
+      "launch": "samurai_v37/launch",
+      "rolling": "v39/rocket_rolling",
+      "energy": "v40/energy_release",
+      "leg_thrust": "v39/chrono_thrust_loop"
+    },
+    "discharge_gain": 1.3,
+    "pitch_var": 0.02,
+    "break_through": 0.35,
+    "events": {
+      "step": {
+        "family": "v39/rocket_step",
+        "min": 140,
+        "full": 600,
+        "gain": [
+          0.35,
+          0.7
+        ],
+        "cooldown": 0.12,
+        "key": "impact"
+      },
+      "land": {
+        "family": "v39/rocket_land",
+        "min": 600,
+        "full": 1700,
+        "gain": [
+          0.6,
+          1.0
+        ],
+        "cooldown": 0.12,
+        "key": "impact"
+      },
+      "charged": {
+        "family": "v39/rocket_land",
+        "min": 250,
+        "full": 1600,
+        "gain": [
+          0.85,
+          1.0
+        ],
+        "cooldown": 0.1,
+        "key": "impact",
+        "min_charge": 0.2
+      },
+      "body": {
+        "family": "v39/rocket_body",
+        "min": 180,
+        "full": 1100,
+        "gain": [
+          0.4,
+          0.85
+        ],
+        "cooldown": 0.14,
+        "key": "impact",
+        "escalate": "crash"
+      },
+      "crash": {
+        "family": "v39/rocket_crash",
+        "min": 1100,
+        "full": 2000,
+        "gain": [
+          0.8,
+          1.0
+        ],
+        "cooldown": 0.22,
+        "key": "impact"
+      },
+      "detach": {
+        "family": "v39/rocket_detach",
+        "min": 0,
+        "full": 1,
+        "gain": [
+          0.9,
+          0.9
+        ],
+        "cooldown": 0.08,
+        "key": "detach",
+        "repeat_duck": 0.85
+      },
+      "death": {
+        "family": "v39/rocket_crash",
+        "min": 0,
+        "full": 1,
+        "gain": [
+          0.95,
+          0.95
+        ],
+        "cooldown": 0.0,
+        "key": "death"
+      },
+      "takeoff": {
+        "family": "v39/rocket_takeoff",
+        "min": 400,
+        "full": 3300,
+        "gain": [
+          0.5,
+          0.85
+        ],
+        "cooldown": 0.5,
+        "key": "takeoff"
+      },
+      "ignite": {
+        "family": "v39/samurai_ignite",
+        "min": 0,
+        "full": 1,
+        "gain": [
+          0.8,
+          0.8
+        ],
+        "cooldown": 0.0,
+        "key": "ignite",
+        "layers": [
+          {
+            "family": "v39/rocket_detach",
+            "from": 0.0,
+            "gain": 0.45
+          }
+        ]
+      },
+      "head_bump": {
+        "family": "v39/rocket_head_bump",
+        "min": 180,
+        "full": 1300,
+        "gain": [
+          0.35,
+          0.8
+        ],
+        "cooldown": 0.18,
+        "key": "head"
+      },
+      "thrust": {
+        "family": "samurai_v37/head_flight",
+        "loop": true,
+        "base": 0.42,
+        "speed": 0.3
+      },
+      "thrust_burst": {
+        "family": "v39/rocket_thrust_burst",
+        "min": 0,
+        "full": 1,
+        "gain": [
+          0.55,
+          0.55
+        ],
+        "cooldown": 0.25,
+        "key": "thrust"
+      }
+    }
+  },
+  "samurai": {
+    "voice": true,
+    "families": {
+      "launch": "samurai_v37/launch",
+      "rolling": "samurai_v37/head_rolling",
+      "energy": "v40/energy_release",
+      "voice": "samurai_v37/shout"
+    },
+    "discharge_gain": 1.3,
+    "pitch_var": 0.02,
+    "break_through": 0.35,
+    "events": {
+      "step": {
+        "family": "v39/samurai_step",
+        "min": 140,
+        "full": 600,
+        "gain": [
+          0.35,
+          0.7
+        ],
+        "cooldown": 0.12,
+        "key": "impact"
+      },
+      "land": {
+        "family": "v39/samurai_land",
+        "min": 600,
+        "full": 1700,
+        "gain": [
+          0.6,
+          1.0
+        ],
+        "cooldown": 0.12,
+        "key": "impact"
+      },
+      "charged": {
+        "family": "v39/samurai_land",
+        "min": 250,
+        "full": 1600,
+        "gain": [
+          0.85,
+          1.0
+        ],
+        "cooldown": 0.1,
+        "key": "impact",
+        "min_charge": 0.2
+      },
+      "body": {
+        "family": "v39/samurai_body",
+        "min": 180,
+        "full": 1100,
+        "gain": [
+          0.4,
+          0.85
+        ],
+        "cooldown": 0.14,
+        "key": "impact",
+        "escalate": "crash"
+      },
+      "crash": {
+        "family": "v39/samurai_crash",
+        "min": 1100,
+        "full": 2000,
+        "gain": [
+          0.8,
+          1.0
+        ],
+        "cooldown": 0.22,
+        "key": "impact"
+      },
+      "detach": {
+        "family": "v39/samurai_detach",
+        "min": 0,
+        "full": 1,
+        "gain": [
+          0.9,
+          0.9
+        ],
+        "cooldown": 0.08,
+        "key": "detach",
+        "repeat_duck": 0.85
+      },
+      "death": {
+        "family": "v39/samurai_crash",
+        "min": 0,
+        "full": 1,
+        "gain": [
+          0.95,
+          0.95
+        ],
+        "cooldown": 0.0,
+        "key": "death"
+      },
+      "takeoff": {
+        "family": "v39/samurai_takeoff",
+        "min": 400,
+        "full": 3300,
+        "gain": [
+          0.5,
+          0.85
+        ],
+        "cooldown": 0.5,
+        "key": "takeoff"
+      },
+      "ignite": {
+        "family": "v39/samurai_ignite",
+        "min": 0,
+        "full": 1,
+        "gain": [
+          0.85,
+          0.85
+        ],
+        "cooldown": 0.0,
+        "key": "ignite"
+      },
+      "head_bump": {
+        "family": "samurai_v37/head_impact",
+        "min": 180,
+        "full": 1300,
+        "gain": [
+          0.35,
+          0.8
+        ],
+        "cooldown": 0.18,
+        "key": "head"
+      },
+      "thrust": {
+        "family": "samurai_v37/head_flight",
+        "loop": true,
+        "base": 0.42,
+        "speed": 0.3
+      }
+    },
+    "voice_probability": 0.06,
+    "voice_cooldown": 25.0
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "schema": 2,
+  "robot": "heavy",
+  "visual_id": "sumo_mk2__iron",
+  "variant": "mk2",
+  "png_modular": true,
+  "fps": 10,
+  "source": {
+    "file": "sumorobot mk2.png",
+    "sha256": "341fecd23652d443a8a39c882c9a175bff71f3cdbf19c1eadeddf8f9df5885b4",
+    "builder": "tools/players/build_mk2_rigs.py v35"
+  },
+  "parts": {
+    "head": {
+      "atlas": "head.png",
+      "frame_size": [
+        206,
+        178
+      ],
+      "columns": 7,
+      "count": 7,
+      "pivot": [
+        140.0,
+        166.5
+      ],
+      "clips": {
+        "idle": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "neutral": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "happy": [
+          2
+        ],
+        "scared": [
+          3
+        ],
+        "angry": [
+          4
+        ],
+        "determined": [
+          0,
+          0,
+          6,
+          6,
+          0,
+          0,
+          5,
+          5
+        ],
+        "dizzy": [
+          5,
+          6
+        ],
+        "dead": [
+          1
+        ],
+        "pain": [
+          4
+        ]
+      },
+      "source_origin": [
+        455,
+        2
+      ]
+    },
+    "torso": {
+      "atlas": "torso.png",
+      "frame_size": [
+        266,
+        254
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        134.5,
+        135.5
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        440,
+        288
+      ]
+    },
+    "arm_l": {
+      "atlas": "arm_l.png",
+      "frame_size": [
+        194,
+        294
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        170.0,
+        85.0
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        163,
+        271
+      ]
+    },
+    "arm_r": {
+      "atlas": "arm_r.png",
+      "frame_size": [
+        156,
+        284
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        29.0,
+        67.5
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        842,
+        306
+      ]
+    },
+    "leg_l": {
+      "atlas": "leg_l.png",
+      "frame_size": [
+        206,
+        237
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        159.0,
+        42.0
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        180,
+        701
+      ]
+    },
+    "leg_r": {
+      "atlas": "leg_r.png",
+      "frame_size": [
+        217,
+        220
+      ],
+      "columns": 1,
+      "count": 1,
+      "pivot": [
+        36.0,
+        26.0
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "source_origin": [
+        740,
+        733
+      ]
+    }
+  },
+  "decorations": [],
+  "scheme": {
+    "key": "iron",
+    "skin_id": "heavy_iron",
+    "base_dir": "heavy_mk2",
+    "builder": "tools/players/build_color_schemes.py v36"
+  }
+}

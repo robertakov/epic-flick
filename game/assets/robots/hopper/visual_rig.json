@@ -1,0 +1,136 @@
+{
+  "png_modular": true,
+  "source_scale": 0.24,
+  "torso_scale": [
+    1,
+    1
+  ],
+  "head_scale": [
+    1,
+    1
+  ],
+  "torso_offset": [
+    0,
+    -4.976190476190484
+  ],
+  "parts": {
+    "head": {
+      "pivot": [
+        93.5,
+        238.5
+      ],
+      "unit_scale": 0.48,
+      "z": 2
+    },
+    "torso": {
+      "pivot": [
+        70.5,
+        85.0
+      ],
+      "unit_scale": 0.48,
+      "z": 0
+    },
+    "arm_l": {
+      "pivot": [
+        137.5,
+        33.0
+      ],
+      "unit_scale": 0.48,
+      "z": 1,
+      "end": [
+        47.5,
+        174.0
+      ],
+      "spring_rows": [
+        61.5,
+        109.5
+      ],
+      "inertia_gain": 0.2,
+      "png_modular": true
+    },
+    "arm_r": {
+      "pivot": [
+        25.5,
+        33.5
+      ],
+      "unit_scale": 0.48,
+      "z": 1,
+      "end": [
+        114.5,
+        174.0
+      ],
+      "spring_rows": [
+        63.0,
+        111.0
+      ],
+      "inertia_gain": 0.2,
+      "png_modular": true
+    },
+    "leg_l": {
+      "pivot": [
+        162.5,
+        0.0
+      ],
+      "unit_scale": 0.48,
+      "z": -1,
+      "end": [
+        98.0,
+        260.5
+      ],
+      "spring_rows": [
+        19.5,
+        125.5
+      ],
+      "inertia_gain": 0.2,
+      "png_modular": true
+    },
+    "leg_r": {
+      "pivot": [
+        39.0,
+        5.0
+      ],
+      "unit_scale": 0.48,
+      "z": -1,
+      "end": [
+        102.0,
+        267.0
+      ],
+      "spring_rows": [
+        26.0,
+        132.0
+      ],
+      "inertia_gain": 0.2,
+      "png_modular": true
+    }
+  },
+  "anchors": {
+    "neck": [
+      71.5,
+      15.5
+    ],
+    "shoulder_l": [
+      30.0,
+      40.5
+    ],
+    "shoulder_r": [
+      117.5,
+      39.5
+    ],
+    "hip_l": [
+      34.0,
+      160.5
+    ],
+    "hip_r": [
+      107.5,
+      159.0
+    ]
+  },
+  "tail": {
+    "offset": [
+      -185.5,
+      125.0
+    ],
+    "file": "tail.png",
+    "z": -3
+  }
+}

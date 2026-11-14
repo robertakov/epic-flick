@@ -1,0 +1,148 @@
+{
+  "id": "cowboy",
+  "anchors": {
+    "neck": [
+      129,
+      28
+    ],
+    "shoulder_l": [
+      26,
+      68
+    ],
+    "shoulder_r": [
+      231,
+      64
+    ],
+    "hip_l": [
+      86,
+      198
+    ],
+    "hip_r": [
+      175,
+      198
+    ]
+  },
+  "parts": {
+    "torso": {
+      "pivot": [
+        128,
+        117
+      ],
+      "unit_scale": 0.43,
+      "z": 0
+    },
+    "head": {
+      "pivot": [
+        127,
+        184
+      ],
+      "unit_scale": 0.43,
+      "z": 2
+    },
+    "arm_l": {
+      "pivot": [
+        184,
+        43
+      ],
+      "end": [
+        70,
+        180
+      ],
+      "spring_rows": [
+        72,
+        152
+      ],
+      "unit_scale": 0.39,
+      "z": 1,
+      "inertia_gain": 0.28
+    },
+    "arm_r": {
+      "pivot": [
+        28,
+        42
+      ],
+      "end": [
+        144,
+        179
+      ],
+      "spring_rows": [
+        72,
+        152
+      ],
+      "unit_scale": 0.39,
+      "z": 1,
+      "inertia_gain": 0.28
+    },
+    "leg_l": {
+      "pivot": [
+        188.0,
+        22
+      ],
+      "end": [
+        156,
+        247
+      ],
+      "spring_rows": [
+        55,
+        114
+      ],
+      "unit_scale": 0.41,
+      "z": 0,
+      "inertia_gain": 0.28,
+      "ring_region": [
+        130,
+        70,
+        67,
+        16
+      ],
+      "ring_count": 8,
+      "coil_scale": 1.0,
+      "spring_centers": [
+        [
+          175.0,
+          55
+        ],
+        [
+          156.0,
+          114
+        ]
+      ]
+    },
+    "leg_r": {
+      "pivot": [
+        68.0,
+        22
+      ],
+      "end": [
+        100,
+        247
+      ],
+      "spring_rows": [
+        55,
+        114
+      ],
+      "unit_scale": 0.41,
+      "z": 0,
+      "inertia_gain": 0.28,
+      "ring_region": [
+        60,
+        70,
+        66,
+        16
+      ],
+      "ring_count": 8,
+      "coil_scale": 1.0,
+      "spring_centers": [
+        [
+          81.0,
+          55
+        ],
+        [
+          100.0,
+          114
+        ]
+      ]
+    }
+  },
+  "source_only_static_body": true
+}

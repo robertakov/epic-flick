@@ -1,0 +1,217 @@
+{
+ "source": "Assets/Biom/Chernobil (2).png",
+ "sizes": {
+  "block_bear": [
+   197,
+   220
+  ],
+  "block_a": [
+   205,
+   197
+  ],
+  "block_b": [
+   180,
+   220
+  ],
+  "block_atom": [
+   208,
+   197
+  ],
+  "reactor": [
+   308,
+   220
+  ],
+  "cooling_tower": [
+   153,
+   213
+  ],
+  "ferris_wheel": [
+   219,
+   220
+  ],
+  "pylon_a": [
+   180,
+   144
+  ],
+  "pylon_b": [
+   104,
+   144
+  ],
+  "pole": [
+   84,
+   138
+  ],
+  "crane": [
+   140,
+   144
+  ],
+  "watchtower": [
+   112,
+   144
+  ],
+  "bunker": [
+   154,
+   122
+  ],
+  "bus": [
+   216,
+   118
+  ],
+  "truck": [
+   248,
+   109
+  ],
+  "car": [
+   219,
+   97
+  ],
+  "tree_dead_a": [
+   98,
+   136
+  ],
+  "tree_dead_b": [
+   94,
+   136
+  ],
+  "tree_dead_c": [
+   100,
+   136
+  ],
+  "log_pile": [
+   94,
+   126
+  ],
+  "tree_dead_d": [
+   102,
+   131
+  ],
+  "pine_a": [
+   48,
+   136
+  ],
+  "pine_b": [
+   61,
+   137
+  ],
+  "pine_c": [
+   78,
+   138
+  ],
+  "bush_dead": [
+   103,
+   132
+  ],
+  "sign_pripyat": [
+   155,
+   133
+  ],
+  "sign_radiation": [
+   84,
+   136
+  ],
+  "sign_chernobyl": [
+   224,
+   125
+  ],
+  "sign_danger": [
+   125,
+   136
+  ],
+  "slab_a": [
+   77,
+   83
+  ],
+  "slab_b": [
+   66,
+   74
+  ],
+  "slab_rebar": [
+   119,
+   81
+  ],
+  "rubble": [
+   97,
+   69
+  ],
+  "sandbags": [
+   125,
+   65
+  ],
+  "pipes_concrete": [
+   107,
+   84
+  ],
+  "barrels": [
+   104,
+   86
+  ],
+  "crates": [
+   72,
+   79
+  ],
+  "spool_a": [
+   80,
+   78
+  ],
+  "spool_b": [
+   82,
+   78
+  ],
+  "pipe_rusty": [
+   172,
+   77
+  ],
+  "barrier_rail": [
+   181,
+   83
+  ],
+  "valve": [
+   75,
+   81
+  ],
+  "fence_rail": [
+   232,
+   67
+  ],
+  "bridge_rail": [
+   266,
+   75
+  ],
+  "fence_chain": [
+   136,
+   80
+  ],
+  "fence_broken": [
+   104,
+   73
+  ],
+  "gate_star": [
+   86,
+   82
+  ],
+  "concrete_panels": [
+   78,
+   76
+  ],
+  "fence_chain_b": [
+   118,
+   76
+  ],
+  "tires": [
+   114,
+   77
+  ],
+  "hedgehog": [
+   100,
+   68
+  ],
+  "slab_c": [
+   59,
+   74
+  ],
+  "slab_d": [
+   93,
+   70
+  ]
+ }
+}

@@ -2037,6 +2037,15 @@
         "tier": 0.0
       }
     ],
+    "common/wilhelm": [
+      {
+        "path": "res://assets/audio/common/wilhelm_01.wav",
+        "energy": 0.1393,
+        "duration": 1.216,
+        "loop": false,
+        "tier": 0.0
+      }
+    ],
     "common/anomaly_electric": [
       {
         "path": "res://assets/audio/common/anomaly_electric_01.wav",
@@ -5283,7 +5292,8 @@
     "wilhelm": -15.0
   },
   "sources": {
-    "library": "art/audio/source_library (restored from git 14f4661917, v18 segmentation of the user's source files)"
+    "library": "art/audio/source_library (restored from git 14f4661917, v18 segmentation of the user's source files)",
+    "wilhelm": "art/audio/source_library/v18_common_sourced/wilhelm_01.ogg (authentic Wilhelm_Scream.ogg.ogx)"
   },
   "ui_version": "v38_soft_mallet"
 }

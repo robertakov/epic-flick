@@ -21,7 +21,7 @@ Run the smoke harness with `powershell -File tools/run_test.ps1 -Timeout 60 -Gam
 
 Code (`.gd`, `.gdshader`, and `tools/`) is MIT licensed; see [LICENSE](LICENSE). Original non-code assets use [CC BY-NC 4.0](LICENSE-ASSETS.md). Bundled font terms are in [THIRD_PARTY.md](THIRD_PARTY.md). Many assets were produced with generative AI tools: ChatGPT images, Google Flow / Nano Banana, and ElevenLabs sound effects.
 
-The third-party Wilhelm scream recording was removed from this public copy. Its optional easter egg stays silent.
+The Wilhelm scream easter egg uses the public-domain (CC0) recording from Wikimedia Commons; see [THIRD_PARTY.md](THIRD_PARTY.md).
 
 ## По-русски
 
